@@ -1,0 +1,2 @@
+global bgpFile='xrib.20140115.0000.txt'
+global fName='ndtR201401'
