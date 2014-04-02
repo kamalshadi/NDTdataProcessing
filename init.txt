@@ -1,2 +1,4 @@
 global bgpFile='xrib.20140115.0000.txt'
 global fName='ndtR201401'
+tx=4 # random walk length
+g='/24' #subnet resolution

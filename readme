@@ -1,0 +1,8 @@
+2.Following directories must be created by user in current directory:
+CSV/Graphs
+CSV/PrefixData
+CSV/WalkTrap
+PIC/
+Model/
+
+2.bgpdump must be installed in ./BGP directory
