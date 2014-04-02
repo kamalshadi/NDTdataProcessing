@@ -22,9 +22,9 @@ def parse_args():
     parser.add_option("-d", "--date", dest="date", default=None, 
                       help="Required: date for query in yyyy_mm format")     
     parser.add_option("-f", "--fileName", dest="fName", default=None, 
-                      help="Required: output filename for data") 
+                      help="optional: output filename for data") 
     parser.add_option("-q", "--query", dest="qs", default='ndtQ', 
-                      help="Required: query string file")  
+                      help="Optional: query string file")  
     parser.add_option("-r", "--res", dest="res", default=12, type='int',
                       help="optional: resolution to run query(hours)")
     parser.add_option("-n", "--days", dest="nd", default=31, type='int', 
@@ -56,7 +56,7 @@ if __name__=='__main__':
 	count=max(nd*24/res,1)
 	temp=qstr1.replace('DATE1',date)
 	if options.fName is None:
-		fName='ndtR'+date.replace('_','')
+		fName='ndt'+date.replace('_','')
 	else:
 		fName=options.fName
 	for j in range(count):
