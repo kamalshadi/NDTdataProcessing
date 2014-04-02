@@ -2,6 +2,8 @@ import os
 import networkx as nx
 from myBasic import list2dic,pickColor
 from graphvisu import myDraw
+from ipCluster import cluster2sub
+
 def walktrapFile(fName):
 	#Writing the graph edge as needed by walktrap
 	grDir=os.getcwd()+'/CSV/Graphs/'+fName
@@ -68,6 +70,40 @@ def communityGraph(fName):
 		print "Number of communities: "+str(C)
 		myDraw(G,pDir+"/C_"+w.replace('.G','.png'))
 		print '---------------------'
+		
+def UoSM_input(fName):
+	#for the name of the graph add .G
+	#for the name of communities add .C
+	gDir=os.getcwd()+'/CSV/Graphs/'+fName
+	wDir=os.getcwd()+'/CSV/WalkTrap/'+fName
+	if (not os.path.exists(gDir)) or (not os.path.exists(wDir)):
+		print 'Error: '+gDir+' or '+wDir+' not found'
+		return
+	else:
+		for un1,un2,u3 in os.walk(gDir):
+			graphs=u3
+			break
+	for w in u3:
+		print '--------------------'
+		print w.replace('.G','')
+		G=nx.read_graphml(gDir+'/'+w)
+		fn=wDir+'/'+w.replace('.G','.C')
+		try:
+			f=open(fn,'r')
+		except IOError:
+			continue
+		a=sorted(G.nodes())
+		b=[str(xx) for xx in range(len(a))]
+		myDic=list2dic(b,a)
+		C=[]
+		for k,line in enumerate(f):
+			for line in f:
+				t1=line.strip(' {}\t\n')
+				t2=t1.split(',')
+				t=[xx.strip() for xx in t2]
+				ll=[myDic[xx][0] for xx in t]
+				C.append(ll)
+	return C
 
 def rwcd(fName): #random walk community detection
 	wDir=os.getcwd()+"/CSV/WalkTrap/"+fName
@@ -78,18 +114,20 @@ def rwcd(fName): #random walk community detection
 		for un1,un2,u3 in os.walk(wDir):
 			wtf=[xx for xx in u3 if ('.w' in xx)]
 			break
-	tx='4'
+	tx='6'
 	print 'Random walk length parameter: '+tx
 	for w in wtf:
 		qq = 'WalkTrap/walktrap '+wDir+'/'+w+ " -t"+tx+" -b -d1 -s |grep community| cut -d'=' -f2 > "+ wDir+'/'+w.replace('.w','.C')
 		os.system(qq)
 		communityGraph(fName)
-		#~ C = UoSM_input(fName)
-		#~ uos = cluster2sub(C,g)
-		#~ with open('CSV/' + fName + '.uos', 'w') as f:
-			#~ f.write(str(uos))
+		C = UoSM_input(fName)
+		print 'Cluster to subnet conversion...'
+		uos = cluster2sub(C,g)
+		with open('Model/' + fName + '/'+w+'.uos', 'w') as f:
+			f.write(str(uos))
 			
-if __name__=='__main__':
-	fName='ndt201401'
-	rwcd(fName)
+#~ if __name__=='__main__':
+	#~ fName='ndt201401'
+	#~ C=UoSM_input(fName)
+	#~ print cluster2sub(C,'/24')
 	
