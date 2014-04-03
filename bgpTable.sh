@@ -21,12 +21,14 @@ fi
 
 printf 'You must provide input for reqired fields.\n
                  date is in yyyymmdd format and time in hh format\n
-                 Note that even hours are available only\n'
+                 Note that even hours are available only\n
+                 BGP file-name\n'
 echo '---------------------------------'
 arg=''
 # Entering Project name
 read -p "Enter date (yyyymmdd) : "  date
 read -p "Eneter time (hh) : " hr
+read -p "Eneter bgp file name (to save results) : " bfn
 yr=`echo $date|cut -c1-4`
 mo=`echo $date|cut -c5-6`
 url="http://archive.routeviews.org/bgpdata/$yr.$mo/RIBS/rib.$date.${hr}00.bz2"
@@ -40,5 +42,5 @@ fName="rib.$date.${hr}00"
 echo 'Converting to text......'
 BGP/bgpdump "BGP/$fName" > "BGP/$fName.txt"
 echo 'Parsing......'
-./parseBGP.py -f "$fName.txt"
+./parseBGP.py -f "$fName.txt" -r "$bfn"
 

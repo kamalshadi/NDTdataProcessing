@@ -9,7 +9,7 @@ def order(v,w):
 	w=list(l[1])
 	return [v,w]
 	
-def myDraw(G,fName,labels=None):
+def myDraw(G,fName,s=0,labels=None):
 	#It will draw a graph considering following parameters
 	# weight for edge
 	# label/color/size for nodes
@@ -50,6 +50,7 @@ def myDraw(G,fName,labels=None):
 	ax=pl.gca()
 	ax.yaxis.set_visible(False)
 	ax.xaxis.set_visible(False)
-	pl.savefig(fName)
+	if s==1:
+		pl.savefig(fName)
 	
 	

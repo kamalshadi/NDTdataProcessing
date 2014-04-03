@@ -1,6 +1,5 @@
 from myBasic import *
 import networkx as nx
-from graphvisu import myDraw
 from ipClass import *
 import numpy as num
 import math 
@@ -14,7 +13,7 @@ def prefixDic(fName,bgpFile):
 	if os.path.exists(directory):
 		print 'Directory:'+os.getcwd()+'/CSV/PrefixData/'+fName+' already exists'
 		print 'Please remove '+fName+' directory then rerun'
-		return
+		return 101
 	try:
 		import SubnetTree
 	except ImportError:
@@ -71,26 +70,29 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 	""" this function reads pickle file:
 	dictionary of prefixes in form
 	A[prefix]=(AS,ip,time,rtt,server)"""
+	flag=0
 	if bgpFile is not None:
 		print 'Parsing Data...'
-		prefixDic(fName,bgpFile)
+		flag=prefixDic(fName,bgpFile)
+	if flag==101:
+		return 101
 	directory=os.getcwd()+'/CSV/PrefixData/'+fName
 	grDir=os.getcwd()+"/CSV/Graphs/"+fName
 	picDir=os.getcwd()+"/PIC/"+fName
 	if not os.path.exists(directory):
 		print 'Directory:'+os.getcwd()+'/CSV/PrefixData/'+fName+' do not exists'
 		print 'Please provide bgpFile as an argument to catogarize data by prefixes'
-		return
+		return 101
 	if os.path.exists(grDir):
 		print 'Directory:'+grDir+' already exists'
 		print 'Please remove '+fName+' directory and rerun'
-		return
+		return 101
 	else:
 		os.mkdir(grDir)
 	if os.path.exists(picDir):
 		print 'Directory:'+picDir+' already exists'
 		print 'Please remove '+fName+' directory and rerun'
-		return
+		return 101
 	else:
 		os.mkdir(picDir)
 	for un1,un2,prefixes in os.walk(directory):
@@ -99,7 +101,7 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 	lll=str(len(simul))
 	for qqq,prefixOn1 in enumerate(simul):
 		prefixOn=prefixOn1.replace('.pk','')
-		pathf=directory+'/'+prefixOn
+		pathf=directory+'/'+prefixOn1
 		with open(pathf,'r') as f:
 			mL=pk.load(f)
 		print '|||||||||||||||||||||||||||||||||||||||||||||'
@@ -124,8 +126,8 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 			ser=lS1[i]
 			rtt=minRTT1[i]
 			try:
-				lIP[i] = ipClass(ip.strip()).sub('/24').string().split('/')[0].strip()
-				#~ lIP[i] = xx[0].strip()
+				#~ lIP[i] = ipClass(ip.strip()).sub('/24').string().split('/')[0].strip()
+				lIP[i] = ip.strip()
 				lS[i]=serverMap[ser][0]
 				minRTT[i]=rtt
 			except ValueError:
@@ -179,16 +181,7 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 					link=(a,b)
 				else:
 					link=(b,a)
-				#~ if link in occur.keys():
-					#~ occur[link]=occur[link]+1
-				#~ else:
-					#~ occur[link]=0
-				#~ if link not in sim.keys():
-					#~ sim[link]=[math.exp(-delta/sigma)]
-				#~ elif (link in sim.keys() and occur[link]==0):
-					#~ sim[link]=sim[link]+[math.exp(-delta/sigma)]
-				#~ else:
-					#~ pass  # This definitely has to be changed
+
 				try:
 					occur[link]=occur[link]+1
 				except KeyError:
@@ -214,19 +207,20 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 			print 'Graph could not be formed.'
 			print '||||||||||||||||||||||||||||||||||'
 			continue
-		#~ G=score(G,1)  # Added robustness
-		#~ if G.size()==0 or G.order()==0:
-			#~ print 'SCORE Nullification'
-			#~ return 0
+
 		if not nx.is_connected(G):
 			print "Graph is not connected, Largest component is used\n"
 			G=nx.connected_component_subgraphs(G)[0]
 		nx.write_graphml(G,grDir+'/'+prefixOn.replace('/','s')+'.G')
-		myDraw(G,picDir+'/Raw_'+prefixOn.replace('/','s')+'.png')
+		#~ myDraw(G,picDir+'/Raw_'+prefixOn.replace('/','s')+'.png')
+		print prefixOn+' Specs:'
 		print 'Size of Graph: '+str(G.size())
+		print 'Order of Graph: '+str(G.order())
+		#~ raw_input('===========>')
+		
 	
-if __name__=='__main__':
-	fName='ndt201401'
-	bgpFile='xrib.20140115.0000.txt'
-	csv2gml(fName)
+#~ if __name__=='__main__':
+	#~ fName='ndt201401'
+	#~ bgpFile='xrib.20140115.0000.txt'
+	#~ csv2gml(fName)
 	

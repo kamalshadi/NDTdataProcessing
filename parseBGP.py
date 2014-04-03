@@ -17,7 +17,9 @@ def parse_args():
     from optparse import OptionParser
     parser = OptionParser(usage=usage())
     parser.add_option("-f", "--fileName", dest="fName", default=None, 
-                      help="Required: filename for geo data")     
+                      help="Required: filename") 
+    parser.add_option("-r", "--results", dest="rf", default=None, 
+                      help="Required: filename for saving results")     
         
     
                        
@@ -26,16 +28,17 @@ def parse_args():
         sys.exit(1)
 
     (options, args) = parser.parse_args()
-    if options.fName is None:
-        print "Error: Please provide --filename to parse BGP data "
+    if options.fName is None or options.rf is None:
+        print "Error: Please provide --filename to parse BGP data\n "
+        print "and provide --results tas a filename to save results\n "
         sys.exit(1)
 
     return (options, args)
 		
 
-def parseBGP1(fName):
+def parseBGP1(fName,rf):
 	f=open("BGP/"+fName,'r')
-	fw=open("BGP/x"+fName,'w')
+	fw=open("BGP/"+rf,'w')
 	fw.write('AS PREFIX\n')
 	prefix=""
 	asp=""
@@ -66,4 +69,5 @@ def parseBGP1(fName):
 if __name__=='__main__':
 	(options, args) = parse_args()
 	fName=options.fName
-	parseBGP1(fName)
+	rf=options.rf
+	parseBGP1(fName,rf)
