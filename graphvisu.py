@@ -9,7 +9,7 @@ def order(v,w):
 	w=list(l[1])
 	return [v,w]
 	
-def myDraw(G,fName,s=0,labels=None):
+def myDraw(G,fName=None,pos=None,s=0,labels=None):
 	#It will draw a graph considering following parameters
 	# weight for edge
 	# label/color/size for nodes
@@ -22,7 +22,8 @@ def myDraw(G,fName,s=0,labels=None):
 			G.node[w[0]]['color']=dC
 		if 'size' not in w[1].keys():
 			G.node[w[0]]['size']=dS
-	pos=nx.spring_layout(G)
+	if pos is None:
+		pos=nx.spring_layout(G)
 	N=nx.get_node_attributes(G,'color')
 	nC=N.values()
 	z=N.keys()
@@ -45,12 +46,12 @@ def myDraw(G,fName,s=0,labels=None):
 			ew.append(Ew)
 		else:
 			ew.append(G[w[0]][w[1]]['weight'])
-			
 	nx.draw_networkx_edges(G, pos, edgelist=elist, width=ew)
 	ax=pl.gca()
 	ax.yaxis.set_visible(False)
 	ax.xaxis.set_visible(False)
 	if s==1:
-		pl.savefig(fName)
+		pl.savefig(fName,bbox_inches='tight')
+	return pos
 	
 	

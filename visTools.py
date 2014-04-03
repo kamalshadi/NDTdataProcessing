@@ -5,7 +5,7 @@ import os
 from myBasic import pickColor
 
 
-def communityGraph(fName,w):
+def communityGraph(fName,w,pos=None):
 	#for the name of the graph add .G
 	# for the name of communities add .C
 	gFile=os.getcwd()+'/CSV/Graphs/'+fName+'/'+w+'.G'
@@ -42,19 +42,34 @@ def communityGraph(fName,w):
 			G.node[n]['color'] = cc
 	print w
 	print "Number of communities: "+str(C)
-	myDraw(G,pDir+"/C_"+w+".png")
+	if pos is None:
+		myDraw(G,pDir+"/"+w+".png",s=1)
+	else:
+		myDraw(G,pDir+"/"+w+".png",s=1,pos=pos)
 	print '---------------------'
 	f.close()
 	#~ raw_input('=============>')
 	
 if __name__=='__main__':
 	fName='6ndtrun'
-	w='90.192.0.0s11'
-	gF='CSV/Graphs/'+fName+'/'+w.replace('/','s')+'.G'
-	G=nx.read_graphml(gF)
-	pl.subplot(121)
-	nx.draw(G)
-	pl.subplot(122)
-	communityGraph(fName,w)
-	pl.show()
+	pD='PIC/'+fName
+	if os.path.exists(pD):
+		print 'Remove '+pD+' for PIC/ then rerun'
+	else:
+		os.mkdir(pD)
+	fn=[]
+	if fn==[]:
+		for u1,u2,u3 in os.walk('CSV/WalkTrap/'+fName+'/'):
+			fn=[xx.replace('.w','') for xx in u3 if ('.w' in xx)]
+	for w in fn: 
+		gF='CSV/Graphs/'+fName+'/'+w.replace('/','s')+'.G'
+		pl.figure()
+		pl.subplot(121)
+		G=nx.read_graphml(gF)
+		pos=myDraw(G)
+		#~ pl.subplot(121)
+		#~ nx.draw(G)
+		#~ pl.subplot(122)
+		pl.subplot(122)
+		communityGraph(fName,w,pos)
 	
