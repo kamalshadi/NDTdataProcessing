@@ -1,5 +1,5 @@
 select
-cIP,t,minRTT,download_rate,upload_rate,sIP
+cIP,t,min(minRTT),max(download_rate),max(upload_rate),sIP
 from
 (
 select
@@ -64,3 +64,4 @@ group each by cIP,sIP,lt
 )
 where
 IS_EXPLICITLY_DEFINED(download_rate)
+group by cIP,t,sIP

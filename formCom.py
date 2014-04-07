@@ -24,17 +24,12 @@ def walktrapFile(fName):
 	print 'Preparing files for Walktrap from raw graphs...'
 	for w in u3:
 		G=nx.read_graphml(grDir+'/'+w)
-		print w+' Specs'
-		print G.size()
-		print G.order()
 		a=sorted(G.nodes())
 		#~ b=range(len(a))
 		#~ myDic=list2dic(a,b)
 		f=open(wDir+'/'+w.replace('.G','.w'),'w')
-		deleteMe=0
 		maxx=0
 		for edge in G.edges():
-			deleteMe=deleteMe+1
 			w=G[edge[0]][edge[1]]['weight']
 			#~ ind1=myDic[edge[0]][0]
 			#~ ind2=myDic[edge[1]][0]
@@ -43,8 +38,6 @@ def walktrapFile(fName):
 			maxx=max(max(ind1,ind2),maxx)
 			s= str(ind1)+' '+str(ind2)+ ' ' + str(w) + '\n'
 			f.write(s)
-		print 'Nodes '+str(maxx+1)
-		print 'Edge Loops '+str(deleteMe)
 		f.close()
 		
 def UoSM_input(fName,w):

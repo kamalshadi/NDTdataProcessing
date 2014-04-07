@@ -5,11 +5,11 @@ from formCom import walktrapFile,rwcd,UoSM_input,cluster2sub
 
 bgpFile='01jan14'
 date='2014_01'
-tx='9' # random walk length
+tx='20' # random walk length
 g='/24' #subnet resolution
-prefix='94.0.0.0/12'
+prefix='86.128.0.0/11'
 ASS=0 # if 1 run for all AS of prefix otherwise only the prefix
-fName='6ndtrun'
+fName='UK2856'
 
 def prefixRun():
 	bf=os.listdir('BGP')
@@ -52,9 +52,9 @@ def prefixRun():
 		j=1
 		while len(ps)>0:
 			if (l%100==0):
-				print 'Qurey '+str(j)+' of '+str(l/100)
+				print 'Query '+str(j)+' of '+str(l/100)
 			else:
-				print 'Qurey '+str(j)+' of '+str(l/100+1)
+				print 'Query '+str(j)+' of '+str(l/100+1)
 			j=j+1
 			if fg==0:
 				fg=1
@@ -72,7 +72,7 @@ def prefixRun():
 	
 if __name__=='__main__':
 	if os.path.exists('CSV/'+fName):
-		print fName+' Warning: Data for already exists.'
+		print fName+' Warning: Data already exists.'
 	else:
 		prefixRun()
 	if fName+'.pk' not in os.listdir('Model'):
@@ -86,6 +86,6 @@ if __name__=='__main__':
 			csv2gml(fName)
 		else:
 			csv2gml(fName,bgpFile=bgpFile)
-	#~ walktrapFile(fName)
-	#~ print 'Walktrap .....'
+	walktrapFile(fName)
+	print 'Walktrap .....'
 	rwcd(fName,tx,g)

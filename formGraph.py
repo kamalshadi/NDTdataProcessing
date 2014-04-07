@@ -7,6 +7,8 @@ from itertools import combinations
 import os
 import pickle as pk
 
+thp=500 
+
 def prefixDic(fName,bgpFile):
 	"""This function reads raw CSV file and save each prefix as a dictionary"""
 	directory=os.getcwd()+'/CSV/PrefixData/'+fName
@@ -58,7 +60,7 @@ def prefixDic(fName,bgpFile):
 					asn='Unknown'
 				prefDic[net]=(asn,[(ip,server,rtt)])
 	for w in prefDic.keys():
-		if len(prefDic[w][1])<500:
+		if len(prefDic[w][1])<thp:
 			del prefDic[w]
 	os.mkdir(directory)
 	for w in prefDic.keys():
@@ -73,12 +75,13 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 	flag=0
 	if bgpFile is not None:
 		print 'Parsing Data...'
+		print 'Only prefixes with more than '+str(thp)+' tests used.'
 		flag=prefixDic(fName,bgpFile)
 	if flag==101:
 		return 101
 	directory=os.getcwd()+'/CSV/PrefixData/'+fName
 	grDir=os.getcwd()+"/CSV/Graphs/"+fName
-	picDir=os.getcwd()+"/PIC/"+fName
+
 	if not os.path.exists(directory):
 		print 'Directory:'+os.getcwd()+'/CSV/PrefixData/'+fName+' do not exists'
 		print 'Please provide bgpFile as an argument to catogarize data by prefixes'
@@ -89,12 +92,7 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 		return 101
 	else:
 		os.mkdir(grDir)
-	if os.path.exists(picDir):
-		print 'Directory:'+picDir+' already exists'
-		print 'Please remove '+fName+' directory and rerun'
-		return 101
-	else:
-		os.mkdir(picDir)
+
 	for un1,un2,prefixes in os.walk(directory):
 		simul=prefixes
 		break

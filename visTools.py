@@ -51,7 +51,7 @@ def communityGraph(fName,w,pos=None):
 	#~ raw_input('=============>')
 	
 if __name__=='__main__':
-	fName='6ndtrun'
+	fName='UK2856'
 	pD='PIC/'+fName
 	if os.path.exists(pD):
 		print 'Remove '+pD+' for PIC/ then rerun'
