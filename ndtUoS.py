@@ -2,19 +2,29 @@ import os
 import sqlite3 as sq
 import pickle as pk
 
-date='2014_01'
-fName='UK2856'
-asn='2856'
-spD=os.getcwd()+'/Model/'+fName+'.pk'
-if not os.path.exists(spD):
-	fg=101
-else:
-	fg=0
-	with open(spD) as f:
-		dic=pk.load(f)
-		sp=dic[asn]
 
-def spd(v):
+def ndtUoS(fName,date,asn=None):
+	if asn is None:
+		for i in range(len(fName)):
+			try:
+				asn=str(int(fName[i:]))
+				break
+			except ValueError:
+				asn=-1
+				continue
+	if asn==-1:
+		print 'Error: you should provide AS# for ndtUoS function'
+		return 101
+	spD=os.getcwd()+'/Model/'+fName+'.pk'
+	if not os.path.exists(spD):
+		print 'SP model not found'
+	else:
+		with open(spD) as f:
+			dic=pk.load(f)
+			sp=dic[asn]
+	uosQ(fName,date,sp)
+
+def spd(v,sp):
 	M='-1'
 	for k,s in enumerate(sp):
 		br=s[1]
@@ -22,12 +32,10 @@ def spd(v):
 			return str(k)
 	return M
 
-def uosQ(fName,date):
+def uosQ(fName,date,sp):
+	print 'Enter'
 	mD=os.getcwd()+'/Model/'+fName
-	sD=os.getcwd()+'/CSV/PrefixData/'+fName
-	if fg==101:
-		print 'Error: Service plan model not found'
-		return fg
+	sD=os.getcwd()+'/CSV/PrefixData/'+fName+'.db'
 	if os.path.exists(sD):
 		print 'Error: data already exists for this project, look at /PrefixData directory.'
 		return 101
@@ -52,7 +60,7 @@ def uosQ(fName,date):
 	primary key(ip,l_time,server)
 	)''')
 	for w in lu:
-		curPrefix='"'+w.replace('s','/')+'"'
+		curPrefix='"'+w.replace('.uos','').replace('s','/')+'"'
 		print 'Querying UoS Data for '+w.replace('.uos','')+' ...'
 		with open(mD+'/'+w,'r') as f:
 			uos_t=f.read()
@@ -101,7 +109,7 @@ def uosQ(fName,date):
 						dr=it[3]
 						ur=it[4]
 						serv='"'+it[5].strip(' \n')+'"'
-						sepl=spd(float(dr))
+						sepl=spd(float(dr),sp)
 						qst='insert into meta values('+ip+','+l_time+','+rtt+','+dr+','+ur+','+curPrefix+','+sepl+','+str(uosn)+','+serv+')'
 						try:
 							cur.execute(qst)
@@ -109,10 +117,10 @@ def uosQ(fName,date):
 							print qst
 	T.commit()
 	T.close()
-				
-if __name__=='__main__':
-	#~ print spd('adas')
-	uosQ(fName,date)
 	
+	#~ 
+#~ if __name__=='__main__':
+	#~ fName='Us10887'
+	#~ ndtUoS(fName,'2014_01','10887')
 	
 

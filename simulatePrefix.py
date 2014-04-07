@@ -2,14 +2,15 @@ import os
 from spd import spDump
 from formGraph import csv2gml
 from formCom import walktrapFile,rwcd,UoSM_input,cluster2sub
+from ndtUoS import *
 
 bgpFile='01jan14'
 date='2014_01'
-tx='20' # random walk length
+tx='6' # random walk length
 g='/24' #subnet resolution
-prefix='86.128.0.0/11'
+prefix='94.0.0.0/12'
 ASS=0 # if 1 run for all AS of prefix otherwise only the prefix
-fName='UK2856'
+fName='UK5607'
 
 def prefixRun():
 	bf=os.listdir('BGP')
@@ -89,3 +90,4 @@ if __name__=='__main__':
 	walktrapFile(fName)
 	print 'Walktrap .....'
 	rwcd(fName,tx,g)
+	ndtUoS(fName,date)

@@ -6,8 +6,9 @@ import math
 from itertools import combinations
 import os
 import pickle as pk
+import re
 
-thp=500 
+thp=1
 
 def prefixDic(fName,bgpFile):
 	"""This function reads raw CSV file and save each prefix as a dictionary"""
@@ -97,6 +98,7 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 		simul=prefixes
 		break
 	lll=str(len(simul))
+	ippat=re.compile('[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}')
 	for qqq,prefixOn1 in enumerate(simul):
 		prefixOn=prefixOn1.replace('.pk','')
 		pathf=directory+'/'+prefixOn1
@@ -123,6 +125,10 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 			ip=lIP1[i]
 			ser=lS1[i]
 			rtt=minRTT1[i]
+			m=re.search(ippat,ip)
+			if m is None:
+				to_del.append(i)
+				continue
 			try:
 				#~ lIP[i] = ipClass(ip.strip()).sub('/24').string().split('/')[0].strip()
 				lIP[i] = ip.strip()

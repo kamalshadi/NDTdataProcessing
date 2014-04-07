@@ -38,4 +38,3 @@ def ip2net(bgpFile,ipList):
 	return output
 			
 			
-			
