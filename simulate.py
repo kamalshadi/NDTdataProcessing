@@ -3,11 +3,12 @@ from spd import spDump
 from formGraph import csv2gml
 from formCom import walktrapFile,rwcd,UoSM_input,cluster2sub
 
-bgpFile='01dec13'
-date='2013_12'
-fName='ndt201312'
+bgpFile='01jan14'
+date='2014_01'
+fName='ndt201401'
 tx='6' # random walk length
 g='/24' #subnet resolution
+the=5000 # minimum number of tests for ASes
 
 if __name__=='__main__':
 	bf=os.listdir('BGP')
@@ -22,9 +23,17 @@ if __name__=='__main__':
 	else:
 		print 'Warning: Already existed NDT data File used.'
 	if fName+'.pk' not in os.listdir('Model'):
-		spDump(fName,bgpFile)
+		spDump(fName,bgpFile,the)
 	else:
 		print 'Use already existing service plan models'
-	csv2gml(fName,bgpFile=bgpFile)
-	walktrapFile(fName)
-	rwcd(fName,tx)
+	grD=os.getcwd()+'CSV/Graphs/fName'
+	if os.path.exists(grD):
+		print 'Warning: already existing Graphs are utilized.'
+	else:
+		csv2gml(fName,bgpFile=bgpFile)
+	wD=os.getcwd()+'CSV/Graphs/fName'
+	if os.path.exists(wD):
+		print 'Warning: already existing WalkTrap files are utilized.'
+	else:
+		walktrapFile(fName)
+		rwcd(fName,tx)

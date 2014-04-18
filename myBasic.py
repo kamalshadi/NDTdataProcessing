@@ -1,11 +1,15 @@
 from itertools import combinations
 import random
 from math import radians, cos, sin, asin, sqrt
+import numpy as num
 
 
-def order(v,w):
+def order(v,w,mode=0):
 	a=zip(v,w)
-	a.sort()
+	if mode==0:
+		a.sort()
+	else:
+		a.sort(reverse=True)
 	l=zip(*a)
 	v=list(l[0])
 	w=list(l[1])
@@ -31,21 +35,21 @@ def list2dic(ls,zs=None,ts=None):
 	if zs is None:
 		d={}
 		for w in ls:
-			if w in d.keys():
+			try:
 				d[w]=d[w]+1
-			else:
+			except KeyError:
 				d[w]=1
 		return d
 	else:
 		d={}
 		for i,w in enumerate(ls):
-			if w in d.keys():
+			try:
 				if ts is None:
 					d[w]=d[w]+[zs[i]]
 				else:
 					d[w][1]=d[w][1]+[zs[i]]
 					d[w][0]=d[w][0]+[ts[i]]
-			else:
+			except KeyError:
 				if ts is None:
 					d[w]=[zs[i]]
 				else:
@@ -278,6 +282,20 @@ def catX(a,r):
 			j=j+1
 			L[I[i]]=j
 	return L
+	
+def CDF(a,nBins=100):
+	pdf,bins=num.histogram(a,nBins,density=True)
+	cdf1=num.cumsum(pdf)
+	g=bins[2]-bins[1]
+	cdf=[x*g*100 for x in cdf1]
+	x= bins[0:len(cdf)]
+	return [cdf,x]
+
+def PDF(a,nBins=100):
+	pdf,bins=num.histogram(a,nBins,density=True)
+	x= bins[0:len(pdf)]
+	g=bins[2]-bins[1]
+	return [[o*g for o in pdf],x]
 	
 #~ def avgDis(C):
 	#~ """C is the list of the cities"""

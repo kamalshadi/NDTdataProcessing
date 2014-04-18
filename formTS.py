@@ -38,7 +38,10 @@ def TS(fName,SPn=None,Prefixn=None,UoSn=None):
 	return (list(ts),list(dr))
 
 if __name__=='__main__':
-	TS('UK5607',Prefixn='94.0.0.0/12.uo/')
+	ts,dr=TS('UK5607',Prefixn='94.0.0.0/12.uo/',UoSn='1')
+	e=min(ts)
+	pl.plot([(xx-e)/3600 for xx in ts],dr,'-*',markerfacecolor='red')
+	pl.show()
 	
 		
 	

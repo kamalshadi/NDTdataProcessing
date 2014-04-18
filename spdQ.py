@@ -1,6 +1,7 @@
 import numpy as num
 import pickle as pk
-from sqliteDB import makeDB
+import sqlite3 as sq
+
 
 def kernel(v,mode='T'):
 	if mode=='T':
@@ -105,24 +106,25 @@ def peakDetection(seq,k,th):
 	return output
 	
 
-def modePars(a,pN=.1,k=20,th=.01,np=1000):
+def modePars(a):
 	""" This function detect service plans based on the peaks and valleys
 	using KNN kernel estimation"""
 	N=len(a)
 	kern='G' #Gaussian kernel
-	#pN Percent of neighbors
+	pN=.1 # Percent of neighbors
 	# peak detection parameters
-	# k,th are peak detection parameters
-	#np number of points in kernel estimation
+	k=20
+	th=.01
+	np=1000 # number of points in kernel estimation
 	x=num.linspace(min(a),max(a),np)
 	x,est=densityEst(a,x,int(pN*N),knn=1,Mode=kern)
 	ind=peakDetection(est,k,th)
 	nS=len(ind)
 	if nS<2:
 		if nS==0:
-			spm=[(1.0,[float(x[0]),float(x[-1])],-1)]
+			spm=[(1.0,[x[0],x[-1]],-1)]
 		else:
-			spm=[(1.0,[float(x[0]),float(x[-1])],float(x[ind[0]]))]
+			spm=[(1.0,[x[0],x[-1]],x[ind[0]])]
 	else:
 		spm=[0]*nS
 		brp=-1
@@ -133,20 +135,20 @@ def modePars(a,pN=.1,k=20,th=.01,np=1000):
 			if i==0:
 				spp=len([xx for xx in a if xx<x[brp]])
 				per=float(spp)/N
-				spm[0]=(per,[float(x[0]),float(x[brp])],float(x[ind[i]]))
+				spm[0]=(per,[x[0],x[brp]],x[ind[i]])
 			elif i==nS-1:
 				spp=len([xx for xx in a if xx>x[brp]])
 				per=float(spp)/N
-				spm[-1]=(per,[float(x[brp]),float(x[-1])],float(x[ind[i]]))
+				spm[-1]=(per,[x[brp],x[-1]],x[ind[i]])
 			else:
 				spp=len([xx for xx in a if x[brpO]<xx<x[brp]])
 				per=float(spp)/N
-				spm[i]=(per,[float(x[brpO]),float(x[brp])],float(x[ind[i]]))
+				spm[i]=(per,[x[brpO],x[brp]],x[ind[i]])
 				
 		
 	return spm
 	
-def spDump(fName,bgpFile,the=4320):
+def spDump(fName,bgpFile,the=5000):
 	try:
 		from scipy.stats.mstats import mquantiles
 	except ImportError:
@@ -175,6 +177,15 @@ def spDump(fName,bgpFile,the=4320):
 
 	print 'Parsing Raw Data...'
 	i=0
+	dirf='CSV/'+fName+'.db'
+	if os.path.exists(dirf):
+		print 'Error: Database '+fName+'already exists.'
+		return 
+	D=sq.connect(dirf)
+	c=D.cursor()
+	c.execute("""Create table meta(ip text not null,time integer not null,
+	minRTT real not null, download_rate real not null,upload_rate real not null,
+	sIP text not null,cAS text,sAS text,cP text,SP integer,community integer""")
 	with open('CSV/'+fName) as f:
 		for line in f:
 			if i==0:
@@ -184,6 +195,9 @@ def spDump(fName,bgpFile,the=4320):
 			ip=w[0].strip()
 			d=float(w[3].strip())
 			u=float(w[4].strip())
+			server=w[-1].strip()
+			rtt=w[2]
+			tt=w[-1]
 			try:
 				net=t[ip]
 				asn=asDic[net]
@@ -201,24 +215,19 @@ def spDump(fName,bgpFile,the=4320):
 	ll=len(lsp)
 	for w in lsp:
 		a=ASdic[w]
-		bd=list(zip(*a)[0])
-		ad1,ad2=mquantiles(bd,[0.05,.95])
-		zd=[xx for xx in bd if ad1<xx<ad2]
-		bu=list(zip(*a)[1])
-		au1,au2=mquantiles(bu,[0.05,.95])
-		zu=[xx for xx in bu if au1<xx<au2]
+		b=list(zip(*a)[0])
+		a1,a2=mquantiles(b,[0.05,.95])
+		z=[xx for xx in b if a1<xx<a2]
 		i=i+1
 		print str(i)+' / '+str(ll)+':AS-SP-Model for AS'+w+ '(#points: '+str(len(a))+')'
-		spmd=modePars(zd)
-		spmu=modePars(zu)
-		model[w]=(spmd,spmu)
+		spm=modePars(z)
+		model[w]=spm
 	print 'Saving Service Plan Model'
 	f=open('Model/'+fName+'.pk','w')
 	pk.dump(model,f)
 
 #~ if __name__=='__main__':
-	#~ spDump('ndt201401','01jan14')	
-	#~ print 'Making Database....'
-	#~ makeDB(fName,bgpFile)
+	#~ 
+	#~ spDump('ndtR201401','xrib.20140115.0000.txt')	
 		
 		
