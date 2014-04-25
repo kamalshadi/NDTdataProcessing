@@ -152,7 +152,10 @@ def commonPrefix(lIP):
 		r=[xx[i] for xx in a]
 		if len(set(r))>1:break
 		if i==31 : i=i+1
-	return [str(ix.ip_address(int(a[0][0:i]+'0'*(32-i),2)))+'/'+str(i),i]
+	try:
+		return [str(ix.ip_address(int(a[0][0:i]+'0'*(32-i),2)))+'/'+str(i),i]
+	except IndexError:
+		return (None,None)
 
 		
 	
@@ -322,6 +325,8 @@ def growSub(br,g='/24'):
 	for i,w in enumerate(br):
 		temp=list(w)
 		pref,l=commonPrefix(w)
+		if pref is None:
+			continue
 		if l <= int(g.strip('/')):
 			brr[i]=w
 		else:
@@ -432,6 +437,7 @@ def bracket2sub(bracket,a1,b1,g):
 	else:
 		b=int(ix.ip_address(unicode(b1)))
 	sub,pl=commonPrefix(bracket)
+	
 	rootsub=subnet(sub)
 	re=ipClass(rootsub.first()).int()
 	le=ipClass(rootsub.last()).int()
@@ -635,11 +641,11 @@ def prune(sub,g_in):
 		for h in t:
 			try: #????????????????????????????????????????????????
 				temp,l1=h.split('/')
+				if int(l1) <= int(g_in.strip('/ ')):
+					q.append(h)
 			except ValueError:
 				print 'Warning raised in ip prune function'
 				print h
-			if int(l1) <= int(g_in.strip('/ ')):
-				q.append(h)
 		if len(q)>0:
 			out.append(' U '.join(q))
 	return out

@@ -2,6 +2,7 @@ import os
 import networkx as nx
 from myBasic import list2dic,pickColor
 from ipCluster import cluster2sub
+import pickle as pk
 
 def walktrapFile(fName):
 	#Writing the graph edge as needed by walktrap
@@ -76,15 +77,15 @@ def rwcd(fName,tx='6',g='/24'): #random walk community detection
 			wtf=[xx for xx in u3 if ('.w' in xx)]
 			break
 	print 'Random walk length parameter: '+tx
-	if os.path.exists(os.getcwd()+"/Model/"+fName):
+	if os.path.exists(os.getcwd()+"/Model/uos-"+fName+'.pk'):
 		print 'Error: ' +fName+' Model already exists, delete to rerun'
 		return
-	else:
-		os.mkdir(os.getcwd()+"/Model/"+fName)
 	lll=len(wtf)
+	A={}
 	for j,w in enumerate(wtf):
 		print '---------------- '+str(j+1) +' / '+str(lll) +'  -----------------------'
-		print 'Prefix: '+w.replace('.w','').replace('s','/')
+		prefix=w.replace('.w','').replace('s','/')
+		print 'Prefix: '+prefix
 		qq = 'WalkTrap/walktrap '+wDir+'/'+w+ " -t"+tx+" -b -d1 -s |grep community| cut -d'=' -f2 > "+ wDir+'/'+w.replace('.w','.C')
 		os.system(qq)
 		#~ communityGraph(fName,w.replace('.w',''))
@@ -93,12 +94,13 @@ def rwcd(fName,tx='6',g='/24'): #random walk community detection
 		print 'Cluster to subnet conversion...'
 		if len(C)>0:
 			uos = cluster2sub(C,g)
-		with open('Model/' + fName + '/'+w.replace('.w','.uos'), 'w') as f:
-			f.write(str(uos))
-		print '-------------------------------------------------'
+		A[prefix]=uos
+	with open('Model/uos-' + fName+'.pk','w') as f:
+		pk.dump(A,f)
+			
 			
 if __name__=='__main__':
 	fName='ndt201311'
-	walktrapFile(fName)
+	#~ walktrapFile(fName)
 	rwcd(fName,tx='6')
 	

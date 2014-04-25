@@ -8,7 +8,7 @@ import os
 import pickle as pk
 import re
 
-thp=1
+thp=1000
 
 def prefixDic(fName,bgpFile):
 	"""This function reads raw CSV file and save each prefix as a dictionary"""
@@ -223,8 +223,8 @@ def csv2gml(fName,eps=.4,bgpFile=None):
 		#~ raw_input('===========>')
 		
 	
-#~ if __name__=='__main__':
-	#~ fName='ndt201401'
-	#~ bgpFile='xrib.20140115.0000.txt'
-	#~ csv2gml(fName)
+if __name__=='__main__':
+	fName='ndt201401'
+	bgpFile='01jan14'
+	csv2gml(fName,.5,bgpFile)
 	

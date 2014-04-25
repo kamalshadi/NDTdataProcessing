@@ -6,7 +6,7 @@ import os
 from scipy.stats.mstats import mquantiles
 import pylab as pl
 
-colL=['red','blue','black','green','cyan','yellow']
+colL=['green','blue','red','gray','yellow']
 
 def kernel(v,mode='T'):
 	if mode=='T':
@@ -136,7 +136,7 @@ def modePars(a,pN=.1,k=20,th=.01,np=1000,nf=1):
 	x=num.linspace(min(a),max(a),np)
 	x,est=densityEst(a,x,int(pN*N),knn=1,Mode=kern)
 	mest=max(est)
-	pl.plot(x,[xx*nf/mest for xx in est],'b',linewidth=2,label='KNN')
+	pl.plot(x,[xx*nf/mest for xx in est],'k',linewidth=2,label='KNN')
 	ind=peakDetection(est,k,th)
 	for j,i in enumerate(ind):
 		pl.plot(x[i],est[i]*nf/mest,'*',mfc=colL[j],mec=colL[j],ms=20)
@@ -171,50 +171,79 @@ def modePars(a,pN=.1,k=20,th=.01,np=1000,nf=1):
 
 if __name__=='__main__':
 	#~ asn='9829'
-	asn='7922'
+	s=[]
+	i=0
+	with open('Files/pAS') as f:
+		for line in f:
+			if i==0:
+				i=1
+				continue
+			s.append(line.strip('" \n'))
+	s=['17813']
 	fName='ndt201401'
+	dateL='January 2014'
 	dF='CSV/'+fName+'.db'
+	asname='Mahanagar Telephone Nigam'
 	if not os.path.exists(dF):
 		print 'Error: Database not exists'
 	else:
 		D=sq.connect(dF)
 		cur=D.cursor()
-		AS='"'+str(asn)+'"'
-		qq='''select download_rate,upload_rate
-		from meta
-		where
-		cAS='''+AS
-		cur.execute(qq)
-		dR,uR=zip(*cur.fetchall())
-		
-		# Download data
-		
-		ad1,ad2=mquantiles(dR,[0.05,.95])
-		zd=[xx for xx in dR if ad1<xx<ad2]
-		yd,xd=PDF(zd)
-		fig1=pl.figure()
-		pl.subplot(121)
-		pl.plot(xd,yd,'r--',label='Histogram')
-		spm=modePars(zd,pN=.1,k=20,th=.01,np=1000,nf=max(yd))
-		for i,w in enumerate(spm):
-			a=w[1][0]
-			b=w[1][1]
-			pl.plot([a,b],[0,0],linewidth=10,color=colL[i])
-		pl.ylim([-0.01,max(yd)+.01])
-		# upload data
-		
-		ad1,ad2=mquantiles(uR,[0.05,.95])
-		zd=[xx for xx in uR if ad1<xx<ad2]
-		yd,xd=PDF(zd)
-		pl.subplot(122)
-		pl.plot(xd,yd,'r--',label='Histogram')
-		spm=modePars(zd,pN=.1,k=20,th=.02,np=1000,nf=max(yd))
-		for i,w in enumerate(spm):
-			a=w[1][0]
-			b=w[1][1]
-			pl.plot([a,b],[0,0],linewidth=10,color=colL[i])
-		pl.ylim([-0.01,max(yd)+.01])
-	pl.show()
+		for asn in s:
+			AS='"'+str(asn)+'"'
+			qq='''select download_rate,upload_rate
+			from meta
+			where
+			cAS='''+AS
+			cur.execute(qq)
+			dR,uR=zip(*cur.fetchall())
+			print 'Number of tests: '+str(len(dR))
+			
+			# Download data
+			
+			print 'Download rate analysis...'
+			ad1,ad2=mquantiles(dR,[0.05,.95])
+			zd=[xx for xx in dR if ad1<xx<ad2]
+			yd,xd=PDF(zd)
+			fig1=pl.figure()
+			pl.subplot(121)
+			pl.plot(xd,yd,'k--',label='Histogram')
+			spm=modePars(zd,pN=.1,k=20,th=.01,np=1000,nf=max(yd))
+			for i,w in enumerate(spm):
+				a=w[1][0]
+				if i==0:
+					xlim1=a
+				b=w[1][1]
+				pl.axvspan(a, b, facecolor=colL[i], alpha=0.4,ec='none')
+			pl.yticks([])
+			pl.xlim([xlim1,b])
+			pl.legend()
+			pl.xlabel('Mbps (Download)',fontsize=20)
+			pl.ylabel('PDF',fontsize=20)
+			# upload data
+			
+			print 'Upload rate analysis...'
+			ad1,ad2=mquantiles(uR,[0.05,.95])
+			zd=[xx for xx in uR if ad1<xx<ad2]
+			yd,xd=PDF(zd)
+			pl.subplot(122)
+			pl.plot(xd,yd,'k--',label='Histogram')
+			spm=modePars(zd,pN=.1,k=20,th=.01,np=1000,nf=max(yd))
+			for i,w in enumerate(spm):
+				a=w[1][0]
+				if i==0:
+					xlim1=a
+				b=w[1][1]
+				pl.axvspan(a, b, facecolor=colL[i], alpha=0.4,ec='none')
+			pl.legend()
+			pl.xlim([xlim1,b])
+			pl.xlabel('Mbps (Upload)',fontsize=20)
+			pl.ylabel('PDF',fontsize=20)
+			pl.yticks([])
+			pl.suptitle('AS'+asn+' ('+dateL+')\n'+asname,fontsize=20)
+			#~ pl.savefig('PIC/201401/'+asn, bbox_inches='tight')
+			pl.show()
+			print '-------------------------------------------------'
 
 		
 		

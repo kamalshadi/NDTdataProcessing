@@ -1,0 +1,2 @@
+th=600 #used in forming NG as a threshold for prolific prefixes
+eps=0.5 # used in NG csv2gml function as a threshold for edges

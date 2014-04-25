@@ -9,7 +9,7 @@ def order(v,w):
 	w=list(l[1])
 	return [v,w]
 	
-def myDraw(G,fName=None,pos=None,s=0,labels=None):
+def myDraw(G,fName=None,pos=None,s=0,labels=None,tit=None,legend=None):
 	#It will draw a graph considering following parameters
 	# weight for edge
 	# label/color/size for nodes
@@ -50,6 +50,8 @@ def myDraw(G,fName=None,pos=None,s=0,labels=None):
 	ax=pl.gca()
 	ax.yaxis.set_visible(False)
 	ax.xaxis.set_visible(False)
+	if tit:
+		pl.suptitle(tit,fontsize=20)
 	if s==1:
 		pl.savefig(fName,bbox_inches='tight')
 	return pos

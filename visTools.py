@@ -8,6 +8,7 @@ from myBasic import pickColor
 def communityGraph(fName,w,pos=None):
 	#for the name of the graph add .G
 	# for the name of communities add .C
+	tit=w.replace('.G','').replace('s','/')
 	gFile=os.getcwd()+'/CSV/Graphs/'+fName+'/'+w+'.G'
 	pDir=os.getcwd()+'/PIC/'+fName
 	wFile=os.getcwd()+'/CSV/WalkTrap/'+fName+'/'+w+'.C'
@@ -42,16 +43,20 @@ def communityGraph(fName,w,pos=None):
 			G.node[n]['color'] = cc
 	print w
 	print "Number of communities: "+str(C)
+	if C<1:
+		lab=str(C)+' community'
+	else:
+		lab=str(C)+' communities'
 	if pos is None:
 		myDraw(G,pDir+"/"+w+".png",s=1)
 	else:
-		myDraw(G,pDir+"/"+w+".png",s=1,pos=pos)
+		myDraw(G,pDir+"/"+w+".png",s=1,pos=pos,tit=tit+'\n'+lab)
 	print '---------------------'
 	f.close()
 	#~ raw_input('=============>')
 	
 if __name__=='__main__':
-	fName='UK5607'
+	fName='ndt201311'
 	pD='PIC/'+fName
 	if os.path.exists(pD):
 		print 'Remove '+pD+' for PIC/ then rerun'
@@ -61,15 +66,13 @@ if __name__=='__main__':
 	if fn==[]:
 		for u1,u2,u3 in os.walk('CSV/WalkTrap/'+fName+'/'):
 			fn=[xx.replace('.w','') for xx in u3 if ('.w' in xx)]
-	for w in fn: 
+			break
+	for w in fn:
 		gF='CSV/Graphs/'+fName+'/'+w.replace('/','s')+'.G'
 		pl.figure()
 		pl.subplot(121)
 		G=nx.read_graphml(gF)
 		pos=myDraw(G)
-		#~ pl.subplot(121)
-		#~ nx.draw(G)
-		#~ pl.subplot(122)
 		pl.subplot(122)
 		communityGraph(fName,w,pos)
-	
+		raw_input('====================>')

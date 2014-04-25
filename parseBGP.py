@@ -59,7 +59,7 @@ def parseBGP1(fName,rf):
 			pass
 		if pa and pf:
 			if prefix != prev:
-				fw.write(asp+" "+prefix+"\n")
+				fw.write(asp.strip('{"\' \n()\t}').strip()+" "+prefix.strip('{"\'\n()}').strip()+"\n")
 				prev=prefix
 			pf=False
 			pa=False
