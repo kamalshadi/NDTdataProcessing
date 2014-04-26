@@ -73,14 +73,13 @@ def updateDB(fName,extra=1):
 	D=sq.connect(dF)
 	D.create_aggregate("median", 1, Median)
 	cur=D.cursor()
-	cur2=D.cursor()
 	qq='''select rowid,cIP,cAS,cP,download_rate,upload_rate,sID,minRTT from meta'''
 	cur.execute(qq)
 	A=cur.fetchall()
 	ll=len(A)
 	for j,row in enumerate(A):
 		flag=0
-		if j%100==0:
+		if j%10000==0:
 			print 'Percentage: '+str(round(float(j)*10000/ll)/100)
 		pf=1
 		sf=1
@@ -109,33 +108,63 @@ def updateDB(fName,extra=1):
 			usp='null'
 		if pf:
 			C=uosM(cIP,uos)
-			if C==-1 and extra==1:
-				qqq="select Community,median(minRTT)\
-				from meta \
-				where\
-				flag=0 and sID='"+sID+"' and cP='"+cP+"' and Community not null\
-				group by Community"
-				cur2.execute(qqq)
-				B=cur2.fetchall()
-				minc=9999
-				for w in B:
-					if abs(w[1]-rtt)<minc:
-						C=w[0]
-						minc=abs(w[1]-rtt)
-				if C==-1:
-					C='null'
-				else:
-					flag=1
+			if C==-1:
+				C='null'
+				flag=1
 		else:
 			C='null'
 		if C!='null' or sf:
-			qq='update meta set flag='+str(flag)+',SPD='+str(usp) +',SPU='+str(dsp) +', Community='+str(C) +' where rowid='+str(rowid)
+			qq='update meta set flag='+str(flag)+', SPD='+str(usp) +',SPU='+str(dsp) +', Community='+str(C) +' where rowid='+str(rowid)
 			cur.execute(qq)
-		
-		
-		#~ raw_input('================>')
 	D.commit()
+	if extra==1:
+		print 'Extrapolating...'
+		P={}
+		cur2=D.cursor()
+		qq='''select cP,sID,Community,median(minRTT)
+		from meta
+		where Community not null
+		group by cP,community,sID
+		order by cP,sID'''
+		for row in cur.execute(qq):
+			cP=row[0]
+			sID=row[1]
+			C=row[2]
+			v=row[3]
+			try:
+				P[(cP,sID)].append((C,v))
+			except KeyError:
+				P[(cP,sID)]=[(C,v)]
+		qq='''select rowID,cP,sID,minRTT
+		from meta
+		where flag=1'''
+		cur.execute(qq)
+		A=cur.fetchall()
+		ll=len(A)
+		for j,row in enumerate(A):
+			if j%10000==0:
+				print 'Percentage: '+str(round(float(j)*10000/ll)/100)
+			rowid=row[0]
+			cP=row[1]
+			sID=row[2]
+			rtt=row[3]
+			try:
+				ls=P[(cP,sID)]
+				minc=abs(ls[0][1]-rtt)
+				C=ls[0][0]
+				for w in ls:
+					if abs(w[1]-rtt)<minc:
+						C=w[0]
+						minc=w[1]
+				qq='update meta set Community='+str(C) +' where rowid='+str(rowid)
+				cur2.execute(qq)
+			except KeyError:
+				continue
+					
+	D.commit()			
 	D.close()
+			
+		
 		
 #~ if __name__=='__main__':
 	#~ updateDB('ndt201311')

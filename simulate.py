@@ -5,9 +5,9 @@ from formCom1 import walktrapFile,rwcd
 from updateDB import updateDB
 from makeDB import makeDB
 
-bgpFile='01nov13'
-date='2013_11'
-fName='ndt201311'
+bgpFile='01jan14'
+date='2014_01'
+fName='ndt201401'
 tx='6' # random walk length
 g='/24' #subnet resolution
 the=1000 # minimum number of tests for ASes
