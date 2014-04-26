@@ -1,39 +1,49 @@
 import os
 from spd import spDump
-from formGraph import csv2gml
-from formCom import walktrapFile,rwcd,UoSM_input,cluster2sub
+from formGraph1 import csv2gml
+from formCom1 import walktrapFile,rwcd
+from updateDB import updateDB
+from makeDB import makeDB
 
-bgpFile='01Nov13'
+bgpFile='01nov13'
 date='2013_11'
 fName='ndt201311'
 tx='6' # random walk length
 g='/24' #subnet resolution
-the=3000 # minimum number of tests for ASes
+the=1000 # minimum number of tests for ASes
 
 if __name__=='__main__':
-	bf=os.listdir('BGP')
-	if bgpFile not in bf:
+	if not os.path.exists('BGP/'+bgpFile):
 		qq="./bgpTable.sh"
 		os.system(qq)
 	else:
 		print 'Warning: Already existed bgp File used.'
-	if fName not in os.listdir('CSV'):
+	if not os.path.exists('CSV/'+fName):
 		qq="./bq.py -d "+date+" -f "+fName
 		os.system(qq)
 	else:
 		print 'Warning: Already existed NDT data File used.'
-	if fName+'.pk' not in os.listdir('Model'):
-		spDump(fName,bgpFile,the)
+	if not os.path.exists('CSV/'+fName+'.db'):
+		makeDB(fName,bgpFile)
+	else:
+		print 'Warning: Already existed NDT database  used.'
+	if not os.path.exists('Model/'+fName+'.pk'):
+		spDump(fName,the)
 	else:
 		print 'Use already existing service plan models'
-	#~ grD=os.getcwd()+'CSV/Graphs/fName'
-	#~ if os.path.exists(grD):
-		#~ print 'Warning: already existing Graphs are utilized.'
-	#~ else:
-		#~ csv2gml(fName,bgpFile=bgpFile)
-	#~ wD=os.getcwd()+'CSV/Graphs/fName'
-	#~ if os.path.exists(wD):
-		#~ print 'Warning: already existing WalkTrap files are utilized.'
-	#~ else:
-		#~ walktrapFile(fName)
-		#~ rwcd(fName,tx)
+	online_C=False
+	if not os.path.exists('CSV/Graphs/'+fName):
+		csv2gml(fName,0)
+		walktrapFile(fName)
+		rwcd(fName,tx='6')
+		online_C=True
+	else:
+		print 'Use already existing graphs are used'
+	if not online_C:
+		if not os.path.exists('CSV/Walktrap/'+fName):
+			walktrapFile(fName)
+			rwcd(fName,tx='6')
+	else:
+		pass
+	updateDB(fName)
+		

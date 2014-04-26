@@ -164,6 +164,6 @@ def csv2gml(fName,eps=0):
 		print 'Size of Graph: '+str(G.size())
 		print 'Order of Graph: '+str(G.order())		
 	
-if __name__=='__main__':
-	fName='ndt201311'
-	csv2gml(fName,0)
+#~ if __name__=='__main__':
+	#~ fName='ndt201311'
+	#~ csv2gml(fName,0)

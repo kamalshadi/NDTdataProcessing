@@ -99,8 +99,8 @@ def rwcd(fName,tx='6',g='/24'): #random walk community detection
 		pk.dump(A,f)
 			
 			
-if __name__=='__main__':
-	fName='ndt201311'
+#~ if __name__=='__main__':
+	#~ fName='ndt201311'
 	#~ walktrapFile(fName)
-	rwcd(fName,tx='6')
+	#~ rwcd(fName,tx='6')
 	

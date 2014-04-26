@@ -79,6 +79,7 @@ def updateDB(fName,extra=1):
 	A=cur.fetchall()
 	ll=len(A)
 	for j,row in enumerate(A):
+		flag=0
 		if j%100==0:
 			print 'Percentage: '+str(round(float(j)*10000/ll)/100)
 		pf=1
@@ -112,7 +113,7 @@ def updateDB(fName,extra=1):
 				qqq="select Community,median(minRTT)\
 				from meta \
 				where\
-				sID='"+sID+"' and cP='"+cP+"' and Community not null\
+				flag=0 and sID='"+sID+"' and cP='"+cP+"' and Community not null\
 				group by Community"
 				cur2.execute(qqq)
 				B=cur2.fetchall()
@@ -121,10 +122,14 @@ def updateDB(fName,extra=1):
 					if abs(w[1]-rtt)<minc:
 						C=w[0]
 						minc=abs(w[1]-rtt)
+				if C==-1:
+					C='null'
+				else:
+					flag=1
 		else:
 			C='null'
 		if C!='null' or sf:
-			qq='update meta set SPD='+str(usp) +',SPU='+str(dsp) +', Community='+str(C) +' where rowid='+str(rowid)
+			qq='update meta set flag='+str(flag)+',SPD='+str(usp) +',SPU='+str(dsp) +', Community='+str(C) +' where rowid='+str(rowid)
 			cur.execute(qq)
 		
 		
@@ -132,5 +137,5 @@ def updateDB(fName,extra=1):
 	D.commit()
 	D.close()
 		
-if __name__=='__main__':
-	updateDB('ndt201311')
+#~ if __name__=='__main__':
+	#~ updateDB('ndt201311')

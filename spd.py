@@ -3,10 +3,10 @@ import pickle as pk
 import sqlite3 as sq
 import os
 
-fName='ndt201311'
-dF=os.getcwd()+'/CSV/'+fName+'.db'
-D=sq.connect(dF)
-cur=D.cursor()
+#~ fName='ndt201311'
+#~ dF=os.getcwd()+'/CSV/'+fName+'.db'
+#~ D=sq.connect(dF)
+#~ cur=D.cursor()
 
 def asQuery(asn):
 	qq='''select download_rate,upload_rate
@@ -178,10 +178,14 @@ def spDump(fName,the=1000):
 	ll=len(ASs)
 	model={}
 	for i,asn in enumerate(ASs):
-		d,u=asQuery(asn)
-		print d
-		print u
-		raw_input('==============>')
+		#~ d,u=asQuery(asn)
+		qq='''select download_rate,upload_rate
+		from meta
+		where cAS ="'''+asn+'"'
+		cur.execute(qq)
+		A=cur.fetchall()
+		d=[xx[0] for xx in A]
+		u=[xx[1] for xx in A]
 		ad1,ad2=mquantiles(d,[0.05,.95])
 		zd=[xx for xx in d if ad1<xx<ad2]
 		au1,au2=mquantiles(u,[0.05,.95])
@@ -194,12 +198,12 @@ def spDump(fName,the=1000):
 	f=open('Model/'+fName+'.pk','w')
 	pk.dump(model,f)
 
-if __name__=='__main__':
+#~ if __name__=='__main__':
 	#~ bgpFile='01Nov13'
 	#~ if os.path.exists('Model/'+fName+'.pk'):
 		#~ print 'Error: Model aready in Model directory'
 	#~ else:
-	spDump(fName)	
+	#~ spDump(fName)	
 		#~ print '2013'
 	#~ makeDB(fName,bgpFile)
 		

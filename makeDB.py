@@ -14,7 +14,7 @@ def makeDB(fName,bgpFile):
 	cur=D.cursor()
 	cur.execute("""Create table meta(cIP text not null,lt integer not null,
 	minRTT real not null,download_rate real not null,upload_rate real not null,
-	sIP text not null,SPD integer,SPU integer,Community integer,cAS integer not null,cP text not null,sID text)""")
+	sIP text not null,SPD integer,SPU integer,Community integer,cAS integer not null,cP text not null,sID text,flag integer default 0)""")
 	i=0
 	bf=open('BGP/'+bgpFile,'r')
 	t = SubnetTree.SubnetTree()
@@ -68,9 +68,9 @@ def makeDB(fName,bgpFile):
 	D.close()
 	
 	
-if __name__=='__main__':
-	fName='ndt201311'
-	bgpFile='01nov13'
-	makeDB(fName,bgpFile)
+#~ if __name__=='__main__':
+	#~ fName='ndt201311'
+	#~ bgpFile='01nov13'
+	#~ makeDB(fName,bgpFile)
 	#~ print uosRetrieve(fName,'2.34.0.0/15','2.34.1.1')
 
