@@ -1,0 +1,925 @@
+ooni	 akl01	 mlab_ooni	 mlab1	 offline	 offline	 163.7.129.16	 2404:0138:4009::16	 Jan. 9, 2014, 1 a.m.
+ooni	 ams01	 mlab_ooni	 mlab1	 offline	 offline	 213.244.128.146	 2001:4C08:2003:2::146	 Jan. 9, 2014, 1 a.m.
+ooni	 ams02	 mlab_ooni	 mlab1	 offline	 offline	 72.26.217.78	 2001:48c8:7::78	 Jan. 9, 2014, 1 a.m.
+ooni	 arn01	 mlab_ooni	 mlab1	 offline	 offline	 213.248.112.80	 2001:2030:0000:001B::80	 Jan. 9, 2014, 1 a.m.
+ooni	 ath01	 mlab_ooni	 mlab1	 offline	 offline	 83.212.4.17	 2001:648:2ffc:2101::17	 Jan. 9, 2014, 1 a.m.
+ooni	 ath02	 mlab_ooni	 mlab1	 offline	 offline	 83.212.5.146	 2001:648:2ffc:2102::146	 Jan. 9, 2014, 1 a.m.
+ooni	 atl01	 mlab_ooni	 mlab1	 offline	 offline	 4.71.254.143	 2001:1900:3001:C::143	 Jan. 9, 2014, 1:01 a.m.
+ooni	 bog01	 mlab_ooni	 mlab1	 offline	 offline	 186.113.12.16	 2001:13f8::16	 Jan. 8, 2014, 1 a.m.
+ooni	 dfw01	 mlab_ooni	 mlab1	 offline	 offline	 38.107.216.10	 2001:550:2000::10	 Jan. 9, 2014, 1:01 a.m.
+ooni	 dub01	 mlab_ooni	 mlab1	 offline	 offline	 193.1.12.208	 2001:770:B5::208	 Jan. 9, 2014, 1 a.m.
+ooni	 ham01	 mlab_ooni	 mlab1	 offline	 offline	 80.239.142.210	 2001:2030:0000:0019::210	 Jan. 9, 2014, 1 a.m.
+ooni	 hnd01	 mlab_ooni	 mlab1	 offline	 offline	 203.178.130.208	 2001:200:0:b801::208	 Jan. 9, 2014, 1 a.m.
+ooni	 iad01	 mlab_ooni	 mlab1	 offline	 offline	 216.156.197.144	 2610:18:111:8001::144	 Jan. 9, 2014, 1 a.m.
+ooni	 jnb01	 mlab_ooni	 mlab1	 offline	 offline	 196.24.45.144	 2001:4200:FFF0:4512::144	 Jan. 9, 2014, 1 a.m.
+ooni	 lax01	 mlab_ooni	 mlab1	 offline	 offline	 38.98.51.15	 2001:550:6800::15	 Jan. 9, 2014, 1 a.m.
+ooni	 lba01	 mlab_ooni	 mlab1	 offline	 offline	 109.239.110.16	 2a00:1a80:1:8::16	 Jan. 9, 2014, 1 a.m.
+ooni	 lca01	 mlab_ooni	 mlab1	 offline	 offline	 82.116.199.16		 Jan. 9, 2014, 1:01 a.m.
+ooni	 lga01	 mlab_ooni	 mlab1	 offline	 offline	 74.63.50.15	 2001:48c8:5:f::15	 Jan. 9, 2014, 1 a.m.
+ooni	 lga02	 mlab_ooni	 mlab1	 offline	 offline	 38.106.70.140	 2001:550:1D00:100::140	 Jan. 9, 2014, 1 a.m.
+ooni	 lhr01	 mlab_ooni	 mlab1	 offline	 offline	 217.163.1.83	 2001:4C08:2003:3::83	 Jan. 9, 2014, 1 a.m.
+ooni	 lju01	 mlab_ooni	 mlab1	 offline	 offline	 91.239.96.80	 2001:67c:27e4:100::80	 Jan. 9, 2014, 1 a.m.
+ooni	 mad01	 mlab_ooni	 mlab1	 offline	 offline	 213.200.103.144	 2001:0668:001F:0016::144	 Jan. 9, 2014, 1 a.m.
+ooni	 mia01	 mlab_ooni	 mlab1	 offline	 offline	 4.71.210.207	 2001:1900:3001:A::207	 Jan. 9, 2014, 1:01 a.m.
+ooni	 mil01	 mlab_ooni	 mlab1	 offline	 offline	 213.200.99.208	 2001:0668:001F:0017::208	 Jan. 9, 2014, 1 a.m.
+ooni	 nbo01	 mlab_ooni	 mlab1	 offline	 offline	 197.136.0.80	 2C0F:FE08:10:64::80	 Jan. 9, 2014, 1:01 a.m.
+ooni	 nuq01	 mlab_ooni	 mlab1	 offline	 offline	 64.9.225.144	 2604:ca00:f000::144	 Jan. 9, 2014, 1 a.m.
+ooni	 nuq02	 mlab_ooni	 mlab1	 offline	 offline	 149.20.5.80	 2001:4F8:1:1001::80	 Jan. 9, 2014, 1 a.m.
+ooni	 ord01	 mlab_ooni	 mlab1	 offline	 offline	 4.71.251.143	 2001:1900:3001:B::143	 Jan. 9, 2014, 1 a.m.
+ooni	 par01	 mlab_ooni	 mlab1	 offline	 offline	 80.239.168.210	 2001:2030:0000:001A::210	 Jan. 9, 2014, 1 a.m.
+ooni	 prg01	 mlab_ooni	 mlab1	 offline	 offline	 212.162.51.80	 2001:4C08:2003:4::80	 Jan. 9, 2014, 1 a.m.
+ooni	 sea01	 mlab_ooni	 mlab1	 offline	 offline	 38.102.0.79	 2001:550:3200:1::79	 Jan. 9, 2014, 1 a.m.
+ooni	 sin01	 mlab_ooni	 mlab1	 offline	 offline	 180.87.97.80	 2405:2000:301::80	 Jan. 26, 2014, 12:18 p.m.
+ooni	 svg01	 mlab_ooni	 mlab1	 offline	 offline	 81.167.39.16	 2a01:798:0:13::16	 Jan. 9, 2014, 1 a.m.
+ooni	 syd01	 mlab_ooni	 mlab1	 offline	 offline	 203.5.76.143	 2001:388:00d0::143	 Jan. 9, 2014, 1 a.m.
+ooni	 syd02	 mlab_ooni	 mlab1	 offline	 offline	 175.45.79.16	 2402:7800:0:12::16	 Jan. 9, 2014, 1 a.m.
+ooni	 tpe01	 mlab_ooni	 mlab1	 offline	 offline	 163.22.28.16	 2001:e10:6840:28::16	 Jan. 9, 2014, 1 a.m.
+ooni	 trn01	 mlab_ooni	 mlab1	 offline	 offline	 194.116.85.208	 2001:7F8:23:307::208	 Jan. 9, 2014, 1 a.m.
+ooni	 tun01	 mlab_ooni	 mlab1	 offline	 offline	 41.231.21.16	 2001:4350:3000:1::16	 Jan. 9, 2014, 1 a.m.
+ooni	 vie01	 mlab_ooni	 mlab1	 offline	 offline	 213.208.152.16	 2a01:190:1700:38::16	 Jan. 9, 2014, 1 a.m.
+ooni	 wlg01	 mlab_ooni	 mlab1	 offline	 offline	 103.10.233.16	 2404:2000:3000::16	 Jan. 9, 2014, 1 a.m.
+ooni	 yul01	 mlab_ooni	 mlab1	 offline	 offline	 162.219.177.16	 2620:10a:80fe::16	 March 2, 2014, 1 a.m.
+ooni	 yyc01	 mlab_ooni	 mlab1	 offline	 offline	 162.219.178.16	 2620:10a:80ff::16	 March 2, 2014, 1 a.m.
+ooni	 yyz01	 mlab_ooni	 mlab1	 offline	 offline	 162.219.48.16	 2620:010A:800F::16	 Jan. 25, 2014, 1 a.m.
+ooni	 akl01	 mlab_ooni	 mlab2	 offline	 offline	 163.7.129.29	 2404:0138:4009::29	 Jan. 9, 2014, 1 a.m.
+ooni	 ams01	 mlab_ooni	 mlab2	 offline	 offline	 213.244.128.159	 2001:4C08:2003:2::159	 Jan. 9, 2014, 1 a.m.
+ooni	 ams02	 mlab_ooni	 mlab2	 offline	 offline	 72.26.217.93	 2001:48c8:7::93	 Jan. 9, 2014, 1 a.m.
+ooni	 arn01	 mlab_ooni	 mlab2	 offline	 offline	 213.248.112.93	 2001:2030:0000:001B::93	 Jan. 9, 2014, 1 a.m.
+ooni	 ath01	 mlab_ooni	 mlab2	 offline	 offline	 83.212.4.30	 2001:648:2ffc:2101::30	 Jan. 9, 2014, 1 a.m.
+ooni	 ath02	 mlab_ooni	 mlab2	 offline	 offline	 83.212.5.160	 2001:648:2ffc:2102::160	 Jan. 9, 2014, 1 a.m.
+ooni	 atl01	 mlab_ooni	 mlab2	 offline	 offline	 4.71.254.156	 2001:1900:3001:C::156	 Jan. 9, 2014, 1:01 a.m.
+ooni	 bog01	 mlab_ooni	 mlab2	 offline	 offline	 186.113.12.29	 2001:13f8::29	 Jan. 8, 2014, 1 a.m.
+ooni	 dfw01	 mlab_ooni	 mlab2	 offline	 offline	 38.107.216.28	 2001:550:2000::28	 Jan. 9, 2014, 1:01 a.m.
+ooni	 dub01	 mlab_ooni	 mlab2	 offline	 offline	 193.1.12.221	 2001:770:B5::221	 Jan. 9, 2014, 1 a.m.
+ooni	 ham01	 mlab_ooni	 mlab2	 offline	 offline	 80.239.142.223	 2001:2030:0000:0019::223	 Jan. 9, 2014, 1 a.m.
+ooni	 hnd01	 mlab_ooni	 mlab2	 offline	 offline	 203.178.130.221	 2001:200:0:b801::221	 Jan. 9, 2014, 1 a.m.
+ooni	 iad01	 mlab_ooni	 mlab2	 offline	 offline	 216.156.197.157	 2610:18:111:8001::157	 Jan. 9, 2014, 1 a.m.
+ooni	 jnb01	 mlab_ooni	 mlab2	 offline	 offline	 196.24.45.157	 2001:4200:FFF0:4512::157	 Jan. 9, 2014, 1 a.m.
+ooni	 lax01	 mlab_ooni	 mlab2	 offline	 offline	 38.98.51.29	 2001:550:6800::29	 Jan. 9, 2014, 1 a.m.
+ooni	 lba01	 mlab_ooni	 mlab2	 offline	 offline	 109.239.110.29	 2a00:1a80:1:8::29	 Jan. 9, 2014, 1 a.m.
+ooni	 lca01	 mlab_ooni	 mlab2	 offline	 offline	 82.116.199.29		 Jan. 9, 2014, 1 a.m.
+ooni	 lga01	 mlab_ooni	 mlab2	 offline	 offline	 74.63.50.28	 2001:48c8:5:f::28	 Jan. 9, 2014, 1 a.m.
+ooni	 lga02	 mlab_ooni	 mlab2	 offline	 offline	 38.106.70.156	 2001:550:1D00:100::156	 Jan. 9, 2014, 1 a.m.
+ooni	 lhr01	 mlab_ooni	 mlab2	 offline	 offline	 217.163.1.97	 2001:4C08:2003:3::97	 Jan. 9, 2014, 1 a.m.
+ooni	 lju01	 mlab_ooni	 mlab2	 offline	 offline	 91.239.96.93	 2001:67c:27e4:100::93	 Jan. 9, 2014, 1 a.m.
+ooni	 mad01	 mlab_ooni	 mlab2	 offline	 offline	 213.200.103.157	 2001:0668:001F:0016::157	 Jan. 9, 2014, 1 a.m.
+ooni	 mia01	 mlab_ooni	 mlab2	 offline	 offline	 4.71.210.220	 2001:1900:3001:A::220	 Jan. 9, 2014, 1:01 a.m.
+ooni	 mil01	 mlab_ooni	 mlab2	 offline	 offline	 213.200.99.221	 2001:0668:001F:0017::221	 Jan. 9, 2014, 1 a.m.
+ooni	 nbo01	 mlab_ooni	 mlab2	 offline	 offline	 197.136.0.93	 2C0F:FE08:10:64::93	 Jan. 9, 2014, 1 a.m.
+ooni	 nuq01	 mlab_ooni	 mlab2	 offline	 offline	 64.9.225.159	 2604:ca00:f000::159	 Jan. 9, 2014, 1 a.m.
+ooni	 nuq02	 mlab_ooni	 mlab2	 offline	 offline	 149.20.5.93	 2001:4F8:1:1001::93	 Jan. 9, 2014, 1 a.m.
+ooni	 ord01	 mlab_ooni	 mlab2	 offline	 offline	 4.71.251.156	 2001:1900:3001:B::156	 Jan. 9, 2014, 1 a.m.
+ooni	 par01	 mlab_ooni	 mlab2	 offline	 offline	 80.239.168.223	 2001:2030:0000:001A::223	 Jan. 9, 2014, 1 a.m.
+ooni	 prg01	 mlab_ooni	 mlab2	 offline	 offline	 212.162.51.93	 2001:4C08:2003:4::93	 Jan. 9, 2014, 1 a.m.
+ooni	 sea01	 mlab_ooni	 mlab2	 offline	 offline	 38.102.0.93	 2001:550:3200:1::93	 Jan. 9, 2014, 1 a.m.
+ooni	 sin01	 mlab_ooni	 mlab2	 offline	 offline	 180.87.97.93	 2405:2000:301::93	 Jan. 26, 2014, 12:18 p.m.
+ooni	 svg01	 mlab_ooni	 mlab2	 offline	 offline	 81.167.39.29	 2a01:798:0:13::29	 Jan. 9, 2014, 1 a.m.
+ooni	 syd01	 mlab_ooni	 mlab2	 offline	 offline	 203.5.76.152	 2001:388:00d0::152	 Jan. 9, 2014, 1 a.m.
+ooni	 syd02	 mlab_ooni	 mlab2	 offline	 offline	 175.45.79.29	 2402:7800:0:12::29	 Jan. 9, 2014, 1 a.m.
+ooni	 tpe01	 mlab_ooni	 mlab2	 offline	 offline	 163.22.28.29	 2001:e10:6840:28::29	 Jan. 9, 2014, 1 a.m.
+ooni	 trn01	 mlab_ooni	 mlab2	 offline	 offline	 194.116.85.221	 2001:7F8:23:307::221	 Jan. 9, 2014, 1 a.m.
+ooni	 tun01	 mlab_ooni	 mlab2	 offline	 offline	 41.231.21.29	 2001:4350:3000:1::29	 Jan. 9, 2014, 1 a.m.
+ooni	 vie01	 mlab_ooni	 mlab2	 offline	 offline	 213.208.152.29	 2a01:190:1700:38::29	 Jan. 9, 2014, 1 a.m.
+ooni	 wlg01	 mlab_ooni	 mlab2	 offline	 offline	 103.10.233.29	 2404:2000:3000::29	 Jan. 9, 2014, 1 a.m.
+ooni	 yul01	 mlab_ooni	 mlab2	 offline	 offline	 162.219.177.29	 2620:10a:80fe::29	 March 2, 2014, 1 a.m.
+ooni	 yyc01	 mlab_ooni	 mlab2	 offline	 offline	 162.219.178.29	 2620:10a:80ff::29	 March 2, 2014, 1 a.m.
+ooni	 yyz01	 mlab_ooni	 mlab2	 offline	 offline	 162.219.48.29	 2620:010A:800F::29	 Jan. 25, 2014, 1 a.m.
+ooni	 akl01	 mlab_ooni	 mlab3	 offline	 offline	 163.7.129.42	 2404:0138:4009::42	 Jan. 9, 2014, 1 a.m.
+ooni	 ams01	 mlab_ooni	 mlab3	 offline	 offline	 213.244.128.173	 2001:4C08:2003:2::173	 Jan. 9, 2014, 1 a.m.
+ooni	 ams02	 mlab_ooni	 mlab3	 offline	 offline	 72.26.217.106	 2001:48c8:7::106	 Jan. 9, 2014, 1 a.m.
+ooni	 arn01	 mlab_ooni	 mlab3	 offline	 offline	 213.248.112.106	 2001:2030:0000:001B::106	 Jan. 9, 2014, 1 a.m.
+ooni	 ath01	 mlab_ooni	 mlab3	 offline	 offline	 83.212.4.43	 2001:648:2ffc:2101::43	 Jan. 9, 2014, 1 a.m.
+ooni	 ath02	 mlab_ooni	 mlab3	 offline	 offline	 83.212.5.172	 2001:648:2ffc:2102::172	 Jan. 9, 2014, 1 a.m.
+ooni	 atl01	 mlab_ooni	 mlab3	 offline	 offline	 4.71.254.169	 2001:1900:3001:C::169	 Jan. 9, 2014, 1:01 a.m.
+ooni	 bog01	 mlab_ooni	 mlab3	 offline	 offline	 186.113.12.42	 2001:13f8::42	 Jan. 8, 2014, 1 a.m.
+ooni	 dfw01	 mlab_ooni	 mlab3	 offline	 offline	 38.107.216.44	 2001:550:2000::44	 Jan. 9, 2014, 1:01 a.m.
+ooni	 dub01	 mlab_ooni	 mlab3	 offline	 offline	 193.1.12.234	 2001:770:B5::234	 Jan. 9, 2014, 1 a.m.
+ooni	 ham01	 mlab_ooni	 mlab3	 offline	 offline	 80.239.142.236	 2001:2030:0000:0019::236	 Jan. 9, 2014, 1 a.m.
+ooni	 hnd01	 mlab_ooni	 mlab3	 offline	 offline	 203.178.130.234	 2001:200:0:b801::234	 Jan. 9, 2014, 1 a.m.
+ooni	 iad01	 mlab_ooni	 mlab3	 offline	 offline	 216.156.197.170	 2610:18:111:8001::170	 Jan. 9, 2014, 1 a.m.
+ooni	 jnb01	 mlab_ooni	 mlab3	 offline	 offline	 196.24.45.170	 2001:4200:FFF0:4512::170	 Jan. 9, 2014, 1 a.m.
+ooni	 lax01	 mlab_ooni	 mlab3	 offline	 offline	 38.98.51.41	 2001:550:6800::41	 Jan. 9, 2014, 1 a.m.
+ooni	 lba01	 mlab_ooni	 mlab3	 offline	 offline	 109.239.110.42	 2a00:1a80:1:8::42	 Jan. 9, 2014, 1 a.m.
+ooni	 lca01	 mlab_ooni	 mlab3	 offline	 offline	 82.116.199.42		 Jan. 9, 2014, 1:01 a.m.
+ooni	 lga01	 mlab_ooni	 mlab3	 offline	 offline	 74.63.50.37	 2001:48c8:5:f::37	 Jan. 9, 2014, 1 a.m.
+ooni	 lga02	 mlab_ooni	 mlab3	 offline	 offline	 38.106.70.167	 2001:550:1D00:100::167	 Jan. 9, 2014, 1 a.m.
+ooni	 lhr01	 mlab_ooni	 mlab3	 offline	 offline	 217.163.1.104	 2001:4C08:2003:3::104	 Jan. 9, 2014, 1 a.m.
+ooni	 lju01	 mlab_ooni	 mlab3	 offline	 offline	 91.239.96.106	 2001:67c:27e4:100::106	 Jan. 9, 2014, 1 a.m.
+ooni	 mad01	 mlab_ooni	 mlab3	 offline	 offline	 213.200.103.170	 2001:0668:001F:0016::170	 Jan. 9, 2014, 1 a.m.
+ooni	 mia01	 mlab_ooni	 mlab3	 offline	 offline	 4.71.210.233	 2001:1900:3001:A::233	 Jan. 9, 2014, 1:01 a.m.
+ooni	 mil01	 mlab_ooni	 mlab3	 offline	 offline	 213.200.99.234	 2001:0668:001F:0017::234	 Jan. 9, 2014, 1 a.m.
+ooni	 nbo01	 mlab_ooni	 mlab3	 offline	 offline	 197.136.0.106	 2C0F:FE08:10:64::106	 Jan. 9, 2014, 1:01 a.m.
+ooni	 nuq01	 mlab_ooni	 mlab3	 offline	 offline	 64.9.225.173	 2604:ca00:f000::173	 Jan. 9, 2014, 1 a.m.
+ooni	 nuq02	 mlab_ooni	 mlab3	 offline	 offline	 149.20.5.106	 2001:4F8:1:1001::106	 Jan. 9, 2014, 1 a.m.
+ooni	 ord01	 mlab_ooni	 mlab3	 offline	 offline	 4.71.251.169	 2001:1900:3001:B::169	 Jan. 9, 2014, 1 a.m.
+ooni	 par01	 mlab_ooni	 mlab3	 offline	 offline	 80.239.168.236	 2001:2030:0000:001A::236	 Jan. 9, 2014, 1 a.m.
+ooni	 prg01	 mlab_ooni	 mlab3	 offline	 offline	 212.162.51.106	 2001:4C08:2003:4::106	 Jan. 9, 2014, 1 a.m.
+ooni	 sea01	 mlab_ooni	 mlab3	 offline	 offline	 38.102.0.105	 2001:550:3200:1::105	 Jan. 9, 2014, 1 a.m.
+ooni	 sin01	 mlab_ooni	 mlab3	 offline	 offline	 180.87.97.106	 2405:2000:301::106	 Jan. 26, 2014, 12:18 p.m.
+ooni	 svg01	 mlab_ooni	 mlab3	 offline	 offline	 81.167.39.42	 2a01:798:0:13::42	 Jan. 9, 2014, 1 a.m.
+ooni	 syd01	 mlab_ooni	 mlab3	 offline	 offline	 203.5.76.167	 2001:388:00d0::167	 Jan. 9, 2014, 1 a.m.
+ooni	 syd02	 mlab_ooni	 mlab3	 offline	 offline	 175.45.79.42	 2402:7800:0:12::42	 Jan. 9, 2014, 1 a.m.
+ooni	 tpe01	 mlab_ooni	 mlab3	 offline	 offline	 163.22.28.42	 2001:e10:6840:28::42	 Jan. 9, 2014, 1 a.m.
+ooni	 trn01	 mlab_ooni	 mlab3	 offline	 offline	 194.116.85.234	 2001:7F8:23:307::234	 Jan. 9, 2014, 1 a.m.
+ooni	 tun01	 mlab_ooni	 mlab3	 offline	 offline	 41.231.21.42	 2001:4350:3000:1::42	 Jan. 9, 2014, 1 a.m.
+ooni	 vie01	 mlab_ooni	 mlab3	 offline	 offline	 213.208.152.42	 2a01:190:1700:38::42	 Jan. 9, 2014, 1 a.m.
+ooni	 wlg01	 mlab_ooni	 mlab3	 offline	 offline	 103.10.233.42	 2404:2000:3000::42	 Jan. 9, 2014, 1 a.m.
+ooni	 yul01	 mlab_ooni	 mlab3	 offline	 offline	 162.219.177.42	 2620:10a:80fe::42	 March 2, 2014, 1 a.m.
+ooni	 yyc01	 mlab_ooni	 mlab3	 offline	 offline	 162.219.178.42	 2620:10a:80ff::42	 March 2, 2014, 1 a.m.
+ooni	 yyz01	 mlab_ooni	 mlab3	 offline	 offline	 162.219.48.42	 2620:010A:800F::42	 Jan. 25, 2014, 1 a.m.
+ooni	 nuq01	 mlab_ooni	 mlab4	 offline	 offline	 64.9.225.177	 2604:ca00:f000::177	 Jan. 9, 2014, 1 a.m.
+ooni	 nuq02	 mlab_ooni	 mlab4	 offline	 offline	 149.20.5.119	 2001:4F8:1:1001::119	 Jan. 9, 2014, 1 a.m.
+ooni	 prg01	 mlab_ooni	 mlab4	 offline	 offline	 212.162.51.119	 2001:4C08:2003:4::119	 Jan. 9, 2014, 1 a.m.
+npad	 akl01	 iupui_npad	 mlab1	 online	 online	 163.7.129.12	 2404:0138:4009::12	 March 27, 2014, 11:48 a.m.
+npad	 ams01	 iupui_npad	 mlab1	 online	 online	 213.244.128.140	 2001:4C08:2003:2::140	 April 14, 2014, 2:29 a.m.
+npad	 ams02	 iupui_npad	 mlab1	 online	 online	 72.26.217.75	 2001:48c8:7::75	 April 26, 2014, 1:27 p.m.
+npad	 arn01	 iupui_npad	 mlab1	 online	 online	 213.248.112.76	 2001:2030:0000:001B::76	 Jan. 24, 2014, 2:27 p.m.
+npad	 ath01	 iupui_npad	 mlab1	 online	 online	 83.212.4.12	 2001:648:2ffc:2101::12	 March 12, 2014, 12:34 p.m.
+npad	 ath02	 iupui_npad	 mlab1	 online	 online	 83.212.5.140	 2001:648:2ffc:2102::140	 April 21, 2014, 9:56 a.m.
+npad	 atl01	 iupui_npad	 mlab1	 online	 online	 4.71.254.138	 2001:1900:3001:C::138	 April 21, 2014, 1:44 p.m.
+npad	 bog01	 iupui_npad	 mlab1	 offline	 offline	 186.113.12.12	 2001:13f8::12	 Jan. 8, 2014, 1 a.m.
+npad	 dfw01	 iupui_npad	 mlab1	 online	 online	 38.107.216.16	 2001:550:2000::16	 March 20, 2014, 5:34 p.m.
+npad	 dub01	 iupui_npad	 mlab1	 online	 online	 193.1.12.204	 2001:770:B5::204	 April 15, 2014, 11:50 a.m.
+npad	 ham01	 iupui_npad	 mlab1	 online	 online	 80.239.142.204	 2001:2030:0000:0019::204	 April 16, 2014, 4:46 p.m.
+npad	 hnd01	 iupui_npad	 mlab1	 online	 online	 203.178.130.204	 2001:200:0:b801::204	 March 2, 2014, 8 p.m.
+npad	 iad01	 iupui_npad	 mlab1	 online	 online	 216.156.197.140	 2610:18:111:8001::140	 April 23, 2014, 4:29 p.m.
+npad	 jnb01	 iupui_npad	 mlab1	 online	 online	 196.24.45.140	 2001:4200:FFF0:4512::140	 March 30, 2014, 10:31 a.m.
+npad	 lax01	 iupui_npad	 mlab1	 online	 online	 38.98.51.10	 2001:550:6800::10	 Jan. 8, 2014, 7:04 p.m.
+npad	 lba01	 iupui_npad	 mlab1	 online	 online	 109.239.110.12	 2a00:1a80:1:8::12	 Jan. 8, 2014, 7:04 p.m.
+npad	 lca01	 iupui_npad	 mlab1	 online	 offline	 82.116.199.12		 Feb. 5, 2014, 7:03 p.m.
+npad	 lga01	 iupui_npad	 mlab1	 online	 online	 74.63.50.10	 2001:48c8:5:f::10	 April 18, 2014, 3:28 a.m.
+npad	 lga02	 iupui_npad	 mlab1	 online	 online	 38.106.70.146	 2001:550:1D00:100::146	 Jan. 8, 2014, 7:04 p.m.
+npad	 lhr01	 iupui_npad	 mlab1	 online	 online	 217.163.1.76	 2001:4C08:2003:3::76	 April 13, 2014, 1:48 a.m.
+npad	 lju01	 iupui_npad	 mlab1	 online	 online	 91.239.96.76	 2001:67c:27e4:100::76	 March 14, 2014, 3:30 p.m.
+npad	 mad01	 iupui_npad	 mlab1	 online	 online	 213.200.103.140	 2001:0668:001F:0016::140	 March 13, 2014, 8:35 p.m.
+npad	 mia01	 iupui_npad	 mlab1	 online	 online	 4.71.210.202	 2001:1900:3001:A::202	 March 23, 2014, 7:34 a.m.
+npad	 mil01	 iupui_npad	 mlab1	 online	 online	 213.200.99.204	 2001:0668:001F:0017::204	 March 30, 2014, 9:51 a.m.
+npad	 nbo01	 iupui_npad	 mlab1	 online	 online	 197.136.0.76	 2C0F:FE08:10:64::76	 April 3, 2014, 4:35 a.m.
+npad	 nuq01	 iupui_npad	 mlab1	 online	 online	 64.9.225.149	 2604:ca00:f000::149	 Feb. 28, 2014, 9:17 p.m.
+npad	 nuq02	 iupui_npad	 mlab1	 online	 online	 149.20.5.76	 2001:4F8:1:1001::76	 Jan. 18, 2014, 2:10 p.m.
+npad	 ord01	 iupui_npad	 mlab1	 online	 online	 4.71.251.138	 2001:1900:3001:B::138	 April 15, 2014, 11:50 a.m.
+npad	 par01	 iupui_npad	 mlab1	 online	 online	 80.239.168.204	 2001:2030:0000:001A::204	 March 19, 2014, 5:33 p.m.
+npad	 prg01	 iupui_npad	 mlab1	 online	 online	 212.162.51.76	 2001:4C08:2003:4::76	 March 28, 2014, 7:50 p.m.
+npad	 sea01	 iupui_npad	 mlab1	 online	 online	 38.102.0.74	 2001:550:3200:1::74	 April 21, 2014, 9:30 a.m.
+npad	 sin01	 iupui_npad	 mlab1	 online	 online	 180.87.97.76	 2405:2000:301::76	 March 24, 2014, 6:41 p.m.
+npad	 svg01	 iupui_npad	 mlab1	 online	 online	 81.167.39.12	 2a01:798:0:13::12	 April 14, 2014, 12:43 a.m.
+npad	 syd01	 iupui_npad	 mlab1	 online	 online	 203.5.76.146	 2001:388:00d0::146	 March 18, 2014, 1:10 a.m.
+npad	 syd02	 iupui_npad	 mlab1	 online	 online	 175.45.79.12	 2402:7800:0:12::12	 April 23, 2014, 6:56 p.m.
+npad	 tpe01	 iupui_npad	 mlab1	 online	 online	 163.22.28.12	 2001:e10:6840:28::12	 April 19, 2014, 1:16 a.m.
+npad	 trn01	 iupui_npad	 mlab1	 online	 online	 194.116.85.204	 2001:7F8:23:307::204	 April 26, 2014, 1:41 p.m.
+npad	 tun01	 iupui_npad	 mlab1	 online	 online	 41.231.21.12	 2001:4350:3000:1::12	 April 22, 2014, 12:11 p.m.
+npad	 vie01	 iupui_npad	 mlab1	 online	 online	 213.208.152.12	 2a01:190:1700:38::12	 April 7, 2014, 1:45 a.m.
+npad	 wlg01	 iupui_npad	 mlab1	 online	 offline	 103.10.233.12	 2404:2000:3000::12	 April 21, 2014, 5:57 p.m.
+npad	 yul01	 iupui_npad	 mlab1	 offline	 offline	 162.219.177.12	 2620:10a:80fe::12	 March 2, 2014, 1 a.m.
+npad	 yyc01	 iupui_npad	 mlab1	 offline	 offline	 162.219.178.12	 2620:10a:80ff::12	 March 2, 2014, 1 a.m.
+npad	 yyz01	 iupui_npad	 mlab1	 offline	 offline	 162.219.48.12	 2620:010A:800F::12	 Jan. 25, 2014, 1 a.m.
+npad	 akl01	 iupui_npad	 mlab2	 online	 online	 163.7.129.25	 2404:0138:4009::25	 March 27, 2014, 11:34 a.m.
+npad	 ams01	 iupui_npad	 mlab2	 online	 online	 213.244.128.153	 2001:4C08:2003:2::153	 April 26, 2014, 1:41 p.m.
+npad	 ams02	 iupui_npad	 mlab2	 online	 online	 72.26.217.89	 2001:48c8:7::89	 April 26, 2014, 3:14 p.m.
+npad	 arn01	 iupui_npad	 mlab2	 online	 online	 213.248.112.89	 2001:2030:0000:001B::89	 April 26, 2014, 1:41 p.m.
+npad	 ath01	 iupui_npad	 mlab2	 online	 online	 83.212.4.25	 2001:648:2ffc:2101::25	 April 7, 2014, 2:51 p.m.
+npad	 ath02	 iupui_npad	 mlab2	 online	 online	 83.212.5.153	 2001:648:2ffc:2102::153	 April 23, 2014, 12:28 p.m.
+npad	 atl01	 iupui_npad	 mlab2	 online	 online	 4.71.254.151	 2001:1900:3001:C::151	 April 1, 2014, 5:14 p.m.
+npad	 bog01	 iupui_npad	 mlab2	 offline	 offline	 186.113.12.25	 2001:13f8::25	 Jan. 8, 2014, 1 a.m.
+npad	 dfw01	 iupui_npad	 mlab2	 online	 online	 38.107.216.23	 2001:550:2000::23	 March 20, 2014, 6:28 p.m.
+npad	 dub01	 iupui_npad	 mlab2	 online	 online	 193.1.12.217	 2001:770:B5::217	 April 26, 2014, 1:41 p.m.
+npad	 ham01	 iupui_npad	 mlab2	 offline	 offline	 80.239.142.217	 2001:2030:0000:0019::217	 April 25, 2014, 9:39 p.m.
+npad	 hnd01	 iupui_npad	 mlab2	 online	 online	 203.178.130.217	 2001:200:0:b801::217	 March 18, 2014, 1:05 a.m.
+npad	 iad01	 iupui_npad	 mlab2	 online	 online	 216.156.197.153	 2610:18:111:8001::153	 April 11, 2014, 1:18 a.m.
+npad	 jnb01	 iupui_npad	 mlab2	 online	 online	 196.24.45.153	 2001:4200:FFF0:4512::153	 March 4, 2014, 8:42 p.m.
+npad	 lax01	 iupui_npad	 mlab2	 online	 online	 38.98.51.23	 2001:550:6800::23	 April 21, 2014, 7:43 a.m.
+npad	 lba01	 iupui_npad	 mlab2	 online	 online	 109.239.110.25	 2a00:1a80:1:8::25	 Jan. 8, 2014, 7:05 p.m.
+npad	 lca01	 iupui_npad	 mlab2	 online	 offline	 82.116.199.25		 Jan. 8, 2014, 7:04 p.m.
+npad	 lga01	 iupui_npad	 mlab2	 offline	 offline	 74.63.50.23	 2001:48c8:5:f::23	 Jan. 8, 2014, 7:05 p.m.
+npad	 lga02	 iupui_npad	 mlab2	 online	 online	 38.106.70.151	 2001:550:1D00:100::151	 April 26, 2014, 4:46 a.m.
+npad	 lhr01	 iupui_npad	 mlab2	 online	 online	 217.163.1.89	 2001:4C08:2003:3::89	 April 23, 2014, 12:55 p.m.
+npad	 lju01	 iupui_npad	 mlab2	 online	 online	 91.239.96.89	 2001:67c:27e4:100::89	 Feb. 28, 2014, 9:31 p.m.
+npad	 mad01	 iupui_npad	 mlab2	 online	 online	 213.200.103.153	 2001:0668:001F:0016::153	 March 13, 2014, 8:35 p.m.
+npad	 mia01	 iupui_npad	 mlab2	 online	 online	 4.71.210.215	 2001:1900:3001:A::215	 March 25, 2014, 4:41 p.m.
+npad	 mil01	 iupui_npad	 mlab2	 online	 online	 213.200.99.217	 2001:0668:001F:0017::217	 March 25, 2014, 2:28 p.m.
+npad	 nbo01	 iupui_npad	 mlab2	 online	 online	 197.136.0.89	 2C0F:FE08:10:64::89	 April 3, 2014, 3:55 a.m.
+npad	 nuq01	 iupui_npad	 mlab2	 online	 online	 64.9.225.151	 2604:ca00:f000::151	 Jan. 8, 2014, 7:05 p.m.
+npad	 nuq02	 iupui_npad	 mlab2	 offline	 offline	 149.20.5.89	 2001:4F8:1:1001::89	 Jan. 8, 2014, 7:05 p.m.
+npad	 ord01	 iupui_npad	 mlab2	 online	 online	 4.71.251.151	 2001:1900:3001:B::151	 April 15, 2014, 3:50 a.m.
+npad	 par01	 iupui_npad	 mlab2	 online	 online	 80.239.168.217	 2001:2030:0000:001A::217	 March 31, 2014, 3:25 p.m.
+npad	 prg01	 iupui_npad	 mlab2	 online	 online	 212.162.51.89	 2001:4C08:2003:4::89	 April 26, 2014, 1:41 p.m.
+npad	 sea01	 iupui_npad	 mlab2	 online	 online	 38.102.0.88	 2001:550:3200:1::88	 April 21, 2014, 7:56 a.m.
+npad	 sin01	 iupui_npad	 mlab2	 online	 online	 180.87.97.89	 2405:2000:301::89	 March 24, 2014, 7:34 p.m.
+npad	 svg01	 iupui_npad	 mlab2	 online	 online	 81.167.39.25	 2a01:798:0:13::25	 April 22, 2014, 12:38 p.m.
+npad	 syd01	 iupui_npad	 mlab2	 online	 online	 203.5.76.154	 2001:388:00d0::154	 March 26, 2014, 3:08 a.m.
+npad	 syd02	 iupui_npad	 mlab2	 online	 online	 175.45.79.25	 2402:7800:0:12::25	 April 23, 2014, 7:49 p.m.
+npad	 tpe01	 iupui_npad	 mlab2	 online	 online	 163.22.28.25	 2001:e10:6840:28::25	 April 25, 2014, 12:04 a.m.
+npad	 trn01	 iupui_npad	 mlab2	 online	 online	 194.116.85.217	 2001:7F8:23:307::217	 March 21, 2014, 5:34 p.m.
+npad	 tun01	 iupui_npad	 mlab2	 online	 online	 41.231.21.25	 2001:4350:3000:1::25	 April 10, 2014, 12:36 a.m.
+npad	 vie01	 iupui_npad	 mlab2	 online	 online	 213.208.152.25	 2a01:190:1700:38::25	 March 16, 2014, 11:43 p.m.
+npad	 wlg01	 iupui_npad	 mlab2	 online	 offline	 103.10.233.25	 2404:2000:3000::25	 April 21, 2014, 5:57 p.m.
+npad	 yul01	 iupui_npad	 mlab2	 offline	 offline	 162.219.177.25	 2620:10a:80fe::25	 March 2, 2014, 1 a.m.
+npad	 yyc01	 iupui_npad	 mlab2	 offline	 offline	 162.219.178.25	 2620:10a:80ff::25	 March 2, 2014, 1 a.m.
+npad	 yyz01	 iupui_npad	 mlab2	 offline	 offline	 162.219.48.25	 2620:010A:800F::25	 Jan. 25, 2014, 1 a.m.
+npad	 akl01	 iupui_npad	 mlab3	 online	 online	 163.7.129.38	 2404:0138:4009::38	 March 27, 2014, 11:34 a.m.
+npad	 ams01	 iupui_npad	 mlab3	 online	 online	 213.244.128.165	 2001:4C08:2003:2::165	 April 14, 2014, 2:29 a.m.
+npad	 ams02	 iupui_npad	 mlab3	 online	 online	 72.26.217.105	 2001:48c8:7::105	 April 26, 2014, 2:47 p.m.
+npad	 arn01	 iupui_npad	 mlab3	 online	 online	 213.248.112.102	 2001:2030:0000:001B::102	 Jan. 24, 2014, 2:54 p.m.
+npad	 ath01	 iupui_npad	 mlab3	 online	 online	 83.212.4.38	 2001:648:2ffc:2101::38	 April 17, 2014, 7:54 a.m.
+npad	 ath02	 iupui_npad	 mlab3	 online	 online	 83.212.5.165	 2001:648:2ffc:2102::165	 April 17, 2014, 7:54 a.m.
+npad	 atl01	 iupui_npad	 mlab3	 online	 online	 4.71.254.164	 2001:1900:3001:C::164	 March 23, 2014, 7:34 a.m.
+npad	 bog01	 iupui_npad	 mlab3	 offline	 offline	 186.113.12.38	 2001:13f8::38	 Jan. 8, 2014, 1 a.m.
+npad	 dfw01	 iupui_npad	 mlab3	 online	 online	 38.107.216.36	 2001:550:2000::36	 April 11, 2014, 7:34 a.m.
+npad	 dub01	 iupui_npad	 mlab3	 online	 online	 193.1.12.230	 2001:770:B5::230	 April 26, 2014, 1:41 p.m.
+npad	 ham01	 iupui_npad	 mlab3	 online	 online	 80.239.142.228	 2001:2030:0000:0019::228	 March 25, 2014, 5:21 p.m.
+npad	 hnd01	 iupui_npad	 mlab3	 online	 online	 203.178.130.230	 2001:200:0:b801::230	 Jan. 8, 2014, 7:05 p.m.
+npad	 iad01	 iupui_npad	 mlab3	 online	 online	 216.156.197.166	 2610:18:111:8001::166	 April 11, 2014, 12:38 a.m.
+npad	 jnb01	 iupui_npad	 mlab3	 online	 online	 196.24.45.166	 2001:4200:FFF0:4512::166	 March 6, 2014, 1:24 p.m.
+npad	 lax01	 iupui_npad	 mlab3	 online	 online	 38.98.51.36	 2001:550:6800::36	 April 23, 2014, 6:42 p.m.
+npad	 lba01	 iupui_npad	 mlab3	 online	 online	 109.239.110.38	 2a00:1a80:1:8::38	 March 30, 2014, 8:31 p.m.
+npad	 lca01	 iupui_npad	 mlab3	 online	 offline	 82.116.199.38		 April 22, 2014, 6:51 a.m.
+npad	 lga01	 iupui_npad	 mlab3	 online	 online	 74.63.50.43	 2001:48c8:5:f::43	 April 22, 2014, 7:59 p.m.
+npad	 lga02	 iupui_npad	 mlab3	 offline	 offline	 38.106.70.172	 2001:550:1D00:100::172	 Jan. 8, 2014, 7:05 p.m.
+npad	 lhr01	 iupui_npad	 mlab3	 online	 online	 217.163.1.102	 2001:4C08:2003:3::102	 April 22, 2014, 1:30 a.m.
+npad	 lju01	 iupui_npad	 mlab3	 online	 online	 91.239.96.102	 2001:67c:27e4:100::102	 April 6, 2014, 1:56 p.m.
+npad	 mad01	 iupui_npad	 mlab3	 online	 online	 213.200.103.166	 2001:0668:001F:0016::166	 April 26, 2014, 1:41 p.m.
+npad	 mia01	 iupui_npad	 mlab3	 online	 online	 4.71.210.228	 2001:1900:3001:A::228	 March 23, 2014, 8:28 a.m.
+npad	 mil01	 iupui_npad	 mlab3	 online	 online	 213.200.99.230	 2001:0668:001F:0017::230	 Jan. 8, 2014, 7:05 p.m.
+npad	 nbo01	 iupui_npad	 mlab3	 online	 online	 197.136.0.102	 2C0F:FE08:10:64::102	 April 3, 2014, 4:35 a.m.
+npad	 nuq01	 iupui_npad	 mlab3	 online	 online	 64.9.225.165	 2604:ca00:f000::165	 Feb. 27, 2014, 10:11 p.m.
+npad	 nuq02	 iupui_npad	 mlab3	 online	 online	 149.20.5.102	 2001:4F8:1:1001::102	 Jan. 8, 2014, 7:05 p.m.
+npad	 ord01	 iupui_npad	 mlab3	 online	 online	 4.71.251.164	 2001:1900:3001:B::164	 April 15, 2014, 1:23 a.m.
+npad	 par01	 iupui_npad	 mlab3	 online	 online	 80.239.168.228	 2001:2030:0000:001A::228	 Feb. 27, 2014, 1:45 a.m.
+npad	 prg01	 iupui_npad	 mlab3	 online	 online	 212.162.51.102	 2001:4C08:2003:4::102	 March 14, 2014, 9:30 a.m.
+npad	 sea01	 iupui_npad	 mlab3	 online	 online	 38.102.0.100	 2001:550:3200:1::100	 April 21, 2014, 8:23 a.m.
+npad	 sin01	 iupui_npad	 mlab3	 online	 online	 180.87.97.102	 2405:2000:301::102	 March 24, 2014, 8:14 p.m.
+npad	 svg01	 iupui_npad	 mlab3	 online	 online	 81.167.39.38	 2a01:798:0:13::38	 April 26, 2014, 1:41 p.m.
+npad	 syd01	 iupui_npad	 mlab3	 online	 online	 203.5.76.168	 2001:388:00d0::168	 March 6, 2014, 4:17 a.m.
+npad	 syd02	 iupui_npad	 mlab3	 online	 online	 175.45.79.38	 2402:7800:0:12::38	 April 23, 2014, 7:36 p.m.
+npad	 tpe01	 iupui_npad	 mlab3	 online	 online	 163.22.28.38	 2001:e10:6840:28::38	 March 15, 2014, 10:10 p.m.
+npad	 trn01	 iupui_npad	 mlab3	 online	 online	 194.116.85.230	 2001:7F8:23:307::230	 March 20, 2014, 5:34 p.m.
+npad	 tun01	 iupui_npad	 mlab3	 online	 online	 41.231.21.38	 2001:4350:3000:1::38	 March 12, 2014, 8:21 p.m.
+npad	 vie01	 iupui_npad	 mlab3	 online	 online	 213.208.152.38	 2a01:190:1700:38::38	 March 21, 2014, 3:34 p.m.
+npad	 wlg01	 iupui_npad	 mlab3	 online	 offline	 103.10.233.38	 2404:2000:3000::38	 April 21, 2014, 5:44 p.m.
+npad	 yul01	 iupui_npad	 mlab3	 offline	 offline	 162.219.177.38	 2620:10a:80fe::38	 March 2, 2014, 1 a.m.
+npad	 yyc01	 iupui_npad	 mlab3	 offline	 offline	 162.219.178.38	 2620:10a:80ff::38	 March 2, 2014, 1 a.m.
+npad	 yyz01	 iupui_npad	 mlab3	 offline	 offline	 162.219.48.38	 2620:010A:800F::38	 Jan. 25, 2014, 1 a.m.
+npad	 nuq01	 iupui_npad	 mlab4	 offline	 offline	 64.9.225.182	 2604:ca00:f000::182	 Jan. 8, 2014, 1 a.m.
+npad	 nuq02	 iupui_npad	 mlab4	 online	 offline	 149.20.5.115	 2001:4F8:1:1001::115	 Jan. 8, 2014, 1 a.m.
+npad	 prg01	 iupui_npad	 mlab4	 offline	 offline	 212.162.51.115	 2001:4C08:2003:4::115	 Jan. 8, 2014, 1 a.m.
+neubot	 akl01	 mlab_neubot	 mlab1	 online	 online	 163.7.129.19	 2404:0138:4009::19	 April 10, 2014, 7:31 p.m.
+neubot	 ams01	 mlab_neubot	 mlab1	 online	 online	 213.244.128.148	 2001:4C08:2003:2::148	 April 15, 2014, 11:51 a.m.
+neubot	 ams02	 mlab_neubot	 mlab1	 online	 offline	 72.26.217.80	 2001:48c8:7::80	 April 26, 2014, 5:14 p.m.
+neubot	 arn01	 mlab_neubot	 mlab1	 online	 online	 213.248.112.83	 2001:2030:0000:001B::83	 April 24, 2014, 1:50 p.m.
+neubot	 ath01	 mlab_neubot	 mlab1	 online	 online	 83.212.4.19	 2001:648:2ffc:2101::19	 April 22, 2014, 10:51 a.m.
+neubot	 ath02	 mlab_neubot	 mlab1	 online	 online	 83.212.5.147	 2001:648:2ffc:2102::147	 April 24, 2014, 1:23 a.m.
+neubot	 atl01	 mlab_neubot	 mlab1	 online	 online	 4.71.254.146	 2001:1900:3001:C::146	 April 25, 2014, 8:06 p.m.
+neubot	 bog01	 mlab_neubot	 mlab1	 offline	 offline	 186.113.12.19	 2001:13f8::19	 Jan. 8, 2014, 1 a.m.
+neubot	 dfw01	 mlab_neubot	 mlab1	 online	 online	 38.107.216.20	 2001:550:2000::20	 April 26, 2014, 3:54 p.m.
+neubot	 dub01	 mlab_neubot	 mlab1	 online	 online	 193.1.12.211	 2001:770:B5::211	 April 24, 2014, 1:50 p.m.
+neubot	 ham01	 mlab_neubot	 mlab1	 online	 online	 80.239.142.212	 2001:2030:0000:0019::212	 April 18, 2014, 11:03 p.m.
+neubot	 hnd01	 mlab_neubot	 mlab1	 online	 online	 203.178.130.211	 2001:200:0:b801::211	 April 25, 2014, 5:13 p.m.
+neubot	 iad01	 mlab_neubot	 mlab1	 online	 online	 216.156.197.147	 2610:18:111:8001::147	 April 26, 2014, 1:41 p.m.
+neubot	 jnb01	 mlab_neubot	 mlab1	 online	 online	 196.24.45.147	 2001:4200:FFF0:4512::147	 April 12, 2014, 12:02 a.m.
+neubot	 lax01	 mlab_neubot	 mlab1	 online	 online	 38.98.51.19	 2001:550:6800::19	 April 24, 2014, 10:30 a.m.
+neubot	 lba01	 mlab_neubot	 mlab1	 online	 online	 109.239.110.19	 2a00:1a80:1:8::19	 April 7, 2014, 6:26 p.m.
+neubot	 lca01	 mlab_neubot	 mlab1	 online	 offline	 82.116.199.19		 March 20, 2014, 10:14 a.m.
+neubot	 lga01	 mlab_neubot	 mlab1	 online	 online	 74.63.50.18	 2001:48c8:5:f::18	 April 26, 2014, 3:54 p.m.
+neubot	 lga02	 mlab_neubot	 mlab1	 online	 online	 38.106.70.144	 2001:550:1D00:100::144	 April 26, 2014, 3:27 p.m.
+neubot	 lhr01	 mlab_neubot	 mlab1	 online	 online	 217.163.1.81	 2001:4C08:2003:3::81	 April 13, 2014, 2:15 a.m.
+neubot	 lju01	 mlab_neubot	 mlab1	 online	 online	 91.239.96.83	 2001:67c:27e4:100::83	 April 25, 2014, 2:31 a.m.
+neubot	 mad01	 mlab_neubot	 mlab1	 online	 online	 213.200.103.147	 2001:0668:001F:0016::147	 April 15, 2014, 11:51 a.m.
+neubot	 mia01	 mlab_neubot	 mlab1	 online	 online	 4.71.210.210	 2001:1900:3001:A::210	 April 15, 2014, 11:51 a.m.
+neubot	 mil01	 mlab_neubot	 mlab1	 online	 online	 213.200.99.211	 2001:0668:001F:0017::211	 April 24, 2014, 2:03 p.m.
+neubot	 nbo01	 mlab_neubot	 mlab1	 online	 online	 197.136.0.83	 2C0F:FE08:10:64::83	 April 3, 2014, 4:08 a.m.
+neubot	 nuq01	 mlab_neubot	 mlab1	 online	 online	 64.9.225.147	 2604:ca00:f000::147	 March 30, 2014, 4:44 a.m.
+neubot	 nuq02	 mlab_neubot	 mlab1	 online	 online	 149.20.5.83	 2001:4F8:1:1001::83	 April 19, 2014, 3:03 a.m.
+neubot	 ord01	 mlab_neubot	 mlab1	 online	 online	 4.71.251.146	 2001:1900:3001:B::146	 April 15, 2014, 11:51 a.m.
+neubot	 par01	 mlab_neubot	 mlab1	 online	 online	 80.239.168.212	 2001:2030:0000:001A::212	 April 21, 2014, 3:57 a.m.
+neubot	 prg01	 mlab_neubot	 mlab1	 online	 online	 212.162.51.83	 2001:4C08:2003:4::83	 April 24, 2014, 11:10 p.m.
+neubot	 sea01	 mlab_neubot	 mlab1	 online	 online	 38.102.0.82	 2001:550:3200:1::82	 April 21, 2014, 9:03 a.m.
+neubot	 sin01	 mlab_neubot	 mlab1	 online	 online	 180.87.97.83	 2405:2000:301::83	 April 23, 2014, 1:59 a.m.
+neubot	 svg01	 mlab_neubot	 mlab1	 online	 online	 81.167.39.19	 2a01:798:0:13::19	 April 22, 2014, 4:38 p.m.
+neubot	 syd01	 mlab_neubot	 mlab1	 online	 online	 203.5.76.147	 2001:388:00d0::147	 March 25, 2014, 6:15 p.m.
+neubot	 syd02	 mlab_neubot	 mlab1	 online	 online	 175.45.79.19	 2402:7800:0:12::19	 April 23, 2014, 6:56 p.m.
+neubot	 tpe01	 mlab_neubot	 mlab1	 online	 online	 163.22.28.19	 2001:e10:6840:28::19	 April 24, 2014, 7:36 a.m.
+neubot	 trn01	 mlab_neubot	 mlab1	 online	 online	 194.116.85.211	 2001:7F8:23:307::211	 April 15, 2014, 11:50 a.m.
+neubot	 tun01	 mlab_neubot	 mlab1	 online	 online	 41.231.21.19	 2001:4350:3000:1::19	 April 25, 2014, 6:04 a.m.
+neubot	 vie01	 mlab_neubot	 mlab1	 online	 online	 213.208.152.19	 2a01:190:1700:38::19	 April 17, 2014, 7:54 a.m.
+neubot	 wlg01	 mlab_neubot	 mlab1	 online	 offline	 103.10.233.20	 2404:2000:3000::20	 April 26, 2014, 4:47 p.m.
+neubot	 yul01	 mlab_neubot	 mlab1	 offline	 offline	 162.219.177.19	 2620:10a:80fe::19	 March 2, 2014, 1 a.m.
+neubot	 yyc01	 mlab_neubot	 mlab1	 offline	 offline	 162.219.178.19	 2620:10a:80ff::19	 March 2, 2014, 1 a.m.
+neubot	 yyz01	 mlab_neubot	 mlab1	 offline	 offline	 162.219.48.19	 2620:010A:800F::19	 Jan. 25, 2014, 1 a.m.
+neubot	 akl01	 mlab_neubot	 mlab2	 online	 online	 163.7.129.32	 2404:0138:4009::32	 April 22, 2014, 11:31 a.m.
+neubot	 ams01	 mlab_neubot	 mlab2	 online	 online	 213.244.128.161	 2001:4C08:2003:2::161	 April 18, 2014, 7:55 a.m.
+neubot	 ams02	 mlab_neubot	 mlab2	 online	 offline	 72.26.217.96	 2001:48c8:7::96	 April 26, 2014, 11:40 a.m.
+neubot	 arn01	 mlab_neubot	 mlab2	 online	 online	 213.248.112.96	 2001:2030:0000:001B::96	 April 8, 2014, 4 p.m.
+neubot	 ath01	 mlab_neubot	 mlab2	 online	 online	 83.212.4.32	 2001:648:2ffc:2101::32	 April 24, 2014, 1:50 p.m.
+neubot	 ath02	 mlab_neubot	 mlab2	 online	 online	 83.212.5.161	 2001:648:2ffc:2102::161	 April 15, 2014, 11:50 a.m.
+neubot	 atl01	 mlab_neubot	 mlab2	 online	 online	 4.71.254.159	 2001:1900:3001:C::159	 April 11, 2014, 7:21 a.m.
+neubot	 bog01	 mlab_neubot	 mlab2	 offline	 offline	 186.113.12.32	 2001:13f8::32	 Jan. 8, 2014, 1 a.m.
+neubot	 dfw01	 mlab_neubot	 mlab2	 online	 online	 38.107.216.31	 2001:550:2000::31	 April 15, 2014, 9:39 p.m.
+neubot	 dub01	 mlab_neubot	 mlab2	 online	 online	 193.1.12.224	 2001:770:B5::224	 April 24, 2014, 1:50 p.m.
+neubot	 ham01	 mlab_neubot	 mlab2	 online	 online	 80.239.142.225	 2001:2030:0000:0019::225	 April 15, 2014, 11:51 a.m.
+neubot	 hnd01	 mlab_neubot	 mlab2	 online	 online	 203.178.130.224	 2001:200:0:b801::224	 April 24, 2014, 11:23 p.m.
+neubot	 iad01	 mlab_neubot	 mlab2	 online	 online	 216.156.197.160	 2610:18:111:8001::160	 April 26, 2014, 1:41 p.m.
+neubot	 jnb01	 mlab_neubot	 mlab2	 online	 online	 196.24.45.160	 2001:4200:FFF0:4512::160	 April 24, 2014, 1:50 p.m.
+neubot	 lax01	 mlab_neubot	 mlab2	 online	 online	 38.98.51.32	 2001:550:6800::32	 April 24, 2014, 10:30 a.m.
+neubot	 lba01	 mlab_neubot	 mlab2	 online	 online	 109.239.110.32	 2a00:1a80:1:8::32	 April 24, 2014, 1:50 p.m.
+neubot	 lca01	 mlab_neubot	 mlab2	 online	 offline	 82.116.199.32		 April 22, 2014, 6:51 a.m.
+neubot	 lga01	 mlab_neubot	 mlab2	 offline	 offline	 74.63.50.31	 2001:48c8:5:f::31	 Jan. 8, 2014, 7:04 p.m.
+neubot	 lga02	 mlab_neubot	 mlab2	 online	 online	 38.106.70.159	 2001:550:1D00:100::159	 April 26, 2014, 4:46 a.m.
+neubot	 lhr01	 mlab_neubot	 mlab2	 online	 online	 217.163.1.95	 2001:4C08:2003:3::95	 April 24, 2014, 1:50 p.m.
+neubot	 lju01	 mlab_neubot	 mlab2	 online	 online	 91.239.96.96	 2001:67c:27e4:100::96	 April 26, 2014, 4:06 a.m.
+neubot	 mad01	 mlab_neubot	 mlab2	 online	 online	 213.200.103.160	 2001:0668:001F:0016::160	 April 15, 2014, 11:51 a.m.
+neubot	 mia01	 mlab_neubot	 mlab2	 online	 online	 4.71.210.223	 2001:1900:3001:A::223	 Feb. 13, 2014, 3:29 a.m.
+neubot	 mil01	 mlab_neubot	 mlab2	 online	 online	 213.200.99.224	 2001:0668:001F:0017::224	 April 22, 2014, 9:05 p.m.
+neubot	 nbo01	 mlab_neubot	 mlab2	 online	 online	 197.136.0.96	 2C0F:FE08:10:64::96	 April 8, 2014, 1:20 p.m.
+neubot	 nuq01	 mlab_neubot	 mlab2	 online	 online	 64.9.225.152	 2604:ca00:f000::152	 March 3, 2014, 11:20 a.m.
+neubot	 nuq02	 mlab_neubot	 mlab2	 offline	 offline	 149.20.5.96	 2001:4F8:1:1001::96	 Jan. 8, 2014, 7:04 p.m.
+neubot	 ord01	 mlab_neubot	 mlab2	 online	 online	 4.71.251.159	 2001:1900:3001:B::159	 April 15, 2014, 1:10 a.m.
+neubot	 par01	 mlab_neubot	 mlab2	 online	 online	 80.239.168.225	 2001:2030:0000:001A::225	 April 24, 2014, 2:16 p.m.
+neubot	 prg01	 mlab_neubot	 mlab2	 online	 online	 212.162.51.96	 2001:4C08:2003:4::96	 April 15, 2014, 8:30 a.m.
+neubot	 sea01	 mlab_neubot	 mlab2	 online	 online	 38.102.0.96	 2001:550:3200:1::96	 April 21, 2014, 9:03 a.m.
+neubot	 sin01	 mlab_neubot	 mlab2	 online	 online	 180.87.97.96	 2405:2000:301::96	 April 16, 2014, 10:33 a.m.
+neubot	 svg01	 mlab_neubot	 mlab2	 online	 online	 81.167.39.32	 2a01:798:0:13::32	 April 24, 2014, 1:50 p.m.
+neubot	 syd01	 mlab_neubot	 mlab2	 online	 online	 203.5.76.160	 2001:388:00d0::160	 March 26, 2014, 7:21 a.m.
+neubot	 syd02	 mlab_neubot	 mlab2	 online	 online	 175.45.79.32	 2402:7800:0:12::32	 April 23, 2014, 6:56 p.m.
+neubot	 tpe01	 mlab_neubot	 mlab2	 online	 online	 163.22.28.32	 2001:e10:6840:28::32	 April 19, 2014, 3:43 p.m.
+neubot	 trn01	 mlab_neubot	 mlab2	 online	 online	 194.116.85.224	 2001:7F8:23:307::224	 April 20, 2014, 2:09 p.m.
+neubot	 tun01	 mlab_neubot	 mlab2	 online	 online	 41.231.21.32	 2001:4350:3000:1::32	 April 24, 2014, 2:30 p.m.
+neubot	 vie01	 mlab_neubot	 mlab2	 online	 online	 213.208.152.32	 2a01:190:1700:38::32	 April 26, 2014, 1:41 p.m.
+neubot	 wlg01	 mlab_neubot	 mlab2	 online	 offline	 103.10.233.33	 2404:2000:3000::33	 April 21, 2014, 6:11 p.m.
+neubot	 yul01	 mlab_neubot	 mlab2	 offline	 offline	 162.219.177.32	 2620:10a:80fe::32	 March 2, 2014, 1 a.m.
+neubot	 yyc01	 mlab_neubot	 mlab2	 offline	 offline	 162.219.178.32	 2620:10a:80ff::32	 March 2, 2014, 1 a.m.
+neubot	 yyz01	 mlab_neubot	 mlab2	 offline	 offline	 162.219.48.32	 2620:010A:800F::32	 Jan. 25, 2014, 1 a.m.
+neubot	 akl01	 mlab_neubot	 mlab3	 online	 online	 163.7.129.45	 2404:0138:4009::45	 April 8, 2014, 1:06 a.m.
+neubot	 ams01	 mlab_neubot	 mlab3	 online	 online	 213.244.128.171	 2001:4C08:2003:2::171	 April 15, 2014, 11:51 a.m.
+neubot	 ams02	 mlab_neubot	 mlab3	 online	 offline	 72.26.217.109	 2001:48c8:7::109	 April 26, 2014, 6:48 p.m.
+neubot	 arn01	 mlab_neubot	 mlab3	 online	 online	 213.248.112.109	 2001:2030:0000:001B::109	 April 26, 2014, 1:41 p.m.
+neubot	 ath01	 mlab_neubot	 mlab3	 online	 online	 83.212.4.45	 2001:648:2ffc:2101::45	 April 24, 2014, 1:50 p.m.
+neubot	 ath02	 mlab_neubot	 mlab3	 online	 online	 83.212.5.173	 2001:648:2ffc:2102::173	 April 15, 2014, 11:50 a.m.
+neubot	 atl01	 mlab_neubot	 mlab3	 online	 online	 4.71.254.172	 2001:1900:3001:C::172	 April 2, 2014, 7:28 a.m.
+neubot	 bog01	 mlab_neubot	 mlab3	 offline	 offline	 186.113.12.45	 2001:13f8::45	 Jan. 8, 2014, 1 a.m.
+neubot	 dfw01	 mlab_neubot	 mlab3	 online	 online	 38.107.216.41	 2001:550:2000::41	 March 21, 2014, 11:08 a.m.
+neubot	 dub01	 mlab_neubot	 mlab3	 online	 online	 193.1.12.237	 2001:770:B5::237	 April 24, 2014, 1:50 p.m.
+neubot	 ham01	 mlab_neubot	 mlab3	 online	 online	 80.239.142.238	 2001:2030:0000:0019::238	 April 24, 2014, 2:16 p.m.
+neubot	 hnd01	 mlab_neubot	 mlab3	 online	 online	 203.178.130.237	 2001:200:0:b801::237	 April 26, 2014, 1:26 a.m.
+neubot	 iad01	 mlab_neubot	 mlab3	 online	 online	 216.156.197.173	 2610:18:111:8001::173	 April 25, 2014, 11:53 p.m.
+neubot	 jnb01	 mlab_neubot	 mlab3	 online	 online	 196.24.45.173	 2001:4200:FFF0:4512::173	 April 15, 2014, 11:51 a.m.
+neubot	 lax01	 mlab_neubot	 mlab3	 online	 online	 38.98.51.44	 2001:550:6800::44	 April 24, 2014, 10:43 a.m.
+neubot	 lba01	 mlab_neubot	 mlab3	 online	 online	 109.239.110.45	 2a00:1a80:1:8::45	 April 26, 2014, 6:34 p.m.
+neubot	 lca01	 mlab_neubot	 mlab3	 online	 offline	 82.116.199.45		 March 30, 2014, 10:05 a.m.
+neubot	 lga01	 mlab_neubot	 mlab3	 online	 online	 74.63.50.44	 2001:48c8:5:f::44	 April 26, 2014, 5:01 p.m.
+neubot	 lga02	 mlab_neubot	 mlab3	 offline	 offline	 38.106.70.170	 2001:550:1D00:100::170	 Jan. 8, 2014, 7:04 p.m.
+neubot	 lhr01	 mlab_neubot	 mlab3	 online	 online	 217.163.1.110	 2001:4C08:2003:3::110	 April 24, 2014, 10:43 a.m.
+neubot	 lju01	 mlab_neubot	 mlab3	 online	 online	 91.239.96.109	 2001:67c:27e4:100::109	 April 23, 2014, 4:15 p.m.
+neubot	 mad01	 mlab_neubot	 mlab3	 online	 online	 213.200.103.173	 2001:0668:001F:0016::173	 April 24, 2014, 1:50 p.m.
+neubot	 mia01	 mlab_neubot	 mlab3	 online	 online	 4.71.210.236	 2001:1900:3001:A::236	 April 6, 2014, 9:44 p.m.
+neubot	 mil01	 mlab_neubot	 mlab3	 online	 online	 213.200.99.237	 2001:0668:001F:0017::237	 April 16, 2014, 7:13 p.m.
+neubot	 nbo01	 mlab_neubot	 mlab3	 online	 online	 197.136.0.109	 2C0F:FE08:10:64::109	 April 11, 2014, 4:15 p.m.
+neubot	 nuq01	 mlab_neubot	 mlab3	 online	 online	 64.9.225.164	 2604:ca00:f000::164	 March 3, 2014, 11:06 a.m.
+neubot	 nuq02	 mlab_neubot	 mlab3	 online	 online	 149.20.5.109	 2001:4F8:1:1001::109	 April 24, 2014, 2:16 p.m.
+neubot	 ord01	 mlab_neubot	 mlab3	 online	 online	 4.71.251.172	 2001:1900:3001:B::172	 April 24, 2014, 1:50 p.m.
+neubot	 par01	 mlab_neubot	 mlab3	 online	 online	 80.239.168.238	 2001:2030:0000:001A::238	 April 25, 2014, 4:46 p.m.
+neubot	 prg01	 mlab_neubot	 mlab3	 online	 online	 212.162.51.109	 2001:4C08:2003:4::109	 April 11, 2014, 4:15 p.m.
+neubot	 sea01	 mlab_neubot	 mlab3	 online	 online	 38.102.0.108	 2001:550:3200:1::108	 April 25, 2014, 6:58 a.m.
+neubot	 sin01	 mlab_neubot	 mlab3	 online	 online	 180.87.97.109	 2405:2000:301::109	 April 15, 2014, 1:24 p.m.
+neubot	 svg01	 mlab_neubot	 mlab3	 online	 online	 81.167.39.45	 2a01:798:0:13::45	 April 18, 2014, 11:03 p.m.
+neubot	 syd01	 mlab_neubot	 mlab3	 online	 online	 203.5.76.174	 2001:388:00d0::174	 April 24, 2014, 10:03 p.m.
+neubot	 syd02	 mlab_neubot	 mlab3	 online	 online	 175.45.79.45	 2402:7800:0:12::45	 April 26, 2014, 1:40 a.m.
+neubot	 tpe01	 mlab_neubot	 mlab3	 online	 online	 163.22.28.45	 2001:e10:6840:28::45	 April 19, 2014, 2:09 a.m.
+neubot	 trn01	 mlab_neubot	 mlab3	 online	 online	 194.116.85.237	 2001:7F8:23:307::237	 April 10, 2014, 7:31 p.m.
+neubot	 tun01	 mlab_neubot	 mlab3	 online	 online	 41.231.21.45	 2001:4350:3000:1::45	 April 26, 2014, 3:26 a.m.
+neubot	 vie01	 mlab_neubot	 mlab3	 online	 online	 213.208.152.45	 2a01:190:1700:38::45	 March 21, 2014, 3:34 p.m.
+neubot	 wlg01	 mlab_neubot	 mlab3	 online	 offline	 103.10.233.46	 2404:2000:3000::46	 April 24, 2014, 10:03 p.m.
+neubot	 yul01	 mlab_neubot	 mlab3	 offline	 offline	 162.219.177.45	 2620:10a:80fe::45	 March 2, 2014, 1 a.m.
+neubot	 yyc01	 mlab_neubot	 mlab3	 offline	 offline	 162.219.178.45	 2620:10a:80ff::45	 March 2, 2014, 1 a.m.
+neubot	 yyz01	 mlab_neubot	 mlab3	 offline	 offline	 162.219.48.45	 2620:010A:800F::45	 Jan. 25, 2014, 1 a.m.
+neubot	 nuq01	 mlab_neubot	 mlab4	 offline	 offline	 64.9.225.186	 2604:ca00:f000::186	 Jan. 8, 2014, 1 a.m.
+neubot	 nuq02	 mlab_neubot	 mlab4	 online	 online	 149.20.5.122	 2001:4F8:1:1001::122	 Jan. 8, 2014, 1 a.m.
+neubot	 prg01	 mlab_neubot	 mlab4	 online	 online	 212.162.51.122	 2001:4C08:2003:4::122	 Jan. 8, 2014, 1 a.m.
+ndt	 akl01	 iupui_ndt	 mlab1	 online	 offline	 163.7.129.11		 April 14, 2014, 7:23 p.m.
+ndt	 ams01	 iupui_ndt	 mlab1	 online	 offline	 213.244.128.139		 April 14, 2014, 2:03 a.m.
+ndt	 ams02	 iupui_ndt	 mlab1	 online	 offline	 72.26.217.74		 March 19, 2014, 4:13 p.m.
+ndt	 arn01	 iupui_ndt	 mlab1	 online	 offline	 213.248.112.75		 March 24, 2014, 6:41 p.m.
+ndt	 ath01	 iupui_ndt	 mlab1	 online	 offline	 83.212.4.10		 April 23, 2014, 6:15 p.m.
+ndt	 ath02	 iupui_ndt	 mlab1	 online	 offline	 83.212.5.139		 April 23, 2014, 12:01 p.m.
+ndt	 atl01	 iupui_ndt	 mlab1	 online	 offline	 4.71.254.147		 April 26, 2014, 3:14 p.m.
+ndt	 bog01	 iupui_ndt	 mlab1	 offline	 offline	 186.113.12.11		 Jan. 8, 2014, 1 a.m.
+ndt	 dfw01	 iupui_ndt	 mlab1	 offline	 offline	 38.107.216.17		 April 26, 2014, 7:01 p.m.
+ndt	 dub01	 iupui_ndt	 mlab1	 online	 offline	 193.1.12.203		 Jan. 8, 2014, 7:05 p.m.
+ndt	 ham01	 iupui_ndt	 mlab1	 online	 offline	 80.239.142.203		 April 16, 2014, 4:20 p.m.
+ndt	 hnd01	 iupui_ndt	 mlab1	 online	 offline	 203.178.130.203		 March 18, 2014, 1:32 a.m.
+ndt	 iad01	 iupui_ndt	 mlab1	 online	 offline	 216.156.197.139		 April 23, 2014, 3:48 p.m.
+ndt	 jnb01	 iupui_ndt	 mlab1	 online	 offline	 196.24.45.139		 March 30, 2014, 5:51 p.m.
+ndt	 lax01	 iupui_ndt	 mlab1	 online	 offline	 38.98.51.20		 April 23, 2014, 6:15 p.m.
+ndt	 lba01	 iupui_ndt	 mlab1	 online	 offline	 109.239.110.11		 Feb. 15, 2014, 5:39 p.m.
+ndt	 lca01	 iupui_ndt	 mlab1	 online	 offline	 82.116.199.11		 April 22, 2014, 6:37 a.m.
+ndt	 lga01	 iupui_ndt	 mlab1	 online	 offline	 74.63.50.19		 April 18, 2014, 3:28 a.m.
+ndt	 lga02	 iupui_ndt	 mlab1	 online	 offline	 38.106.70.147		 April 26, 2014, 4:33 a.m.
+ndt	 lhr01	 iupui_ndt	 mlab1	 online	 offline	 217.163.1.75		 April 13, 2014, 2:02 a.m.
+ndt	 lju01	 iupui_ndt	 mlab1	 online	 offline	 91.239.96.75		 March 14, 2014, 2:50 p.m.
+ndt	 mad01	 iupui_ndt	 mlab1	 online	 offline	 213.200.103.139		 April 1, 2014, 5:01 p.m.
+ndt	 mia01	 iupui_ndt	 mlab1	 online	 offline	 4.71.210.211		 April 21, 2014, 3:17 p.m.
+ndt	 mil01	 iupui_ndt	 mlab1	 online	 offline	 213.200.99.203		 March 29, 2014, 5:10 p.m.
+ndt	 nbo01	 iupui_ndt	 mlab1	 online	 offline	 197.136.0.75		 April 15, 2014, 12:30 p.m.
+ndt	 nuq01	 iupui_ndt	 mlab1	 online	 offline	 64.9.225.141		 April 21, 2014, 1:17 p.m.
+ndt	 nuq02	 iupui_ndt	 mlab1	 online	 offline	 149.20.5.75		 April 21, 2014, 1:17 p.m.
+ndt	 ord01	 iupui_ndt	 mlab1	 online	 offline	 4.71.251.147		 April 15, 2014, 3:23 a.m.
+ndt	 par01	 iupui_ndt	 mlab1	 online	 offline	 80.239.168.203		 March 19, 2014, 5:20 p.m.
+ndt	 prg01	 iupui_ndt	 mlab1	 online	 offline	 212.162.51.75		 March 29, 2014, 5:24 p.m.
+ndt	 sea01	 iupui_ndt	 mlab1	 online	 offline	 38.102.0.83		 April 21, 2014, 8:36 a.m.
+ndt	 sin01	 iupui_ndt	 mlab1	 online	 offline	 180.87.97.75		 April 8, 2014, 4:13 p.m.
+ndt	 svg01	 iupui_ndt	 mlab1	 online	 offline	 81.167.39.11		 April 22, 2014, 4:38 p.m.
+ndt	 syd01	 iupui_ndt	 mlab1	 online	 offline	 203.5.76.140		 March 26, 2014, 12:01 a.m.
+ndt	 syd02	 iupui_ndt	 mlab1	 offline	 offline	 175.45.79.11		 April 26, 2014, 5:27 p.m.
+ndt	 tpe01	 iupui_ndt	 mlab1	 online	 offline	 163.22.28.11		 April 24, 2014, 5:23 a.m.
+ndt	 trn01	 iupui_ndt	 mlab1	 online	 offline	 194.116.85.203		 Feb. 28, 2014, 5:58 a.m.
+ndt	 tun01	 iupui_ndt	 mlab1	 online	 offline	 41.231.21.11		 March 26, 2014, 3:35 a.m.
+ndt	 vie01	 iupui_ndt	 mlab1	 online	 offline	 213.208.152.11		 April 22, 2014, 12:50 a.m.
+ndt	 wlg01	 iupui_ndt	 mlab1	 online	 offline	 103.10.233.11		 April 14, 2014, 6:56 p.m.
+ndt	 yul01	 iupui_ndt	 mlab1	 offline	 offline	 162.219.177.11		 March 2, 2014, 1 a.m.
+ndt	 yyc01	 iupui_ndt	 mlab1	 offline	 offline	 162.219.178.11		 March 2, 2014, 1 a.m.
+ndt	 yyz01	 iupui_ndt	 mlab1	 offline	 offline	 162.219.48.11		 Jan. 25, 2014, 1 a.m.
+ndt	 akl01	 iupui_ndt	 mlab2	 online	 offline	 163.7.129.24		 April 26, 2014, 3:14 p.m.
+ndt	 ams01	 iupui_ndt	 mlab2	 online	 offline	 213.244.128.152		 April 14, 2014, 2:16 a.m.
+ndt	 ams02	 iupui_ndt	 mlab2	 online	 offline	 72.26.217.88		 April 26, 2014, 4:33 a.m.
+ndt	 arn01	 iupui_ndt	 mlab2	 online	 offline	 213.248.112.88		 March 24, 2014, 6:28 p.m.
+ndt	 ath01	 iupui_ndt	 mlab2	 online	 offline	 83.212.4.24		 April 21, 2014, 3:17 p.m.
+ndt	 ath02	 iupui_ndt	 mlab2	 online	 offline	 83.212.5.152		 April 7, 2014, 5:46 p.m.
+ndt	 atl01	 iupui_ndt	 mlab2	 online	 offline	 4.71.254.160		 April 1, 2014, 5:14 p.m.
+ndt	 bog01	 iupui_ndt	 mlab2	 offline	 offline	 186.113.12.24		 Jan. 8, 2014, 1 a.m.
+ndt	 dfw01	 iupui_ndt	 mlab2	 online	 offline	 38.107.216.32		 March 20, 2014, 6:14 p.m.
+ndt	 dub01	 iupui_ndt	 mlab2	 online	 offline	 193.1.12.216		 March 10, 2014, 7:13 p.m.
+ndt	 ham01	 iupui_ndt	 mlab2	 online	 offline	 80.239.142.216		 April 26, 2014, 3:14 p.m.
+ndt	 hnd01	 iupui_ndt	 mlab2	 online	 offline	 203.178.130.216		 March 18, 2014, 1:05 a.m.
+ndt	 iad01	 iupui_ndt	 mlab2	 online	 offline	 216.156.197.152		 March 20, 2014, 4:27 p.m.
+ndt	 jnb01	 iupui_ndt	 mlab2	 online	 offline	 196.24.45.152		 April 23, 2014, 12:15 p.m.
+ndt	 lax01	 iupui_ndt	 mlab2	 online	 offline	 38.98.51.33		 April 26, 2014, 10:47 a.m.
+ndt	 lba01	 iupui_ndt	 mlab2	 online	 offline	 109.239.110.24		 March 18, 2014, 12:13 p.m.
+ndt	 lca01	 iupui_ndt	 mlab2	 online	 offline	 82.116.199.24		 April 22, 2014, 6:37 a.m.
+ndt	 lga01	 iupui_ndt	 mlab2	 offline	 offline	 74.63.50.32		 Jan. 8, 2014, 7:05 p.m.
+ndt	 lga02	 iupui_ndt	 mlab2	 online	 offline	 38.106.70.160		 April 15, 2014, 9:39 p.m.
+ndt	 lhr01	 iupui_ndt	 mlab2	 online	 offline	 217.163.1.88		 April 23, 2014, 12:01 p.m.
+ndt	 lju01	 iupui_ndt	 mlab2	 online	 offline	 91.239.96.88		 April 21, 2014, 8:36 a.m.
+ndt	 mad01	 iupui_ndt	 mlab2	 online	 offline	 213.200.103.152		 Jan. 12, 2014, 6 a.m.
+ndt	 mia01	 iupui_ndt	 mlab2	 online	 offline	 4.71.210.224		 April 24, 2014, 8:17 p.m.
+ndt	 mil01	 iupui_ndt	 mlab2	 online	 offline	 213.200.99.216		 April 22, 2014, 3:17 a.m.
+ndt	 nbo01	 iupui_ndt	 mlab2	 online	 offline	 197.136.0.88		 April 22, 2014, 12:11 p.m.
+ndt	 nuq01	 iupui_ndt	 mlab2	 online	 offline	 64.9.225.154		 April 24, 2014, 1:50 p.m.
+ndt	 nuq02	 iupui_ndt	 mlab2	 offline	 offline	 149.20.5.88		 Jan. 8, 2014, 7:05 p.m.
+ndt	 ord01	 iupui_ndt	 mlab2	 online	 offline	 4.71.251.160		 April 15, 2014, 3:23 a.m.
+ndt	 par01	 iupui_ndt	 mlab2	 online	 offline	 80.239.168.216		 March 31, 2014, 3:25 p.m.
+ndt	 prg01	 iupui_ndt	 mlab2	 online	 offline	 212.162.51.88		 April 12, 2014, 1:22 p.m.
+ndt	 sea01	 iupui_ndt	 mlab2	 online	 offline	 38.102.0.97		 April 16, 2014, 8:46 a.m.
+ndt	 sin01	 iupui_ndt	 mlab2	 online	 offline	 180.87.97.88		 April 7, 2014, 2:25 p.m.
+ndt	 svg01	 iupui_ndt	 mlab2	 online	 offline	 81.167.39.24		 April 25, 2014, 3:12 p.m.
+ndt	 syd01	 iupui_ndt	 mlab2	 online	 offline	 203.5.76.151		 March 6, 2014, 3:50 a.m.
+ndt	 syd02	 iupui_ndt	 mlab2	 online	 offline	 175.45.79.24		 April 26, 2014, 3:14 p.m.
+ndt	 tpe01	 iupui_ndt	 mlab2	 online	 offline	 163.22.28.24		 April 25, 2014, 3:25 p.m.
+ndt	 trn01	 iupui_ndt	 mlab2	 online	 offline	 194.116.85.216		 Feb. 19, 2014, 10:25 p.m.
+ndt	 tun01	 iupui_ndt	 mlab2	 online	 offline	 41.231.21.24		 March 13, 2014, 7:02 p.m.
+ndt	 vie01	 iupui_ndt	 mlab2	 online	 offline	 213.208.152.24		 March 13, 2014, 3:15 p.m.
+ndt	 wlg01	 iupui_ndt	 mlab2	 online	 offline	 103.10.233.24		 April 14, 2014, 6:56 p.m.
+ndt	 yul01	 iupui_ndt	 mlab2	 offline	 offline	 162.219.177.24		 March 2, 2014, 1 a.m.
+ndt	 yyc01	 iupui_ndt	 mlab2	 offline	 offline	 162.219.178.24		 March 2, 2014, 1 a.m.
+ndt	 yyz01	 iupui_ndt	 mlab2	 offline	 offline	 162.219.48.24		 Jan. 25, 2014, 1 a.m.
+ndt	 akl01	 iupui_ndt	 mlab3	 online	 offline	 163.7.129.37		 April 25, 2014, 1:24 a.m.
+ndt	 ams01	 iupui_ndt	 mlab3	 online	 offline	 213.244.128.164		 April 14, 2014, 2:03 a.m.
+ndt	 ams02	 iupui_ndt	 mlab3	 online	 offline	 72.26.217.103		 March 19, 2014, 4:27 p.m.
+ndt	 arn01	 iupui_ndt	 mlab3	 online	 offline	 213.248.112.101		 March 24, 2014, 7:34 p.m.
+ndt	 ath01	 iupui_ndt	 mlab3	 online	 offline	 83.212.4.37		 March 18, 2014, 3:20 p.m.
+ndt	 ath02	 iupui_ndt	 mlab3	 online	 offline	 83.212.5.164		 April 2, 2014, 9:01 p.m.
+ndt	 atl01	 iupui_ndt	 mlab3	 online	 offline	 4.71.254.173		 April 26, 2014, 3:27 p.m.
+ndt	 bog01	 iupui_ndt	 mlab3	 offline	 offline	 186.113.12.37		 Jan. 8, 2014, 1 a.m.
+ndt	 dfw01	 iupui_ndt	 mlab3	 online	 offline	 38.107.216.45		 April 26, 2014, 3:14 p.m.
+ndt	 dub01	 iupui_ndt	 mlab3	 online	 offline	 193.1.12.229		 March 1, 2014, 1:04 a.m.
+ndt	 ham01	 iupui_ndt	 mlab3	 online	 offline	 80.239.142.233		 April 7, 2014, 9:18 a.m.
+ndt	 hnd01	 iupui_ndt	 mlab3	 online	 offline	 203.178.130.229		 March 18, 2014, 1:05 a.m.
+ndt	 iad01	 iupui_ndt	 mlab3	 online	 offline	 216.156.197.165		 April 10, 2014, 11:58 p.m.
+ndt	 jnb01	 iupui_ndt	 mlab3	 online	 offline	 196.24.45.165		 April 11, 2014, 7:34 a.m.
+ndt	 lax01	 iupui_ndt	 mlab3	 online	 offline	 38.98.51.45		 April 23, 2014, 6:42 p.m.
+ndt	 lba01	 iupui_ndt	 mlab3	 online	 offline	 109.239.110.37		 April 11, 2014, 4:11 a.m.
+ndt	 lca01	 iupui_ndt	 mlab3	 online	 offline	 82.116.199.37		 April 21, 2014, 1:17 p.m.
+ndt	 lga01	 iupui_ndt	 mlab3	 online	 offline	 74.63.50.47		 April 22, 2014, 7:32 p.m.
+ndt	 lga02	 iupui_ndt	 mlab3	 offline	 offline	 38.106.70.173		 Jan. 8, 2014, 7:05 p.m.
+ndt	 lhr01	 iupui_ndt	 mlab3	 online	 offline	 217.163.1.101		 April 13, 2014, 2:02 a.m.
+ndt	 lju01	 iupui_ndt	 mlab3	 online	 offline	 91.239.96.101		 April 2, 2014, 3:28 p.m.
+ndt	 mad01	 iupui_ndt	 mlab3	 online	 offline	 213.200.103.165		 April 14, 2014, 2:16 a.m.
+ndt	 mia01	 iupui_ndt	 mlab3	 online	 offline	 4.71.210.237		 April 10, 2014, 7:17 p.m.
+ndt	 mil01	 iupui_ndt	 mlab3	 online	 offline	 213.200.99.229		 April 13, 2014, 4:15 a.m.
+ndt	 nbo01	 iupui_ndt	 mlab3	 online	 offline	 197.136.0.101		 April 8, 2014, 2:13 p.m.
+ndt	 nuq01	 iupui_ndt	 mlab3	 online	 offline	 64.9.225.167		 Feb. 27, 2014, 7:05 p.m.
+ndt	 nuq02	 iupui_ndt	 mlab3	 online	 offline	 149.20.5.101		 March 5, 2014, 10:04 p.m.
+ndt	 ord01	 iupui_ndt	 mlab3	 online	 offline	 4.71.251.173		 April 15, 2014, 3:23 a.m.
+ndt	 par01	 iupui_ndt	 mlab3	 online	 offline	 80.239.168.234		 April 22, 2014, 5:18 p.m.
+ndt	 prg01	 iupui_ndt	 mlab3	 online	 offline	 212.162.51.101		 March 28, 2014, 7:36 p.m.
+ndt	 sea01	 iupui_ndt	 mlab3	 online	 offline	 38.102.0.109		 April 21, 2014, 8:36 a.m.
+ndt	 sin01	 iupui_ndt	 mlab3	 online	 offline	 180.87.97.101		 March 28, 2014, 4:16 p.m.
+ndt	 svg01	 iupui_ndt	 mlab3	 online	 offline	 81.167.39.37		 April 26, 2014, 3:14 p.m.
+ndt	 syd01	 iupui_ndt	 mlab3	 online	 offline	 203.5.76.166		 March 26, 2014, 12:41 a.m.
+ndt	 syd02	 iupui_ndt	 mlab3	 online	 offline	 175.45.79.37		 April 26, 2014, 3:14 p.m.
+ndt	 tpe01	 iupui_ndt	 mlab3	 online	 offline	 163.22.28.37		 April 25, 2014, 1:10 a.m.
+ndt	 trn01	 iupui_ndt	 mlab3	 online	 offline	 194.116.85.229		 April 8, 2014, 3:07 p.m.
+ndt	 tun01	 iupui_ndt	 mlab3	 online	 offline	 41.231.21.37		 March 12, 2014, 7:54 p.m.
+ndt	 vie01	 iupui_ndt	 mlab3	 online	 offline	 213.208.152.37		 Feb. 28, 2014, 5:44 a.m.
+ndt	 wlg01	 iupui_ndt	 mlab3	 online	 offline	 103.10.233.37		 April 14, 2014, 7:23 p.m.
+ndt	 yul01	 iupui_ndt	 mlab3	 offline	 offline	 162.219.177.37		 March 2, 2014, 1 a.m.
+ndt	 yyc01	 iupui_ndt	 mlab3	 offline	 offline	 162.219.178.37		 March 2, 2014, 1 a.m.
+ndt	 yyz01	 iupui_ndt	 mlab3	 offline	 offline	 162.219.48.37		 Jan. 25, 2014, 1 a.m.
+ndt	 nuq01	 iupui_ndt	 mlab4	 offline	 offline	 64.9.225.187	 2604:ca00:f000::187	 Jan. 8, 2014, 1 a.m.
+ndt	 nuq02	 iupui_ndt	 mlab4	 offline	 offline	 149.20.5.114	 2001:4F8:1:1001::114	 Jan. 8, 2014, 1 a.m.
+ndt	 prg01	 iupui_ndt	 mlab4	 online	 offline	 212.162.51.114		 Jan. 8, 2014, 1 a.m.
+mobiperf	 akl01	 michigan_1	 mlab1	 online	 online	 163.7.129.20	 2404:0138:4009::20	 March 30, 2014, 9:51 a.m.
+mobiperf	 ams01	 michigan_1	 mlab1	 online	 online	 213.244.128.142	 2001:4C08:2003:2::142	 April 14, 2014, 2:03 a.m.
+mobiperf	 ams02	 michigan_1	 mlab1	 online	 offline	 72.26.217.76	 2001:48c8:7::76	 April 26, 2014, 7:01 p.m.
+mobiperf	 arn01	 michigan_1	 mlab1	 online	 online	 213.248.112.84	 2001:2030:0000:001B::84	 March 24, 2014, 6:28 p.m.
+mobiperf	 ath01	 michigan_1	 mlab1	 online	 online	 83.212.4.14	 2001:648:2ffc:2101::14	 April 23, 2014, 12:01 p.m.
+mobiperf	 ath02	 michigan_1	 mlab1	 online	 online	 83.212.5.142	 2001:648:2ffc:2102::142	 April 21, 2014, 12:10 p.m.
+mobiperf	 atl01	 michigan_1	 mlab1	 online	 online	 4.71.254.139	 2001:1900:3001:C::139	 April 21, 2014, 1:44 p.m.
+mobiperf	 bog01	 michigan_1	 mlab1	 offline	 offline	 186.113.12.20	 2001:13f8::20	 Jan. 8, 2014, 1 a.m.
+mobiperf	 dfw01	 michigan_1	 mlab1	 online	 online	 38.107.216.13	 2001:550:2000::13	 April 3, 2014, 8:35 p.m.
+mobiperf	 dub01	 michigan_1	 mlab1	 online	 online	 193.1.12.212	 2001:770:B5::212	 April 16, 2014, 12:32 a.m.
+mobiperf	 ham01	 michigan_1	 mlab1	 online	 online	 80.239.142.206	 2001:2030:0000:0019::206	 April 16, 2014, 4:33 p.m.
+mobiperf	 hnd01	 michigan_1	 mlab1	 online	 online	 203.178.130.212	 2001:200:0:b801::212	 March 18, 2014, 1:19 a.m.
+mobiperf	 iad01	 michigan_1	 mlab1	 online	 online	 216.156.197.148	 2610:18:111:8001::148	 April 23, 2014, 3:48 p.m.
+mobiperf	 jnb01	 michigan_1	 mlab1	 online	 online	 196.24.45.148	 2001:4200:FFF0:4512::148	 April 24, 2014, 1:50 p.m.
+mobiperf	 lax01	 michigan_1	 mlab1	 online	 online	 38.98.51.11	 2001:550:6800::11	 April 23, 2014, 6:15 p.m.
+mobiperf	 lba01	 michigan_1	 mlab1	 online	 online	 109.239.110.20	 2a00:1a80:1:8::20	 April 11, 2014, 4:15 p.m.
+mobiperf	 lca01	 michigan_1	 mlab1	 online	 offline	 82.116.199.20		 Jan. 8, 2014, 7:04 p.m.
+mobiperf	 lga01	 michigan_1	 mlab1	 online	 online	 74.63.50.11	 2001:48c8:5:f::11	 April 22, 2014, 4:50 a.m.
+mobiperf	 lga02	 michigan_1	 mlab1	 online	 online	 38.106.70.138	 2001:550:1D00:100::138	 April 14, 2014, 10:16 p.m.
+mobiperf	 lhr01	 michigan_1	 mlab1	 online	 online	 217.163.1.78	 2001:4C08:2003:3::78	 April 13, 2014, 1:48 a.m.
+mobiperf	 lju01	 michigan_1	 mlab1	 online	 online	 91.239.96.84	 2001:67c:27e4:100::84	 April 21, 2014, 7:30 a.m.
+mobiperf	 mad01	 michigan_1	 mlab1	 online	 online	 213.200.103.148	 2001:0668:001F:0016::148	 April 1, 2014, 5:01 p.m.
+mobiperf	 mia01	 michigan_1	 mlab1	 online	 online	 4.71.210.203	 2001:1900:3001:A::203	 March 23, 2014, 7:34 a.m.
+mobiperf	 mil01	 michigan_1	 mlab1	 online	 online	 213.200.99.212	 2001:0668:001F:0017::212	 April 11, 2014, 4:15 p.m.
+mobiperf	 nbo01	 michigan_1	 mlab1	 online	 online	 197.136.0.84	 2C0F:FE08:10:64::84	 April 3, 2014, 3:42 a.m.
+mobiperf	 nuq01	 michigan_1	 mlab1	 online	 online	 64.9.225.138	 2604:ca00:f000::138	 March 7, 2014, 9:25 p.m.
+mobiperf	 nuq02	 michigan_1	 mlab1	 online	 online	 149.20.5.84	 2001:4F8:1:1001::84	 March 5, 2014, 9:50 p.m.
+mobiperf	 ord01	 michigan_1	 mlab1	 online	 online	 4.71.251.139	 2001:1900:3001:B::139	 April 15, 2014, 3:24 a.m.
+mobiperf	 par01	 michigan_1	 mlab1	 online	 online	 80.239.168.206	 2001:2030:0000:001A::206	 March 20, 2014, 8:55 p.m.
+mobiperf	 prg01	 michigan_1	 mlab1	 online	 online	 212.162.51.84	 2001:4C08:2003:4::84	 April 16, 2014, 12:32 a.m.
+mobiperf	 sea01	 michigan_1	 mlab1	 online	 online	 38.102.0.75	 2001:550:3200:1::75	 April 21, 2014, 8:37 a.m.
+mobiperf	 sin01	 michigan_1	 mlab1	 online	 online	 180.87.97.84	 2405:2000:301::84	 March 24, 2014, 6:41 p.m.
+mobiperf	 svg01	 michigan_1	 mlab1	 online	 online	 81.167.39.20	 2a01:798:0:13::20	 April 24, 2014, 10:30 a.m.
+mobiperf	 syd01	 michigan_1	 mlab1	 online	 online	 203.5.76.142	 2001:388:00d0::142	 March 26, 2014, 2:55 a.m.
+mobiperf	 syd02	 michigan_1	 mlab1	 online	 online	 175.45.79.20	 2402:7800:0:12::20	 April 23, 2014, 7:22 p.m.
+mobiperf	 tpe01	 michigan_1	 mlab1	 online	 online	 163.22.28.20	 2001:e10:6840:28::20	 April 24, 2014, 8:30 a.m.
+mobiperf	 trn01	 michigan_1	 mlab1	 online	 online	 194.116.85.212	 2001:7F8:23:307::212	 March 21, 2014, 4:54 p.m.
+mobiperf	 tun01	 michigan_1	 mlab1	 online	 online	 41.231.21.20	 2001:4350:3000:1::20	 April 22, 2014, 11:18 a.m.
+mobiperf	 vie01	 michigan_1	 mlab1	 online	 online	 213.208.152.20	 2a01:190:1700:38::20	 April 26, 2014, 6:07 p.m.
+mobiperf	 wlg01	 michigan_1	 mlab1	 online	 offline	 103.10.233.17	 2404:2000:3000::17	 April 21, 2014, 5:44 p.m.
+mobiperf	 yul01	 michigan_1	 mlab1	 offline	 offline	 162.219.177.20	 2620:10a:80fe::20	 March 2, 2014, 1 a.m.
+mobiperf	 yyc01	 michigan_1	 mlab1	 offline	 offline	 162.219.178.20	 2620:10a:80ff::20	 March 2, 2014, 1 a.m.
+mobiperf	 yyz01	 michigan_1	 mlab1	 offline	 offline	 162.219.48.20	 2620:010A:800F::20	 Jan. 25, 2014, 1 a.m.
+mobiperf	 akl01	 michigan_1	 mlab2	 online	 online	 163.7.129.33	 2404:0138:4009::33	 April 15, 2014, 11:51 a.m.
+mobiperf	 ams01	 michigan_1	 mlab2	 online	 online	 213.244.128.155	 2001:4C08:2003:2::155	 April 14, 2014, 2:03 a.m.
+mobiperf	 ams02	 michigan_1	 mlab2	 online	 online	 72.26.217.91	 2001:48c8:7::91	 April 26, 2014, 7:01 p.m.
+mobiperf	 arn01	 michigan_1	 mlab2	 online	 online	 213.248.112.97	 2001:2030:0000:001B::97	 April 16, 2014, 12:32 a.m.
+mobiperf	 ath01	 michigan_1	 mlab2	 online	 online	 83.212.4.27	 2001:648:2ffc:2101::27	 April 18, 2014, 2:35 p.m.
+mobiperf	 ath02	 michigan_1	 mlab2	 online	 online	 83.212.5.155	 2001:648:2ffc:2102::155	 April 7, 2014, 5:46 p.m.
+mobiperf	 atl01	 michigan_1	 mlab2	 online	 online	 4.71.254.152	 2001:1900:3001:C::152	 April 1, 2014, 5:41 p.m.
+mobiperf	 bog01	 michigan_1	 mlab2	 offline	 offline	 186.113.12.33	 2001:13f8::33	 Jan. 8, 2014, 1 a.m.
+mobiperf	 dfw01	 michigan_1	 mlab2	 online	 online	 38.107.216.24	 2001:550:2000::24	 April 3, 2014, 8:35 p.m.
+mobiperf	 dub01	 michigan_1	 mlab2	 online	 online	 193.1.12.225	 2001:770:B5::225	 March 26, 2014, 8:01 a.m.
+mobiperf	 ham01	 michigan_1	 mlab2	 online	 online	 80.239.142.219	 2001:2030:0000:0019::219	 April 11, 2014, 4:15 p.m.
+mobiperf	 hnd01	 michigan_1	 mlab2	 online	 online	 203.178.130.225	 2001:200:0:b801::225	 Jan. 17, 2014, 2:51 a.m.
+mobiperf	 iad01	 michigan_1	 mlab2	 online	 online	 216.156.197.161	 2610:18:111:8001::161	 April 11, 2014, 1:18 a.m.
+mobiperf	 jnb01	 michigan_1	 mlab2	 online	 online	 196.24.45.161	 2001:4200:FFF0:4512::161	 April 11, 2014, 11:35 p.m.
+mobiperf	 lax01	 michigan_1	 mlab2	 online	 online	 38.98.51.24	 2001:550:6800::24	 April 23, 2014, 6:15 p.m.
+mobiperf	 lba01	 michigan_1	 mlab2	 online	 online	 109.239.110.33	 2a00:1a80:1:8::33	 April 24, 2014, 1:50 p.m.
+mobiperf	 lca01	 michigan_1	 mlab2	 online	 offline	 82.116.199.33		 March 20, 2014, 1:47 p.m.
+mobiperf	 lga01	 michigan_1	 mlab2	 offline	 offline	 74.63.50.24	 2001:48c8:5:f::24	 Jan. 8, 2014, 7:04 p.m.
+mobiperf	 lga02	 michigan_1	 mlab2	 online	 online	 38.106.70.152	 2001:550:1D00:100::152	 April 11, 2014, 4:15 p.m.
+mobiperf	 lhr01	 michigan_1	 mlab2	 online	 online	 217.163.1.91	 2001:4C08:2003:3::91	 April 23, 2014, 3:35 p.m.
+mobiperf	 lju01	 michigan_1	 mlab2	 online	 online	 91.239.96.97	 2001:67c:27e4:100::97	 April 21, 2014, 8:37 a.m.
+mobiperf	 mad01	 michigan_1	 mlab2	 online	 online	 213.200.103.161	 2001:0668:001F:0016::161	 April 15, 2014, 11:51 a.m.
+mobiperf	 mia01	 michigan_1	 mlab2	 online	 online	 4.71.210.216	 2001:1900:3001:A::216	 March 23, 2014, 7:34 a.m.
+mobiperf	 mil01	 michigan_1	 mlab2	 online	 online	 213.200.99.225	 2001:0668:001F:0017::225	 March 25, 2014, 2:01 p.m.
+mobiperf	 nbo01	 michigan_1	 mlab2	 online	 online	 197.136.0.97	 2C0F:FE08:10:64::97	 April 3, 2014, 3:42 a.m.
+mobiperf	 nuq01	 michigan_1	 mlab2	 online	 online	 64.9.225.162	 2604:ca00:f000::162	 Feb. 27, 2014, 10:51 p.m.
+mobiperf	 nuq02	 michigan_1	 mlab2	 offline	 offline	 149.20.5.97	 2001:4F8:1:1001::97	 Jan. 8, 2014, 7:04 p.m.
+mobiperf	 ord01	 michigan_1	 mlab2	 online	 online	 4.71.251.152	 2001:1900:3001:B::152	 April 15, 2014, 3:37 a.m.
+mobiperf	 par01	 michigan_1	 mlab2	 online	 online	 80.239.168.219	 2001:2030:0000:001A::219	 March 31, 2014, 3:25 p.m.
+mobiperf	 prg01	 michigan_1	 mlab2	 online	 online	 212.162.51.97	 2001:4C08:2003:4::97	 April 16, 2014, 12:32 a.m.
+mobiperf	 sea01	 michigan_1	 mlab2	 online	 online	 38.102.0.89	 2001:550:3200:1::89	 April 21, 2014, 8:37 a.m.
+mobiperf	 sin01	 michigan_1	 mlab2	 online	 online	 180.87.97.97	 2405:2000:301::97	 March 24, 2014, 6:41 p.m.
+mobiperf	 svg01	 michigan_1	 mlab2	 online	 online	 81.167.39.33	 2a01:798:0:13::33	 April 22, 2014, 4:38 p.m.
+mobiperf	 syd01	 michigan_1	 mlab2	 online	 online	 203.5.76.158	 2001:388:00d0::158	 March 26, 2014, 3:08 a.m.
+mobiperf	 syd02	 michigan_1	 mlab2	 online	 online	 175.45.79.33	 2402:7800:0:12::33	 April 23, 2014, 7:36 p.m.
+mobiperf	 tpe01	 michigan_1	 mlab2	 online	 online	 163.22.28.33	 2001:e10:6840:28::33	 April 19, 2014, 1:56 a.m.
+mobiperf	 trn01	 michigan_1	 mlab2	 online	 online	 194.116.85.225	 2001:7F8:23:307::225	 March 21, 2014, 4:41 p.m.
+mobiperf	 tun01	 michigan_1	 mlab2	 online	 online	 41.231.21.33	 2001:4350:3000:1::33	 April 12, 2014, 2:29 a.m.
+mobiperf	 vie01	 michigan_1	 mlab2	 online	 online	 213.208.152.33	 2a01:190:1700:38::33	 April 23, 2014, 12:01 p.m.
+mobiperf	 wlg01	 michigan_1	 mlab2	 online	 offline	 103.10.233.30	 2404:2000:3000::30	 April 21, 2014, 5:44 p.m.
+mobiperf	 yul01	 michigan_1	 mlab2	 offline	 offline	 162.219.177.33	 2620:10a:80fe::33	 March 2, 2014, 1 a.m.
+mobiperf	 yyc01	 michigan_1	 mlab2	 offline	 offline	 162.219.178.33	 2620:10a:80ff::33	 March 2, 2014, 1 a.m.
+mobiperf	 yyz01	 michigan_1	 mlab2	 offline	 offline	 162.219.48.33	 2620:010A:800F::33	 Jan. 25, 2014, 1 a.m.
+mobiperf	 akl01	 michigan_1	 mlab3	 online	 online	 163.7.129.46	 2404:0138:4009::46	 April 8, 2014, 1:06 a.m.
+mobiperf	 ams01	 michigan_1	 mlab3	 online	 online	 213.244.128.167	 2001:4C08:2003:2::167	 April 22, 2014, 6:38 p.m.
+mobiperf	 ams02	 michigan_1	 mlab3	 online	 online	 72.26.217.101	 2001:48c8:7::101	 April 26, 2014, 7:01 p.m.
+mobiperf	 arn01	 michigan_1	 mlab3	 online	 online	 213.248.112.110	 2001:2030:0000:001B::110	 March 3, 2014, 10:41 p.m.
+mobiperf	 ath01	 michigan_1	 mlab3	 online	 online	 83.212.4.40	 2001:648:2ffc:2101::40	 April 6, 2014, 2:23 p.m.
+mobiperf	 ath02	 michigan_1	 mlab3	 online	 online	 83.212.5.167	 2001:648:2ffc:2102::167	 March 12, 2014, 12:20 p.m.
+mobiperf	 atl01	 michigan_1	 mlab3	 online	 online	 4.71.254.165	 2001:1900:3001:C::165	 April 2, 2014, 5:55 p.m.
+mobiperf	 bog01	 michigan_1	 mlab3	 offline	 offline	 186.113.12.46	 2001:13f8::46	 Jan. 8, 2014, 1 a.m.
+mobiperf	 dfw01	 michigan_1	 mlab3	 online	 online	 38.107.216.37	 2001:550:2000::37	 April 22, 2014, 5:18 p.m.
+mobiperf	 dub01	 michigan_1	 mlab3	 online	 online	 193.1.12.238	 2001:770:B5::238	 April 15, 2014, 11:51 a.m.
+mobiperf	 ham01	 michigan_1	 mlab3	 online	 online	 80.239.142.230	 2001:2030:0000:0019::230	 March 25, 2014, 4:55 p.m.
+mobiperf	 hnd01	 michigan_1	 mlab3	 online	 online	 203.178.130.238	 2001:200:0:b801::238	 Jan. 17, 2014, 2:38 a.m.
+mobiperf	 iad01	 michigan_1	 mlab3	 online	 online	 216.156.197.174	 2610:18:111:8001::174	 April 10, 2014, 11:58 p.m.
+mobiperf	 jnb01	 michigan_1	 mlab3	 online	 online	 196.24.45.174	 2001:4200:FFF0:4512::174	 April 11, 2014, 11:35 p.m.
+mobiperf	 lax01	 michigan_1	 mlab3	 online	 online	 38.98.51.37	 2001:550:6800::37	 April 26, 2014, 10:47 a.m.
+mobiperf	 lba01	 michigan_1	 mlab3	 online	 online	 109.239.110.46	 2a00:1a80:1:8::46	 April 12, 2014, 12:02 a.m.
+mobiperf	 lca01	 michigan_1	 mlab3	 online	 offline	 82.116.199.46		 March 20, 2014, 1:47 p.m.
+mobiperf	 lga01	 michigan_1	 mlab3	 online	 online	 74.63.50.39	 2001:48c8:5:f::39	 April 22, 2014, 7:45 p.m.
+mobiperf	 lga02	 michigan_1	 mlab3	 offline	 offline	 38.106.70.164	 2001:550:1D00:100::164	 Jan. 8, 2014, 7:04 p.m.
+mobiperf	 lhr01	 michigan_1	 mlab3	 online	 online	 217.163.1.105	 2001:4C08:2003:3::105	 April 22, 2014, 1:17 a.m.
+mobiperf	 lju01	 michigan_1	 mlab3	 online	 online	 91.239.96.110	 2001:67c:27e4:100::110	 April 15, 2014, 8:17 a.m.
+mobiperf	 mad01	 michigan_1	 mlab3	 online	 online	 213.200.103.174	 2001:0668:001F:0016::174	 April 1, 2014, 9:26 a.m.
+mobiperf	 mia01	 michigan_1	 mlab3	 online	 online	 4.71.210.229	 2001:1900:3001:A::229	 April 11, 2014, 4:15 p.m.
+mobiperf	 mil01	 michigan_1	 mlab3	 online	 online	 213.200.99.238	 2001:0668:001F:0017::238	 April 16, 2014, 12:32 a.m.
+mobiperf	 nbo01	 michigan_1	 mlab3	 online	 online	 197.136.0.110	 2C0F:FE08:10:64::110	 April 3, 2014, 3:42 a.m.
+mobiperf	 nuq01	 michigan_1	 mlab3	 online	 online	 64.9.225.175	 2604:ca00:f000::175	 Feb. 27, 2014, 9:32 p.m.
+mobiperf	 nuq02	 michigan_1	 mlab3	 online	 online	 149.20.5.110	 2001:4F8:1:1001::110	 March 5, 2014, 10:04 p.m.
+mobiperf	 ord01	 michigan_1	 mlab3	 online	 online	 4.71.251.165	 2001:1900:3001:B::165	 April 16, 2014, 4:20 p.m.
+mobiperf	 par01	 michigan_1	 mlab3	 online	 online	 80.239.168.230	 2001:2030:0000:001A::230	 March 21, 2014, 8:01 a.m.
+mobiperf	 prg01	 michigan_1	 mlab3	 online	 online	 212.162.51.110	 2001:4C08:2003:4::110	 March 28, 2014, 7:50 p.m.
+mobiperf	 sea01	 michigan_1	 mlab3	 online	 online	 38.102.0.101	 2001:550:3200:1::101	 April 21, 2014, 5:56 a.m.
+mobiperf	 sin01	 michigan_1	 mlab3	 online	 online	 180.87.97.110	 2405:2000:301::110	 March 24, 2014, 7:34 p.m.
+mobiperf	 svg01	 michigan_1	 mlab3	 online	 online	 81.167.39.46	 2a01:798:0:13::46	 April 18, 2014, 2:22 p.m.
+mobiperf	 syd01	 michigan_1	 mlab3	 online	 online	 203.5.76.172	 2001:388:00d0::172	 March 6, 2014, 3:37 a.m.
+mobiperf	 syd02	 michigan_1	 mlab3	 online	 online	 175.45.79.46	 2402:7800:0:12::46	 April 23, 2014, 7:22 p.m.
+mobiperf	 tpe01	 michigan_1	 mlab3	 online	 online	 163.22.28.46	 2001:e10:6840:28::46	 April 24, 2014, 8:30 a.m.
+mobiperf	 trn01	 michigan_1	 mlab3	 online	 online	 194.116.85.238	 2001:7F8:23:307::238	 March 21, 2014, 4:41 p.m.
+mobiperf	 tun01	 michigan_1	 mlab3	 online	 online	 41.231.21.46	 2001:4350:3000:1::46	 April 12, 2014, 2:29 a.m.
+mobiperf	 vie01	 michigan_1	 mlab3	 online	 online	 213.208.152.46	 2a01:190:1700:38::46	 April 23, 2014, 12:01 p.m.
+mobiperf	 wlg01	 michigan_1	 mlab3	 online	 offline	 103.10.233.43	 2404:2000:3000::43	 April 21, 2014, 5:44 p.m.
+mobiperf	 yul01	 michigan_1	 mlab3	 offline	 offline	 162.219.177.46	 2620:10a:80fe::46	 March 2, 2014, 1 a.m.
+mobiperf	 yyc01	 michigan_1	 mlab3	 offline	 offline	 162.219.178.46	 2620:10a:80ff::46	 March 2, 2014, 1 a.m.
+mobiperf	 yyz01	 michigan_1	 mlab3	 offline	 offline	 162.219.48.46	 2620:010A:800F::46	 Jan. 25, 2014, 1 a.m.
+mobiperf	 nuq01	 michigan_1	 mlab4	 offline	 offline	 64.9.225.178	 2604:ca00:f000::178	 Jan. 8, 2014, 1 a.m.
+mobiperf	 nuq02	 michigan_1	 mlab4	 offline	 offline	 149.20.5.123	 2001:4F8:1:1001::123	 Jan. 8, 2014, 1 a.m.
+mobiperf	 prg01	 michigan_1	 mlab4	 offline	 offline	 212.162.51.123	 2001:4C08:2003:4::123	 Jan. 8, 2014, 1 a.m.
+glasnost	 akl01	 mpisws_broadband	 mlab1	 online	 offline	 163.7.129.13		 April 8, 2014, 1:20 a.m.
+glasnost	 ams01	 mpisws_broadband	 mlab1	 online	 offline	 213.244.128.141		 April 15, 2014, 12:04 p.m.
+glasnost	 ams02	 mpisws_broadband	 mlab1	 online	 offline	 72.26.217.82		 April 26, 2014, 4:47 a.m.
+glasnost	 arn01	 mpisws_broadband	 mlab1	 online	 offline	 213.248.112.77		 April 11, 2014, 1:45 a.m.
+glasnost	 ath01	 mpisws_broadband	 mlab1	 online	 offline	 83.212.4.13		 March 19, 2014, 1:33 p.m.
+glasnost	 ath02	 mpisws_broadband	 mlab1	 online	 offline	 83.212.5.141		 March 12, 2014, 12:34 p.m.
+glasnost	 atl01	 mpisws_broadband	 mlab1	 online	 offline	 4.71.254.145		 April 21, 2014, 1:30 p.m.
+glasnost	 bog01	 mpisws_broadband	 mlab1	 offline	 offline	 186.113.12.13		 Jan. 8, 2014, 1 a.m.
+glasnost	 dfw01	 mpisws_broadband	 mlab1	 online	 offline	 38.107.216.15		 March 24, 2014, 11:21 p.m.
+glasnost	 dub01	 mpisws_broadband	 mlab1	 online	 offline	 193.1.12.205		 March 13, 2014, 2:35 p.m.
+glasnost	 ham01	 mpisws_broadband	 mlab1	 online	 offline	 80.239.142.205		 April 16, 2014, 4:20 p.m.
+glasnost	 hnd01	 mpisws_broadband	 mlab1	 online	 offline	 203.178.130.205		 March 19, 2014, 7:07 p.m.
+glasnost	 iad01	 mpisws_broadband	 mlab1	 online	 offline	 216.156.197.141		 April 23, 2014, 3:48 p.m.
+glasnost	 jnb01	 mpisws_broadband	 mlab1	 online	 offline	 196.24.45.141		 March 6, 2014, 1:24 p.m.
+glasnost	 lax01	 mpisws_broadband	 mlab1	 online	 offline	 38.98.51.18		 April 26, 2014, 11 a.m.
+glasnost	 lba01	 mpisws_broadband	 mlab1	 online	 offline	 109.239.110.13		 March 18, 2014, 1:06 p.m.
+glasnost	 lca01	 mpisws_broadband	 mlab1	 online	 offline	 82.116.199.13		 March 20, 2014, 1:34 p.m.
+glasnost	 lga01	 mpisws_broadband	 mlab1	 online	 offline	 74.63.50.17		 April 15, 2014, 12:04 p.m.
+glasnost	 lga02	 mpisws_broadband	 mlab1	 online	 offline	 38.106.70.145		 April 10, 2014, 1:56 a.m.
+glasnost	 lhr01	 mpisws_broadband	 mlab1	 online	 offline	 217.163.1.77		 April 15, 2014, 12:30 p.m.
+glasnost	 lju01	 mpisws_broadband	 mlab1	 online	 offline	 91.239.96.77		 April 15, 2014, 12:04 p.m.
+glasnost	 mad01	 mpisws_broadband	 mlab1	 online	 offline	 213.200.103.141		 April 1, 2014, 5:14 p.m.
+glasnost	 mia01	 mpisws_broadband	 mlab1	 offline	 offline	 4.71.210.209		 Feb. 26, 2014, 1:45 p.m.
+glasnost	 mil01	 mpisws_broadband	 mlab1	 online	 offline	 213.200.99.205		 April 16, 2014, 4:46 p.m.
+glasnost	 nbo01	 mpisws_broadband	 mlab1	 online	 offline	 197.136.0.77		 March 17, 2014, 4:52 p.m.
+glasnost	 nuq01	 mpisws_broadband	 mlab1	 online	 offline	 64.9.225.139		 March 7, 2014, 9:52 p.m.
+glasnost	 nuq02	 mpisws_broadband	 mlab1	 online	 offline	 149.20.5.77		 March 5, 2014, 9:50 p.m.
+glasnost	 ord01	 mpisws_broadband	 mlab1	 online	 offline	 4.71.251.145		 April 15, 2014, 9:12 p.m.
+glasnost	 par01	 mpisws_broadband	 mlab1	 online	 offline	 80.239.168.205		 March 24, 2014, 11:21 p.m.
+glasnost	 prg01	 mpisws_broadband	 mlab1	 online	 offline	 212.162.51.77		 April 9, 2014, 7:16 p.m.
+glasnost	 sea01	 mpisws_broadband	 mlab1	 online	 offline	 38.102.0.81		 April 21, 2014, 7:57 a.m.
+glasnost	 sin01	 mpisws_broadband	 mlab1	 online	 offline	 180.87.97.77		 April 9, 2014, 7:16 p.m.
+glasnost	 svg01	 mpisws_broadband	 mlab1	 online	 offline	 81.167.39.13		 March 28, 2014, 11:50 p.m.
+glasnost	 syd01	 mpisws_broadband	 mlab1	 online	 offline	 203.5.76.141		 March 26, 2014, 3:08 a.m.
+glasnost	 syd02	 mpisws_broadband	 mlab1	 online	 offline	 175.45.79.13		 April 23, 2014, 6:56 p.m.
+glasnost	 tpe01	 mpisws_broadband	 mlab1	 online	 offline	 163.22.28.13		 March 7, 2014, 10:05 p.m.
+glasnost	 trn01	 mpisws_broadband	 mlab1	 online	 offline	 194.116.85.205		 March 24, 2014, 11:08 p.m.
+glasnost	 tun01	 mpisws_broadband	 mlab1	 online	 offline	 41.231.21.13		 March 20, 2014, 3:34 p.m.
+glasnost	 vie01	 mpisws_broadband	 mlab1	 online	 offline	 213.208.152.13		 April 23, 2014, 12:28 p.m.
+glasnost	 wlg01	 mpisws_broadband	 mlab1	 online	 offline	 103.10.233.13		 April 14, 2014, 7:23 p.m.
+glasnost	 yul01	 mpisws_broadband	 mlab1	 offline	 offline	 162.219.177.13		 March 2, 2014, 1 a.m.
+glasnost	 yyc01	 mpisws_broadband	 mlab1	 offline	 offline	 162.219.178.13		 March 2, 2014, 1 a.m.
+glasnost	 yyz01	 mpisws_broadband	 mlab1	 offline	 offline	 162.219.48.13		 Jan. 25, 2014, 1 a.m.
+glasnost	 akl01	 mpisws_broadband	 mlab2	 online	 offline	 163.7.129.26		 March 16, 2014, 11:30 p.m.
+glasnost	 ams01	 mpisws_broadband	 mlab2	 online	 offline	 213.244.128.154		 April 14, 2014, 2:16 a.m.
+glasnost	 ams02	 mpisws_broadband	 mlab2	 online	 offline	 72.26.217.90		 March 19, 2014, 4:13 p.m.
+glasnost	 arn01	 mpisws_broadband	 mlab2	 online	 offline	 213.248.112.90		 March 24, 2014, 6:41 p.m.
+glasnost	 ath01	 mpisws_broadband	 mlab2	 online	 offline	 83.212.4.26		 April 23, 2014, 12:01 p.m.
+glasnost	 ath02	 mpisws_broadband	 mlab2	 online	 offline	 83.212.5.154		 April 23, 2014, 12:28 p.m.
+glasnost	 atl01	 mpisws_broadband	 mlab2	 online	 offline	 4.71.254.158		 April 8, 2014, 10 p.m.
+glasnost	 bog01	 mpisws_broadband	 mlab2	 offline	 offline	 186.113.12.26		 Jan. 8, 2014, 1 a.m.
+glasnost	 dfw01	 mpisws_broadband	 mlab2	 online	 offline	 38.107.216.30		 March 24, 2014, 11:21 p.m.
+glasnost	 dub01	 mpisws_broadband	 mlab2	 online	 offline	 193.1.12.218		 March 26, 2014, 8:15 a.m.
+glasnost	 ham01	 mpisws_broadband	 mlab2	 online	 offline	 80.239.142.218		 April 11, 2014, 1:45 a.m.
+glasnost	 hnd01	 mpisws_broadband	 mlab2	 online	 offline	 203.178.130.218		 March 19, 2014, 7:07 p.m.
+glasnost	 iad01	 mpisws_broadband	 mlab2	 online	 offline	 216.156.197.154		 April 16, 2014, 4:46 p.m.
+glasnost	 jnb01	 mpisws_broadband	 mlab2	 online	 offline	 196.24.45.154		 March 30, 2014, 10:05 a.m.
+glasnost	 lax01	 mpisws_broadband	 mlab2	 offline	 offline	 38.98.51.31		 April 23, 2014, 6:42 p.m.
+glasnost	 lba01	 mpisws_broadband	 mlab2	 online	 offline	 109.239.110.26		 March 19, 2014, 7:07 p.m.
+glasnost	 lca01	 mpisws_broadband	 mlab2	 online	 offline	 82.116.199.26		 March 22, 2014, 12:41 p.m.
+glasnost	 lga01	 mpisws_broadband	 mlab2	 offline	 offline	 74.63.50.30		 Jan. 8, 2014, 7:04 p.m.
+glasnost	 lga02	 mpisws_broadband	 mlab2	 online	 offline	 38.106.70.158		 April 16, 2014, 4:46 p.m.
+glasnost	 lhr01	 mpisws_broadband	 mlab2	 online	 offline	 217.163.1.90		 April 23, 2014, 12:28 p.m.
+glasnost	 lju01	 mpisws_broadband	 mlab2	 online	 offline	 91.239.96.90		 April 26, 2014, 4:47 a.m.
+glasnost	 mad01	 mpisws_broadband	 mlab2	 online	 offline	 213.200.103.154		 April 1, 2014, 5:01 p.m.
+glasnost	 mia01	 mpisws_broadband	 mlab2	 offline	 offline	 4.71.210.222		 April 9, 2014, 7:16 p.m.
+glasnost	 mil01	 mpisws_broadband	 mlab2	 online	 offline	 213.200.99.218		 April 16, 2014, 4:20 p.m.
+glasnost	 nbo01	 mpisws_broadband	 mlab2	 online	 offline	 197.136.0.90		 March 18, 2014, 1:06 p.m.
+glasnost	 nuq01	 mpisws_broadband	 mlab2	 online	 offline	 64.9.225.155		 March 7, 2014, 9:52 p.m.
+glasnost	 nuq02	 mpisws_broadband	 mlab2	 offline	 offline	 149.20.5.90		 Jan. 8, 2014, 7:04 p.m.
+glasnost	 ord01	 mpisws_broadband	 mlab2	 online	 offline	 4.71.251.158		 April 23, 2014, 5:06 a.m.
+glasnost	 par01	 mpisws_broadband	 mlab2	 online	 offline	 80.239.168.218		 March 31, 2014, 3:38 p.m.
+glasnost	 prg01	 mpisws_broadband	 mlab2	 online	 offline	 212.162.51.90		 March 28, 2014, 7:37 p.m.
+glasnost	 sea01	 mpisws_broadband	 mlab2	 online	 offline	 38.102.0.95		 April 16, 2014, 8:59 a.m.
+glasnost	 sin01	 mpisws_broadband	 mlab2	 online	 offline	 180.87.97.90		 March 24, 2014, 6:55 p.m.
+glasnost	 svg01	 mpisws_broadband	 mlab2	 online	 offline	 81.167.39.26		 April 22, 2014, 12:11 p.m.
+glasnost	 syd01	 mpisws_broadband	 mlab2	 online	 offline	 203.5.76.156		 March 26, 2014, 3:08 a.m.
+glasnost	 syd02	 mpisws_broadband	 mlab2	 online	 offline	 175.45.79.26		 April 23, 2014, 6:56 p.m.
+glasnost	 tpe01	 mpisws_broadband	 mlab2	 online	 offline	 163.22.28.26		 April 16, 2014, 5:53 p.m.
+glasnost	 trn01	 mpisws_broadband	 mlab2	 online	 offline	 194.116.85.218		 March 21, 2014, 4:54 p.m.
+glasnost	 tun01	 mpisws_broadband	 mlab2	 online	 offline	 41.231.21.26		 March 13, 2014, 7:02 p.m.
+glasnost	 vie01	 mpisws_broadband	 mlab2	 online	 offline	 213.208.152.26		 March 13, 2014, 3:01 p.m.
+glasnost	 wlg01	 mpisws_broadband	 mlab2	 online	 offline	 103.10.233.26		 April 14, 2014, 6:57 p.m.
+glasnost	 yul01	 mpisws_broadband	 mlab2	 offline	 offline	 162.219.177.26		 March 2, 2014, 1 a.m.
+glasnost	 yyc01	 mpisws_broadband	 mlab2	 offline	 offline	 162.219.178.26		 March 2, 2014, 1 a.m.
+glasnost	 yyz01	 mpisws_broadband	 mlab2	 offline	 offline	 162.219.48.26		 Jan. 25, 2014, 1 a.m.
+glasnost	 akl01	 mpisws_broadband	 mlab3	 online	 offline	 163.7.129.39		 March 16, 2014, 11:30 p.m.
+glasnost	 ams01	 mpisws_broadband	 mlab3	 online	 offline	 213.244.128.166		 April 14, 2014, 2:16 a.m.
+glasnost	 ams02	 mpisws_broadband	 mlab3	 online	 offline	 72.26.217.107		 April 15, 2014, 12:04 p.m.
+glasnost	 arn01	 mpisws_broadband	 mlab3	 online	 offline	 213.248.112.103		 April 8, 2014, 9:07 p.m.
+glasnost	 ath01	 mpisws_broadband	 mlab3	 online	 offline	 83.212.4.39		 March 18, 2014, 3:46 p.m.
+glasnost	 ath02	 mpisws_broadband	 mlab3	 online	 offline	 83.212.5.166		 March 12, 2014, 10:48 p.m.
+glasnost	 atl01	 mpisws_broadband	 mlab3	 online	 offline	 4.71.254.171		 April 1, 2014, 5:14 p.m.
+glasnost	 bog01	 mpisws_broadband	 mlab3	 offline	 offline	 186.113.12.39		 Jan. 8, 2014, 1 a.m.
+glasnost	 dfw01	 mpisws_broadband	 mlab3	 online	 offline	 38.107.216.43		 March 20, 2014, 5:21 p.m.
+glasnost	 dub01	 mpisws_broadband	 mlab3	 online	 offline	 193.1.12.231		 March 26, 2014, 8:01 a.m.
+glasnost	 ham01	 mpisws_broadband	 mlab3	 online	 offline	 80.239.142.229		 April 9, 2014, 7:16 p.m.
+glasnost	 hnd01	 mpisws_broadband	 mlab3	 online	 offline	 203.178.130.231		 March 18, 2014, 1:19 a.m.
+glasnost	 iad01	 mpisws_broadband	 mlab3	 online	 offline	 216.156.197.167		 April 16, 2014, 5 p.m.
+glasnost	 jnb01	 mpisws_broadband	 mlab3	 online	 offline	 196.24.45.167		 March 30, 2014, 5:51 p.m.
+glasnost	 lax01	 mpisws_broadband	 mlab3	 online	 offline	 38.98.51.43		 April 26, 2014, 9:54 a.m.
+glasnost	 lba01	 mpisws_broadband	 mlab3	 online	 offline	 109.239.110.39		 March 18, 2014, 12:40 p.m.
+glasnost	 lca01	 mpisws_broadband	 mlab3	 online	 offline	 82.116.199.39		 March 20, 2014, 2:01 p.m.
+glasnost	 lga01	 mpisws_broadband	 mlab3	 online	 offline	 74.63.50.45		 April 22, 2014, 7:45 p.m.
+glasnost	 lga02	 mpisws_broadband	 mlab3	 offline	 offline	 38.106.70.171		 Jan. 8, 2014, 7:04 p.m.
+glasnost	 lhr01	 mpisws_broadband	 mlab3	 online	 offline	 217.163.1.103		 April 13, 2014, 1:49 a.m.
+glasnost	 lju01	 mpisws_broadband	 mlab3	 online	 offline	 91.239.96.103		 March 16, 2014, 5:57 p.m.
+glasnost	 mad01	 mpisws_broadband	 mlab3	 online	 offline	 213.200.103.167		 April 1, 2014, 5:01 p.m.
+glasnost	 mia01	 mpisws_broadband	 mlab3	 offline	 offline	 4.71.210.235		 Feb. 28, 2014, 4:51 a.m.
+glasnost	 mil01	 mpisws_broadband	 mlab3	 online	 offline	 213.200.99.231		 March 25, 2014, 2:41 p.m.
+glasnost	 nbo01	 mpisws_broadband	 mlab3	 online	 offline	 197.136.0.103		 April 3, 2014, 12:08 a.m.
+glasnost	 nuq01	 mpisws_broadband	 mlab3	 online	 offline	 64.9.225.168		 March 7, 2014, 9:25 p.m.
+glasnost	 nuq02	 mpisws_broadband	 mlab3	 online	 offline	 149.20.5.103		 March 5, 2014, 10:17 p.m.
+glasnost	 ord01	 mpisws_broadband	 mlab3	 online	 offline	 4.71.251.171		 April 16, 2014, 5:53 p.m.
+glasnost	 par01	 mpisws_broadband	 mlab3	 online	 offline	 80.239.168.229		 March 19, 2014, 5:33 p.m.
+glasnost	 prg01	 mpisws_broadband	 mlab3	 online	 offline	 212.162.51.103		 March 28, 2014, 7:37 p.m.
+glasnost	 sea01	 mpisws_broadband	 mlab3	 online	 offline	 38.102.0.107		 April 21, 2014, 7:43 a.m.
+glasnost	 sin01	 mpisws_broadband	 mlab3	 online	 offline	 180.87.97.103		 March 24, 2014, 7:21 p.m.
+glasnost	 svg01	 mpisws_broadband	 mlab3	 online	 offline	 81.167.39.39		 April 18, 2014, 2:22 p.m.
+glasnost	 syd01	 mpisws_broadband	 mlab3	 online	 offline	 203.5.76.170		 March 6, 2014, 3:50 a.m.
+glasnost	 syd02	 mpisws_broadband	 mlab3	 online	 offline	 175.45.79.39		 April 23, 2014, 6:56 p.m.
+glasnost	 tpe01	 mpisws_broadband	 mlab3	 online	 offline	 163.22.28.39		 March 7, 2014, 3:25 p.m.
+glasnost	 trn01	 mpisws_broadband	 mlab3	 online	 offline	 194.116.85.231		 March 21, 2014, 4:54 p.m.
+glasnost	 tun01	 mpisws_broadband	 mlab3	 online	 offline	 41.231.21.39		 April 22, 2014, 11:58 a.m.
+glasnost	 vie01	 mpisws_broadband	 mlab3	 online	 offline	 213.208.152.39		 March 13, 2014, 3:15 p.m.
+glasnost	 wlg01	 mpisws_broadband	 mlab3	 online	 offline	 103.10.233.39		 April 26, 2014, 4:47 p.m.
+glasnost	 yul01	 mpisws_broadband	 mlab3	 offline	 offline	 162.219.177.39		 March 2, 2014, 1 a.m.
+glasnost	 yyc01	 mpisws_broadband	 mlab3	 offline	 offline	 162.219.178.39		 March 2, 2014, 1 a.m.
+glasnost	 yyz01	 mpisws_broadband	 mlab3	 offline	 offline	 162.219.48.39		 Jan. 25, 2014, 1 a.m.
+glasnost	 nuq01	 mpisws_broadband	 mlab4	 offline	 offline	 64.9.225.185	 2604:ca00:f000::185	 Jan. 8, 2014, 1 a.m.
+glasnost	 nuq02	 mpisws_broadband	 mlab4	 online	 offline	 149.20.5.116	 2001:4F8:1:1001::116	 Jan. 8, 2014, 1 a.m.
+glasnost	 prg01	 mpisws_broadband	 mlab4	 online	 offline	 212.162.51.116		 Jan. 8, 2014, 1 a.m.
+echo	 akl01	 mlab_utility	 mlab1	 offline	 offline	 163.7.129.21	 2404:0138:4009::21	 Jan. 9, 2014, 1 a.m.
+echo	 ams01	 mlab_utility	 mlab1	 online	 offline	 213.244.128.144	 2001:4C08:2003:2::144	 April 23, 2014, 2:42 p.m.
+echo	 ams02	 mlab_utility	 mlab1	 online	 offline	 72.26.217.77	 2001:48c8:7::77	 March 21, 2014, 8:01 a.m.
+echo	 arn01	 mlab_utility	 mlab1	 offline	 offline	 213.248.112.85	 2001:2030:0000:001B::85	 Jan. 9, 2014, 1 a.m.
+echo	 ath01	 mlab_utility	 mlab1	 online	 offline	 83.212.4.16	 2001:648:2ffc:2101::16	 April 22, 2014, 6:38 p.m.
+echo	 ath02	 mlab_utility	 mlab1	 online	 offline	 83.212.5.145	 2001:648:2ffc:2102::145	 March 12, 2014, 12:07 p.m.
+echo	 atl01	 mlab_utility	 mlab1	 online	 offline	 4.71.254.142	 2001:1900:3001:C::142	 April 21, 2014, 1:30 p.m.
+echo	 bog01	 mlab_utility	 mlab1	 offline	 offline	 186.113.12.21	 2001:13f8::21	 Jan. 9, 2014, 1 a.m.
+echo	 dfw01	 mlab_utility	 mlab1	 online	 offline	 38.107.216.11	 2001:550:2000::11	 Feb. 15, 2014, 8:59 p.m.
+echo	 dub01	 mlab_utility	 mlab1	 offline	 offline	 193.1.12.213	 2001:770:B5::213	 Jan. 9, 2014, 1 a.m.
+echo	 ham01	 mlab_utility	 mlab1	 online	 offline	 80.239.142.208	 2001:2030:0000:0019::208	 April 16, 2014, 4:20 p.m.
+echo	 hnd01	 mlab_utility	 mlab1	 online	 offline	 203.178.130.213	 2001:200:0:b801::213	 March 18, 2014, 1:19 a.m.
+echo	 iad01	 mlab_utility	 mlab1	 offline	 offline	 216.156.197.149	 2610:18:111:8001::149	 Jan. 9, 2014, 1 a.m.
+echo	 jnb01	 mlab_utility	 mlab1	 offline	 offline	 196.24.45.149	 2001:4200:FFF0:4512::149	 Jan. 9, 2014, 1 a.m.
+echo	 lax01	 mlab_utility	 mlab1	 online	 offline	 38.98.51.14	 2001:550:6800::14	 April 26, 2014, 10:47 a.m.
+echo	 lba01	 mlab_utility	 mlab1	 offline	 offline	 109.239.110.21	 2a00:1a80:1:8::21	 Jan. 9, 2014, 1 a.m.
+echo	 lca01	 mlab_utility	 mlab1	 offline	 offline	 82.116.199.21		 Jan. 9, 2014, 1:01 a.m.
+echo	 lga01	 mlab_utility	 mlab1	 online	 offline	 74.63.50.14	 2001:48c8:5:f::14	 April 8, 2014, 9:07 p.m.
+echo	 lga02	 mlab_utility	 mlab1	 online	 offline	 38.106.70.141	 2001:550:1D00:100::141	 April 19, 2014, 3:56 p.m.
+echo	 lhr01	 mlab_utility	 mlab1	 online	 offline	 217.163.1.80	 2001:4C08:2003:3::80	 April 13, 2014, 1:49 a.m.
+echo	 lju01	 mlab_utility	 mlab1	 offline	 offline	 91.239.96.85	 2001:67c:27e4:100::85	 Jan. 9, 2014, 1 a.m.
+echo	 mad01	 mlab_utility	 mlab1	 offline	 offline	 213.200.103.149	 2001:0668:001F:0016::149	 Jan. 9, 2014, 1 a.m.
+echo	 mia01	 mlab_utility	 mlab1	 online	 offline	 4.71.210.206	 2001:1900:3001:A::206	 April 18, 2014, 11:43 p.m.
+echo	 mil01	 mlab_utility	 mlab1	 offline	 offline	 213.200.99.213	 2001:0668:001F:0017::213	 Jan. 9, 2014, 1 a.m.
+echo	 nbo01	 mlab_utility	 mlab1	 offline	 offline	 197.136.0.85	 2C0F:FE08:10:64::85	 Jan. 9, 2014, 1:01 a.m.
+echo	 nuq01	 mlab_utility	 mlab1	 online	 offline	 64.9.225.148	 2604:ca00:f000::148	 March 7, 2014, 9:39 p.m.
+echo	 nuq02	 mlab_utility	 mlab1	 offline	 offline	 149.20.5.85	 2001:4F8:1:1001::85	 Jan. 9, 2014, 1 a.m.
+echo	 ord01	 mlab_utility	 mlab1	 online	 offline	 4.71.251.142	 2001:1900:3001:B::142	 April 19, 2014, 3:43 p.m.
+echo	 par01	 mlab_utility	 mlab1	 online	 offline	 80.239.168.208	 2001:2030:0000:001A::208	 March 27, 2014, 8:14 a.m.
+echo	 prg01	 mlab_utility	 mlab1	 offline	 offline	 212.162.51.85	 2001:4C08:2003:4::85	 Jan. 9, 2014, 1 a.m.
+echo	 sea01	 mlab_utility	 mlab1	 online	 offline	 38.102.0.78	 2001:550:3200:1::78	 April 24, 2014, 1:50 p.m.
+echo	 sin01	 mlab_utility	 mlab1	 online	 offline	 180.87.97.85	 2405:2000:301::85	 March 24, 2014, 6:28 p.m.
+echo	 svg01	 mlab_utility	 mlab1	 offline	 offline	 81.167.39.21	 2a01:798:0:13::21	 Jan. 9, 2014, 1 a.m.
+echo	 syd01	 mlab_utility	 mlab1	 online	 offline	 203.5.76.144	 2001:388:00d0::144	 March 6, 2014, 4:57 a.m.
+echo	 syd02	 mlab_utility	 mlab1	 offline	 offline	 175.45.79.21	 2402:7800:0:12::21	 Jan. 9, 2014, 1 a.m.
+echo	 tpe01	 mlab_utility	 mlab1	 online	 offline	 163.22.28.21	 2001:e10:6840:28::21	 March 15, 2014, 10:10 p.m.
+echo	 trn01	 mlab_utility	 mlab1	 offline	 offline	 194.116.85.213	 2001:7F8:23:307::213	 Jan. 9, 2014, 1 a.m.
+echo	 tun01	 mlab_utility	 mlab1	 offline	 offline	 41.231.21.21	 2001:4350:3000:1::21	 Jan. 9, 2014, 1 a.m.
+echo	 vie01	 mlab_utility	 mlab1	 offline	 offline	 213.208.152.21	 2a01:190:1700:38::21	 Jan. 9, 2014, 1 a.m.
+echo	 wlg01	 mlab_utility	 mlab1	 online	 offline	 103.10.233.19	 2404:2000:3000::19	 April 14, 2014, 6:57 p.m.
+echo	 yul01	 mlab_utility	 mlab1	 offline	 offline	 162.219.177.21	 2620:10a:80fe::21	 March 2, 2014, 1 a.m.
+echo	 yyc01	 mlab_utility	 mlab1	 offline	 offline	 162.219.178.21	 2620:10a:80ff::21	 March 2, 2014, 1 a.m.
+echo	 yyz01	 mlab_utility	 mlab1	 offline	 offline	 162.219.48.21	 2620:010A:800F::21	 Jan. 25, 2014, 1 a.m.
+echo	 akl01	 mlab_utility	 mlab2	 offline	 offline	 163.7.129.34	 2404:0138:4009::34	 Jan. 9, 2014, 1 a.m.
+echo	 ams01	 mlab_utility	 mlab2	 online	 offline	 213.244.128.157	 2001:4C08:2003:2::157	 April 14, 2014, 2:03 a.m.
+echo	 ams02	 mlab_utility	 mlab2	 online	 offline	 72.26.217.92	 2001:48c8:7::92	 March 18, 2014, 6:40 p.m.
+echo	 arn01	 mlab_utility	 mlab2	 offline	 offline	 213.248.112.98	 2001:2030:0000:001B::98	 Jan. 9, 2014, 1 a.m.
+echo	 ath01	 mlab_utility	 mlab2	 online	 offline	 83.212.4.29	 2001:648:2ffc:2101::29	 April 23, 2014, 12:01 p.m.
+echo	 ath02	 mlab_utility	 mlab2	 online	 offline	 83.212.5.158	 2001:648:2ffc:2102::158	 March 12, 2014, 12:07 p.m.
+echo	 atl01	 mlab_utility	 mlab2	 online	 offline	 4.71.254.155	 2001:1900:3001:C::155	 April 19, 2014, 5:42 a.m.
+echo	 bog01	 mlab_utility	 mlab2	 offline	 offline	 186.113.12.34	 2001:13f8::34	 Jan. 9, 2014, 1 a.m.
+echo	 dfw01	 mlab_utility	 mlab2	 online	 offline	 38.107.216.27	 2001:550:2000::27	 April 19, 2014, 6:36 a.m.
+echo	 dub01	 mlab_utility	 mlab2	 offline	 offline	 193.1.12.226	 2001:770:B5::226	 Jan. 9, 2014, 1 a.m.
+echo	 ham01	 mlab_utility	 mlab2	 online	 offline	 80.239.142.221	 2001:2030:0000:0019::221	 March 25, 2014, 4:55 p.m.
+echo	 hnd01	 mlab_utility	 mlab2	 offline	 offline	 203.178.130.226	 2001:200:0:b801::226	 Jan. 9, 2014, 1 a.m.
+echo	 iad01	 mlab_utility	 mlab2	 offline	 offline	 216.156.197.162	 2610:18:111:8001::162	 Jan. 9, 2014, 1 a.m.
+echo	 jnb01	 mlab_utility	 mlab2	 offline	 offline	 196.24.45.162	 2001:4200:FFF0:4512::162	 Jan. 9, 2014, 1 a.m.
+echo	 lax01	 mlab_utility	 mlab2	 online	 offline	 38.98.51.28	 2001:550:6800::28	 April 26, 2014, 10:47 a.m.
+echo	 lba01	 mlab_utility	 mlab2	 offline	 offline	 109.239.110.34	 2a00:1a80:1:8::34	 Jan. 9, 2014, 1 a.m.
+echo	 lca01	 mlab_utility	 mlab2	 offline	 offline	 82.116.199.34		 Jan. 9, 2014, 1 a.m.
+echo	 lga01	 mlab_utility	 mlab2	 offline	 offline	 74.63.50.27	 2001:48c8:5:f::27	 Jan. 9, 2014, 1 a.m.
+echo	 lga02	 mlab_utility	 mlab2	 online	 offline	 38.106.70.155	 2001:550:1D00:100::155	 April 19, 2014, 2:49 p.m.
+echo	 lhr01	 mlab_utility	 mlab2	 online	 offline	 217.163.1.93	 2001:4C08:2003:3::93	 April 23, 2014, 12:01 p.m.
+echo	 lju01	 mlab_utility	 mlab2	 offline	 offline	 91.239.96.98	 2001:67c:27e4:100::98	 Jan. 9, 2014, 1 a.m.
+echo	 mad01	 mlab_utility	 mlab2	 offline	 offline	 213.200.103.162	 2001:0668:001F:0016::162	 Jan. 9, 2014, 1 a.m.
+echo	 mia01	 mlab_utility	 mlab2	 online	 offline	 4.71.210.219	 2001:1900:3001:A::219	 April 19, 2014, 3:56 p.m.
+echo	 mil01	 mlab_utility	 mlab2	 offline	 offline	 213.200.99.226	 2001:0668:001F:0017::226	 Jan. 9, 2014, 1 a.m.
+echo	 nbo01	 mlab_utility	 mlab2	 offline	 offline	 197.136.0.98	 2C0F:FE08:10:64::98	 Jan. 9, 2014, 1 a.m.
+echo	 nuq01	 mlab_utility	 mlab2	 online	 offline	 64.9.225.158	 2604:ca00:f000::158	 Feb. 27, 2014, 10:51 p.m.
+echo	 nuq02	 mlab_utility	 mlab2	 offline	 offline	 149.20.5.98	 2001:4F8:1:1001::98	 Jan. 9, 2014, 1 a.m.
+echo	 ord01	 mlab_utility	 mlab2	 online	 offline	 4.71.251.155	 2001:1900:3001:B::155	 April 19, 2014, 3:29 p.m.
+echo	 par01	 mlab_utility	 mlab2	 online	 offline	 80.239.168.221	 2001:2030:0000:001A::221	 March 31, 2014, 3:25 p.m.
+echo	 prg01	 mlab_utility	 mlab2	 offline	 offline	 212.162.51.98	 2001:4C08:2003:4::98	 Jan. 9, 2014, 1 a.m.
+echo	 sea01	 mlab_utility	 mlab2	 online	 offline	 38.102.0.92	 2001:550:3200:1::92	 April 21, 2014, 8:37 a.m.
+echo	 sin01	 mlab_utility	 mlab2	 online	 offline	 180.87.97.98	 2405:2000:301::98	 Feb. 19, 2014, 5:43 a.m.
+echo	 svg01	 mlab_utility	 mlab2	 offline	 offline	 81.167.39.34	 2a01:798:0:13::34	 Jan. 9, 2014, 1 a.m.
+echo	 syd01	 mlab_utility	 mlab2	 online	 offline	 203.5.76.155	 2001:388:00d0::155	 March 6, 2014, 3:50 a.m.
+echo	 syd02	 mlab_utility	 mlab2	 offline	 offline	 175.45.79.34	 2402:7800:0:12::34	 Jan. 9, 2014, 1 a.m.
+echo	 tpe01	 mlab_utility	 mlab2	 offline	 offline	 163.22.28.34	 2001:e10:6840:28::34	 Jan. 9, 2014, 1 a.m.
+echo	 trn01	 mlab_utility	 mlab2	 offline	 offline	 194.116.85.226	 2001:7F8:23:307::226	 Jan. 9, 2014, 1 a.m.
+echo	 tun01	 mlab_utility	 mlab2	 offline	 offline	 41.231.21.34	 2001:4350:3000:1::34	 Jan. 9, 2014, 1 a.m.
+echo	 vie01	 mlab_utility	 mlab2	 offline	 offline	 213.208.152.34	 2a01:190:1700:38::34	 Jan. 9, 2014, 1 a.m.
+echo	 wlg01	 mlab_utility	 mlab2	 online	 offline	 103.10.233.32	 2404:2000:3000::32	 April 14, 2014, 6:57 p.m.
+echo	 yul01	 mlab_utility	 mlab2	 offline	 offline	 162.219.177.34	 2620:10a:80fe::34	 March 2, 2014, 1 a.m.
+echo	 yyc01	 mlab_utility	 mlab2	 offline	 offline	 162.219.178.34	 2620:10a:80ff::34	 March 2, 2014, 1 a.m.
+echo	 yyz01	 mlab_utility	 mlab2	 offline	 offline	 162.219.48.34	 2620:010A:800F::34	 Jan. 25, 2014, 1 a.m.
+echo	 akl01	 mlab_utility	 mlab3	 offline	 offline	 163.7.129.47	 2404:0138:4009::47	 Jan. 9, 2014, 1 a.m.
+echo	 ams01	 mlab_utility	 mlab3	 online	 offline	 213.244.128.170	 2001:4C08:2003:2::170	 April 14, 2014, 2:03 a.m.
+echo	 ams02	 mlab_utility	 mlab3	 online	 offline	 72.26.217.100	 2001:48c8:7::100	 March 19, 2014, 4:13 p.m.
+echo	 arn01	 mlab_utility	 mlab3	 offline	 offline	 213.248.112.111	 2001:2030:0000:001B::111	 Jan. 9, 2014, 1 a.m.
+echo	 ath01	 mlab_utility	 mlab3	 online	 offline	 83.212.4.42	 2001:648:2ffc:2101::42	 April 21, 2014, 12:10 p.m.
+echo	 ath02	 mlab_utility	 mlab3	 online	 offline	 83.212.5.170	 2001:648:2ffc:2102::170	 March 12, 2014, 12:07 p.m.
+echo	 atl01	 mlab_utility	 mlab3	 online	 offline	 4.71.254.168	 2001:1900:3001:C::168	 April 19, 2014, 3:29 p.m.
+echo	 bog01	 mlab_utility	 mlab3	 offline	 offline	 186.113.12.47	 2001:13f8::47	 Jan. 9, 2014, 1 a.m.
+echo	 dfw01	 mlab_utility	 mlab3	 online	 offline	 38.107.216.40	 2001:550:2000::40	 April 19, 2014, 8:36 a.m.
+echo	 dub01	 mlab_utility	 mlab3	 offline	 offline	 193.1.12.239	 2001:770:B5::239	 Jan. 9, 2014, 1 a.m.
+echo	 ham01	 mlab_utility	 mlab3	 online	 offline	 80.239.142.232	 2001:2030:0000:0019::232	 March 25, 2014, 4:41 p.m.
+echo	 hnd01	 mlab_utility	 mlab3	 offline	 offline	 203.178.130.239	 2001:200:0:b801::239	 Jan. 9, 2014, 1 a.m.
+echo	 iad01	 mlab_utility	 mlab3	 offline	 offline	 216.156.197.175	 2610:18:111:8001::175	 Jan. 9, 2014, 1 a.m.
+echo	 jnb01	 mlab_utility	 mlab3	 offline	 offline	 196.24.45.175	 2001:4200:FFF0:4512::175	 Jan. 9, 2014, 1 a.m.
+echo	 lax01	 mlab_utility	 mlab3	 online	 offline	 38.98.51.40	 2001:550:6800::40	 April 26, 2014, 10:47 a.m.
+echo	 lba01	 mlab_utility	 mlab3	 offline	 offline	 109.239.110.47	 2a00:1a80:1:8::47	 Jan. 9, 2014, 1 a.m.
+echo	 lca01	 mlab_utility	 mlab3	 offline	 offline	 82.116.199.47		 Jan. 9, 2014, 1 a.m.
+echo	 lga01	 mlab_utility	 mlab3	 online	 offline	 74.63.50.42	 2001:48c8:5:f::42	 April 22, 2014, 7:32 p.m.
+echo	 lga02	 mlab_utility	 mlab3	 offline	 offline	 38.106.70.168	 2001:550:1D00:100::168	 Jan. 9, 2014, 1 a.m.
+echo	 lhr01	 mlab_utility	 mlab3	 online	 offline	 217.163.1.107	 2001:4C08:2003:3::107	 April 22, 2014, 12:37 a.m.
+echo	 lju01	 mlab_utility	 mlab3	 offline	 offline	 91.239.96.111	 2001:67c:27e4:100::111	 Jan. 9, 2014, 1 a.m.
+echo	 mad01	 mlab_utility	 mlab3	 offline	 offline	 213.200.103.175	 2001:0668:001F:0016::175	 Jan. 9, 2014, 1 a.m.
+echo	 mia01	 mlab_utility	 mlab3	 online	 offline	 4.71.210.232	 2001:1900:3001:A::232	 April 19, 2014, 3:16 p.m.
+echo	 mil01	 mlab_utility	 mlab3	 offline	 offline	 213.200.99.239	 2001:0668:001F:0017::239	 Jan. 9, 2014, 1 a.m.
+echo	 nbo01	 mlab_utility	 mlab3	 offline	 offline	 197.136.0.111	 2C0F:FE08:10:64::111	 Jan. 9, 2014, 1:01 a.m.
+echo	 nuq01	 mlab_utility	 mlab3	 online	 offline	 64.9.225.172	 2604:ca00:f000::172	 March 28, 2014, 8:02 a.m.
+echo	 nuq02	 mlab_utility	 mlab3	 offline	 offline	 149.20.5.111	 2001:4F8:1:1001::111	 Jan. 9, 2014, 1 a.m.
+echo	 ord01	 mlab_utility	 mlab3	 online	 offline	 4.71.251.168	 2001:1900:3001:B::168	 April 19, 2014, 3:29 p.m.
+echo	 par01	 mlab_utility	 mlab3	 online	 offline	 80.239.168.232	 2001:2030:0000:001A::232	 March 19, 2014, 5:20 p.m.
+echo	 prg01	 mlab_utility	 mlab3	 offline	 offline	 212.162.51.111	 2001:4C08:2003:4::111	 Jan. 9, 2014, 1 a.m.
+echo	 sea01	 mlab_utility	 mlab3	 online	 offline	 38.102.0.104	 2001:550:3200:1::104	 April 25, 2014, 8:31 a.m.
+echo	 sin01	 mlab_utility	 mlab3	 online	 offline	 180.87.97.111	 2405:2000:301::111	 March 13, 2014, 9:41 a.m.
+echo	 svg01	 mlab_utility	 mlab3	 offline	 offline	 81.167.39.47	 2a01:798:0:13::47	 Jan. 9, 2014, 1 a.m.
+echo	 syd01	 mlab_utility	 mlab3	 online	 offline	 203.5.76.169	 2001:388:00d0::169	 March 6, 2014, 3:37 a.m.
+echo	 syd02	 mlab_utility	 mlab3	 offline	 offline	 175.45.79.47	 2402:7800:0:12::47	 Jan. 9, 2014, 1 a.m.
+echo	 tpe01	 mlab_utility	 mlab3	 offline	 offline	 163.22.28.47	 2001:e10:6840:28::47	 Jan. 9, 2014, 1 a.m.
+echo	 trn01	 mlab_utility	 mlab3	 offline	 offline	 194.116.85.239	 2001:7F8:23:307::239	 Jan. 9, 2014, 1 a.m.
+echo	 tun01	 mlab_utility	 mlab3	 offline	 offline	 41.231.21.47	 2001:4350:3000:1::47	 Jan. 9, 2014, 1 a.m.
+echo	 vie01	 mlab_utility	 mlab3	 offline	 offline	 213.208.152.47	 2a01:190:1700:38::47	 Jan. 9, 2014, 1 a.m.
+echo	 wlg01	 mlab_utility	 mlab3	 online	 offline	 103.10.233.45	 2404:2000:3000::45	 April 14, 2014, 6:57 p.m.
+echo	 yul01	 mlab_utility	 mlab3	 offline	 offline	 162.219.177.47	 2620:10a:80fe::47	 March 2, 2014, 1 a.m.
+echo	 yyc01	 mlab_utility	 mlab3	 offline	 offline	 162.219.178.47	 2620:10a:80ff::47	 March 2, 2014, 1 a.m.
+echo	 yyz01	 mlab_utility	 mlab3	 offline	 offline	 162.219.48.47	 2620:010A:800F::47	 Jan. 25, 2014, 1 a.m.
+echo	 nuq01	 mlab_utility	 mlab4	 offline	 offline	 64.9.225.188	 2604:ca00:f000::188	 Jan. 9, 2014, 1 a.m.
+echo	 nuq02	 mlab_utility	 mlab4	 offline	 offline	 149.20.5.124	 2001:4F8:1:1001::124	 Jan. 9, 2014, 1 a.m.
+echo	 prg01	 mlab_utility	 mlab4	 offline	 offline	 212.162.51.124	 2001:4C08:2003:4::124	 Jan. 9, 2014, 1 a.m.
+Privacy policy         Design document      M-Lab      About M-Lab      Usage      Contact      FAQ     

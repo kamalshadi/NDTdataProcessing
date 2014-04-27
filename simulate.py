@@ -31,6 +31,7 @@ if __name__=='__main__':
 		spDump(fName,the)
 	else:
 		print 'Use already existing service plan models'
+
 	online_C=False
 	if not os.path.exists('CSV/Graphs/'+fName):
 		csv2gml(fName,0)
@@ -45,5 +46,6 @@ if __name__=='__main__':
 			rwcd(fName,tx='6')
 	else:
 		pass
+	print 'Updating database...'
 	updateDB(fName)
 		

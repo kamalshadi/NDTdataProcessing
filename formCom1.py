@@ -94,7 +94,7 @@ def rwcd(fName,tx='6',g='/24'): #random walk community detection
 		print 'Cluster to subnet conversion...'
 		if len(C)>0:
 			uos = cluster2sub(C,g)
-		A[prefix]=uos
+			A[prefix]=uos
 	with open('Model/uos-' + fName+'.pk','w') as f:
 		pk.dump(A,f)
 			

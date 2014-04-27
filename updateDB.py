@@ -23,7 +23,10 @@ def ipInSub(ip,sub):
 	pref,l1=sub.split('/')
 	l=int(l1)
 	ls=str(ip).split('.')
-	temp1=[bin(int(x))[2:] for x in ls]
+	try:
+		temp1=[bin(int(x))[2:] for x in ls]
+	except:
+		return None # IPv6
 	temp2=['0'*(8-len(w))+w for w in temp1]
 	binIP=''.join(temp2)
 	prefIP=binIP[:l] + '0'*(32-l)
@@ -111,6 +114,8 @@ def updateDB(fName,extra=1):
 			if C==-1:
 				C='null'
 				flag=1
+			if C is None:
+				C='null'
 		else:
 			C='null'
 		if C!='null' or sf:

@@ -163,6 +163,9 @@ def modePars(a,pN=.1,k=20,th=.01,np=1000):
 	return spm
 	
 def spDump(fName,the=1000):
+	dF=os.getcwd()+'/CSV/'+fName+'.db'
+	D=sq.connect(dF)
+	cur=D.cursor()
 	try:
 		from scipy.stats.mstats import mquantiles
 	except ImportError:
