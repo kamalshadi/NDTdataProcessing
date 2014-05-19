@@ -1,0 +1,25 @@
+select max(datasent)*8/max(du) as r1,max(sW/sRTT)*8/1000 as r2,max(rw/sRTT)*8/1000 as r3,max(cwnd/sRTT)*8/1000 as r4
+from
+(
+SELECT
+test_id,
+(web100_log_entry.snap.SndLimTimeRwin +
+web100_log_entry.snap.SndLimTimeCwnd +
+web100_log_entry.snap.SndLimTimeSnd) as du,
+web100_log_entry.snap.SampleRTT as rtt,
+web100_log_entry.snap.HCDataOctetsOut as dataout,
+web100_log_entry.snap.HCThruOctetsAcked as datasent,
+web100_log_entry.snap.CurCwnd as cwnd,
+web100_log_entry.snap.CurRwinRcvd as rw,
+IF(web100_log_entry.snap.CurCwnd  > web100_log_entry.snap.CurRwinRcvd,web100_log_entry.snap.CurRwinRcvd, web100_log_entry.snap.CurCwnd) as sW,
+web100_log_entry.snap.SmoothedRTT as sRTT
+FROM
+  [measurement-lab:m_lab.2014_01]
+WHERE
+connection_spec.data_direction = 1
+AND IS_EXPLICITLY_DEFINED(web100_log_entry.snap.CongSignals)
+AND web100_log_entry.snap.CongSignals > 0
+AND (COND)
+)
+group by test_id
+

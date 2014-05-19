@@ -1,0 +1,25 @@
+SELECT
+(web100_log_entry.snap.SndLimTimeRwin +
+web100_log_entry.snap.SndLimTimeCwnd +
+web100_log_entry.snap.SndLimTimeSnd) as du,
+web100_log_entry.snap.SndLimTimeRwin as rt,
+web100_log_entry.snap.SndLimTimeCwnd as ct,
+web100_log_entry.snap.SndLimTimeSnd as st,
+web100_log_entry.snap.SampleRTT as rtt,
+web100_log_entry.snap.HCDataOctetsOut as dataout,
+web100_log_entry.snap.DataSegsOut as datasegout,
+web100_log_entry.snap.SegsOut as segout,
+web100_log_entry.snap.OctetsRetrans as dataretran,
+web100_log_entry.snap.SegsRetrans as segretran,
+web100_log_entry.snap.CongSignals as cong,
+web100_log_entry.snap.HCThruOctetsAcked as datasent,
+web100_log_entry.snap.CurCwnd as cwnd,
+web100_log_entry.snap.CurRwinRcvd as rw,
+web100_log_entry.snap.SlowStart as ss,
+web100_log_entry.snap.CurSsthresh as cssth,
+web100_log_entry.snap.SmoothedRTT as smoothRTT
+FROM
+  [measurement-lab:m_lab.DATE]
+WHERE
+test_id=TEST_ID
+order by du;

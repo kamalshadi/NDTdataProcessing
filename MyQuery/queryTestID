@@ -1,0 +1,10 @@
+SELECT
+ (web100_log_entry.snap.SndLimTimeRwin +
+web100_log_entry.snap.SndLimTimeCwnd +
+web100_log_entry.snap.SndLimTimeSnd) as du
+,VBS
+FROM
+  [measurement-lab:m_lab.DATE]
+WHERE
+test_id=TEST_ID
+order by du

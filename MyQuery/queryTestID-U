@@ -1,0 +1,8 @@
+SELECT
+ (web100_log_entry.snap.Duration) as du,
+web100_log_entry.snap.HCThruOctetsReceived as rec1,
+FROM
+  [measurement-lab:m_lab.DATE]
+WHERE
+test_id=TEST_ID
+order by du
