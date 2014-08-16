@@ -1,0 +1,13 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  mudd-edge-1.net.columbia.edu (128.59.16.1)  0.453 ms  0.466 ms  0.509 ms
+ 2  cc-core-1-x-mudd-edge-1.net.columbia.edu (128.59.255.85)  0.311 ms  0.344 ms  0.362 ms
+ 3  nyser32-gw-1-x-cc-core-1.net.columbia.edu (128.59.255.6)  0.614 ms  0.626 ms  0.677 ms
+ 4  te0-2-1-2.rcr22.jfk01.atlas.cogentco.com (38.122.8.209)  0.925 ms  2.256 ms  2.202 ms
+ 5  be2358.mpd22.jfk02.atlas.cogentco.com (154.54.43.105)  1.049 ms be2356.ccr22.jfk02.atlas.cogentco.com (154.54.43.97)  1.123 ms  1.120 ms
+ 6  be2117.ccr42.ord01.atlas.cogentco.com (154.54.7.58)  20.553 ms be2115.ccr42.ord01.atlas.cogentco.com (154.54.6.190)  20.564 ms  20.511 ms
+ 7  be2159.mpd22.mci01.atlas.cogentco.com (154.54.24.81)  32.535 ms be2157.ccr22.mci01.atlas.cogentco.com (154.54.6.117)  32.432 ms be2159.mpd22.mci01.atlas.cogentco.com (154.54.24.81)  32.465 ms
+ 8  be2131.ccr22.den01.atlas.cogentco.com (154.54.26.129)  44.498 ms be2130.ccr22.den01.atlas.cogentco.com (154.54.26.121)  44.392 ms be2131.ccr22.den01.atlas.cogentco.com (154.54.26.129)  44.439 ms
+ 9  be2127.ccr21.slc01.atlas.cogentco.com (154.54.25.70)  55.119 ms  55.007 ms  55.065 ms
+10  be2085.ccr21.sea02.atlas.cogentco.com (154.54.2.197)  75.863 ms  75.676 ms  75.854 ms
+11  te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  75.414 ms  75.311 ms te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  75.130 ms
+12  38.102.0.109 (38.102.0.109)  75.179 ms  75.152 ms  75.060 ms

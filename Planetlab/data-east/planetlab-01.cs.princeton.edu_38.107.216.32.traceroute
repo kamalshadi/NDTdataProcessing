@@ -1,0 +1,13 @@
+traceroute to 38.107.216.32 (38.107.216.32), 30 hops max, 60 byte packets
+ 1  csgate.CS.Princeton.EDU (128.112.139.1)  1.178 ms  0.410 ms  0.414 ms
+ 2  core-87-router.Princeton.EDU (128.112.12.57)  0.490 ms  0.690 ms  0.820 ms
+ 3  border-87-router.Princeton.EDU (128.112.12.142)  0.742 ms  0.823 ms  0.911 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  5.899 ms  3.323 ms  5.859 ms
+ 5  te4-3.ccr01.phl01.atlas.cogentco.com (66.28.4.233)  5.814 ms te2-8.ccr01.phl01.atlas.cogentco.com (154.54.27.117)  10.178 ms  3.212 ms
+ 6  te0-7-0-10.mpd22.dca01.atlas.cogentco.com (154.54.42.101)  7.267 ms  7.021 ms te0-7-0-10.ccr21.dca01.atlas.cogentco.com (154.54.42.89)  8.102 ms
+ 7  be2171.ccr42.atl01.atlas.cogentco.com (154.54.31.109)  18.896 ms  17.669 ms  18.164 ms
+ 8  be2173.ccr22.iah01.atlas.cogentco.com (154.54.29.118)  33.114 ms be2172.ccr21.iah01.atlas.cogentco.com (154.54.29.18)  32.649 ms be2175.mpd22.iah01.atlas.cogentco.com (154.54.29.222)  31.730 ms
+ 9  be2144.ccr21.dfw01.atlas.cogentco.com (154.54.25.106)  37.415 ms  37.866 ms be2146.ccr22.dfw01.atlas.cogentco.com (154.54.25.242)  37.757 ms
+10  be2031.ccr21.dfw03.atlas.cogentco.com (154.54.7.46)  39.898 ms be2032.ccr21.dfw03.atlas.cogentco.com (154.54.6.54)  42.100 ms be2031.ccr21.dfw03.atlas.cogentco.com (154.54.7.46)  37.844 ms
+11  te2-1.mag01.dfw03.atlas.cogentco.com (154.54.83.178)  38.157 ms  39.853 ms  38.107 ms
+12  38.107.216.32 (38.107.216.32)  37.805 ms  39.165 ms  39.150 ms

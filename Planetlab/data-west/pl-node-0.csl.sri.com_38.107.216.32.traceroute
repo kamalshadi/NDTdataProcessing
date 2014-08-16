@@ -1,0 +1,15 @@
+traceroute to 38.107.216.32 (38.107.216.32), 30 hops max, 60 byte packets
+ 1  cesd-gw.csl.sri.com (192.12.33.1)  0.421 ms  0.507 ms  0.598 ms
+ 2   (130.107.32.11)  0.545 ms  0.678 ms  0.711 ms
+ 3  12.249.226.125 (12.249.226.125)  1.755 ms  1.786 ms  1.778 ms
+ 4  cr84.sffca.ip.att.net (12.122.114.78)  4.559 ms  4.603 ms  4.596 ms
+ 5  cr2.sffca.ip.att.net (12.123.15.249)  6.449 ms  6.437 ms  6.424 ms
+ 6  ggr3.cgcil.ip.att.net (12.122.86.201)  2.297 ms  2.245 ms  33.248 ms
+ 7  be3000.ccr21.sjc03.atlas.cogentco.com (154.54.11.45)  3.323 ms  3.368 ms  3.706 ms
+ 8  be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  4.209 ms  3.758 ms be2000.ccr21.sjc01.atlas.cogentco.com (154.54.6.105)  3.696 ms
+ 9  be2165.ccr22.sfo01.atlas.cogentco.com (154.54.28.65)  5.107 ms  5.509 ms be2164.ccr21.sfo01.atlas.cogentco.com (154.54.28.33)  5.025 ms
+10  be2256.mpd21.mci01.atlas.cogentco.com (154.54.6.90)  50.185 ms  50.407 ms be2133.ccr22.mci01.atlas.cogentco.com (154.54.30.66)  66.985 ms
+11  be2141.ccr22.dfw01.atlas.cogentco.com (154.54.5.158)  56.992 ms be2064.ccr21.dfw01.atlas.cogentco.com (154.54.5.218)  51.228 ms  50.951 ms
+12  be2032.ccr21.dfw03.atlas.cogentco.com (154.54.6.54)  67.082 ms  67.138 ms be2031.ccr21.dfw03.atlas.cogentco.com (154.54.7.46)  53.722 ms
+13  te2-1.mag01.dfw03.atlas.cogentco.com (154.54.83.178)  159.540 ms  159.614 ms  159.163 ms
+14  38.107.216.32 (38.107.216.32)  50.157 ms  49.908 ms  50.244 ms

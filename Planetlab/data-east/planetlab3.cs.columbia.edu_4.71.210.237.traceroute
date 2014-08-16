@@ -1,0 +1,17 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  mudd-edge-1.net.columbia.edu (128.59.16.1)  0.427 ms  0.367 ms  0.403 ms
+ 2  cc-core-1-x-mudd-edge-1.net.columbia.edu (128.59.255.85)  0.344 ms  0.377 ms  0.404 ms
+ 3  nyser32-gw-1-x-cc-core-1.net.columbia.edu (128.59.255.6)  3.552 ms  3.528 ms  3.706 ms
+ 4  te0-2-1-2.rcr22.jfk01.atlas.cogentco.com (38.122.8.209)  2.107 ms  2.059 ms  2.199 ms
+ 5  be2356.ccr22.jfk02.atlas.cogentco.com (154.54.43.97)  1.128 ms be2358.mpd22.jfk02.atlas.cogentco.com (154.54.43.105)  1.104 ms be2356.ccr22.jfk02.atlas.cogentco.com (154.54.43.97)  1.119 ms
+ 6  be2063.ccr21.jfk05.atlas.cogentco.com (154.54.47.58)  1.542 ms  1.400 ms  1.540 ms
+ 7  4.68.62.25 (4.68.62.25)  1.023 ms  1.054 ms  1.117 ms
+ 8  vlan80.csw3.NewYork1.Level3.net (4.69.155.190)  31.906 ms vlan90.csw4.NewYork1.Level3.net (4.69.155.254)  36.460 ms vlan70.csw2.NewYork1.Level3.net (4.69.155.126)  31.678 ms
+ 9  ae-71-71.ebr1.NewYork1.Level3.net (4.69.134.69)  31.720 ms  31.660 ms ae-61-61.ebr1.NewYork1.Level3.net (4.69.134.65)  32.116 ms
+10  ae-56-56.ebr2.Washington12.Level3.net (4.69.201.62)  39.819 ms ae-57-57.ebr2.Washington12.Level3.net (4.69.201.66)  39.452 ms ae-55-55.ebr2.Washington12.Level3.net (4.69.148.50)  31.635 ms
+11  ae-1-100.ebr1.Washington12.Level3.net (4.69.143.213)  31.776 ms  31.719 ms  33.177 ms
+12  ae-6-6.ebr1.Atlanta2.Level3.net (4.69.148.105)  31.431 ms  31.526 ms  31.773 ms
+13  * * *
+14  ae-2-2.ebr2.Miami1.Level3.net (4.69.140.141)  31.884 ms  31.812 ms  31.766 ms
+15  ae-23-52.car3.Miami1.Level3.net (4.69.138.100)  174.323 ms  168.299 ms  160.848 ms
+16  4.71.210.237 (4.71.210.237)  31.962 ms  31.832 ms  31.896 ms

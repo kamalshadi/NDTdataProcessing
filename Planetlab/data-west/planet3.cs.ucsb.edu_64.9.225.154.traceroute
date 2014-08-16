@@ -1,0 +1,18 @@
+traceroute to 64.9.225.154 (64.9.225.154), 30 hops max, 60 byte packets
+ 1  csworld52.cs.ucsb.edu (128.111.52.1)  1.036 ms  1.250 ms  1.265 ms
+ 2  574-c-v1071.noc.ucsb.edu (128.111.4.52)  1.251 ms  1.239 ms  1.224 ms
+ 3  r2--574-c--2.commserv.ucsb.edu (128.111.252.148)  0.594 ms  0.593 ms  0.858 ms
+ 4  r1--r2--1.commserv.ucsb.edu (128.111.252.168)  1.109 ms  1.102 ms  1.079 ms
+ 5  lax-agg5--ucsb-10g.cenic.net (137.164.23.90)  4.282 ms  4.273 ms  4.257 ms
+ 6  dc-lax-core1--lax-agg6-10ge-3.cenic.net (137.164.46.222)  5.418 ms  7.455 ms dc-lax-core1--lax-agg6-10ge-4.cenic.net (137.164.46.250)  7.411 ms
+ 7  dc-lax-isp2--lax-core1-10ge.cenic.net (137.164.47.136)  3.063 ms  3.294 ms  3.264 ms
+ 8  xe-9-3-0.edge5.LosAngeles1.Level3.net (4.59.48.177)  3.525 ms  3.454 ms  3.440 ms
+ 9  vlan60.csw1.LosAngeles1.Level3.net (4.69.144.62)  8.679 ms vlan70.csw2.LosAngeles1.Level3.net (4.69.144.126)  8.673 ms vlan60.csw1.LosAngeles1.Level3.net (4.69.144.62)  8.662 ms
+10  ae-93-93.ebr3.LosAngeles1.Level3.net (4.69.137.45)  8.649 ms ae-83-83.ebr3.LosAngeles1.Level3.net (4.69.137.41)  9.142 ms ae-93-93.ebr3.LosAngeles1.Level3.net (4.69.137.45)  8.749 ms
+11  ae-3-3.ebr1.SanJose1.Level3.net (4.69.132.9)  8.740 ms  8.643 ms  8.708 ms
+12  ae-71-71.csw2.SanJose1.Level3.net (4.69.153.6)  9.012 ms ae-81-81.csw3.SanJose1.Level3.net (4.69.153.10)  10.219 ms ae-71-71.csw2.SanJose1.Level3.net (4.69.153.6)  8.684 ms
+13  ae-42-90.car2.SanJose1.Level3.net (4.69.152.196)  8.724 ms ae-32-80.car2.SanJose1.Level3.net (4.69.152.132)  8.956 ms ae-22-70.car2.SanJose1.Level3.net (4.69.152.68)  8.691 ms
+14  GOOGLE-INC.car2.SanJose1.Level3.net (4.79.42.174)  8.680 ms  8.827 ms  8.816 ms
+15  64.9.224.142 (64.9.224.142)  9.390 ms  9.386 ms  9.221 ms
+16  64.9.224.230 (64.9.224.230)  10.893 ms  9.429 ms  10.345 ms
+17  64.9.225.154 (64.9.225.154)  9.225 ms  9.328 ms  9.170 ms

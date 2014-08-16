@@ -1,0 +1,13 @@
+traceroute to 38.107.216.32 (38.107.216.32), 30 hops max, 60 byte packets
+ 1  planetlab-gateway.calpoly-netlab.net (208.94.63.198)  0.204 ms  0.184 ms  0.183 ms
+ 2  72.29.183.57 (72.29.183.57)  0.432 ms  0.424 ms  0.411 ms
+ 3  ae4-1-core01.dwni.pin.sbp1.digitalwest.net (72.29.160.152)  0.620 ms  0.640 ms  0.674 ms
+ 4  ae0-16-core02.dwni.pin.lax1.digitalwest.net (72.29.160.161)  5.312 ms  5.388 ms  5.450 ms
+ 5  gi2-6.mag02.lax04.atlas.cogentco.com (38.104.82.141)  7.924 ms  7.989 ms  7.844 ms
+ 6  te0-0-0-30.ccr21.lax04.atlas.cogentco.com (154.54.87.70)  5.349 ms  5.579 ms  5.763 ms
+ 7  be2076.mpd22.lax01.atlas.cogentco.com (154.54.2.166)  5.758 ms be2017.ccr22.lax01.atlas.cogentco.com (154.54.0.238)  7.168 ms te0-7-0-12.mpd21.lax01.atlas.cogentco.com (154.54.41.125)  5.387 ms
+ 8  be2067.mpd21.iah01.atlas.cogentco.com (154.54.7.161)  41.090 ms be2068.mpd22.iah01.atlas.cogentco.com (154.54.7.157)  41.314 ms be2066.ccr22.iah01.atlas.cogentco.com (154.54.7.53)  41.456 ms
+ 9  be2146.ccr22.dfw01.atlas.cogentco.com (154.54.25.242)  46.847 ms be2147.ccr22.dfw01.atlas.cogentco.com (154.54.27.18)  46.635 ms be2146.ccr22.dfw01.atlas.cogentco.com (154.54.25.242)  46.537 ms
+10  be2031.ccr21.dfw03.atlas.cogentco.com (154.54.7.46)  47.456 ms  47.557 ms  46.910 ms
+11  te2-1.mag01.dfw03.atlas.cogentco.com (154.54.83.178)  46.902 ms  46.992 ms  46.519 ms
+12  38.107.216.32 (38.107.216.32)  46.312 ms  46.317 ms  46.133 ms

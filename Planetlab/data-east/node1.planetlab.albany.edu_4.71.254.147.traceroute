@@ -1,0 +1,12 @@
+traceroute to 4.71.254.147 (4.71.254.147), 30 hops max, 60 byte packets
+ 1  net-planetlab.gw.albany.edu (169.226.40.1)  0.249 ms  0.258 ms  0.217 ms
+ 2  gig0-0-1.edge-2.gw.albany.edu (169.226.13.69)  0.233 ms  0.219 ms  0.216 ms
+ 3  gig0-1-1.edge-1.gw.albany.edu (169.226.13.74)  0.283 ms  0.269 ms  0.271 ms
+ 4  66.162.73.101 (66.162.73.101)  0.798 ms  0.815 ms  0.828 ms
+ 5  ash1-pr1-xe-3-2-0-0.us.twtelecom.net (206.222.120.106)  10.160 ms  10.168 ms  10.155 ms
+ 6  xe-8-0-0.edge2.Washington4.Level3.net (4.53.114.9)  18.301 ms  12.011 ms  11.998 ms
+ 7  vlan70.csw2.Washington1.Level3.net (4.69.149.126)  26.280 ms vlan60.csw1.Washington1.Level3.net (4.69.149.62)  27.646 ms vlan70.csw2.Washington1.Level3.net (4.69.149.126)  26.251 ms
+ 8  ae-81-81.ebr1.Washington1.Level3.net (4.69.134.137)  25.813 ms ae-91-91.ebr1.Washington1.Level3.net (4.69.134.141)  25.720 ms ae-81-81.ebr1.Washington1.Level3.net (4.69.134.137)  26.321 ms
+ 9  * * *
+10  4.69.150.157 (4.69.150.157)  27.777 ms  26.430 ms  26.511 ms
+11  4.71.254.147 (4.71.254.147)  25.835 ms  25.834 ms  25.715 ms

@@ -1,0 +1,10 @@
+traceroute to 4.71.251.147 (4.71.251.147), 30 hops max, 60 byte packets
+ 1  gw.cc.stevens-tech.edu (155.246.151.13)  0.347 ms  0.384 ms  0.363 ms
+ 2  ge-8-37.car1.Newark1.Level3.net (4.28.0.173)  1.146 ms  1.192 ms  1.241 ms
+ 3  ae-32-52.ebr2.Newark1.Level3.net (4.69.156.62)  20.922 ms  20.946 ms  20.943 ms
+ 4  ae-4-4.ebr2.Washington1.Level3.net (4.69.132.101)  20.913 ms  20.909 ms  20.775 ms
+ 5  ae-8-8.ebr1.Washington12.Level3.net (4.69.143.218)  20.896 ms  20.889 ms  21.018 ms
+ 6  ae-1-100.ebr2.Washington12.Level3.net (4.69.143.214)  21.004 ms  20.940 ms  20.898 ms
+ 7  ae-6-6.ebr2.Chicago2.Level3.net (4.69.148.146)  21.099 ms  21.093 ms  21.412 ms
+ 8  ae-22-52.car2.Chicago2.Level3.net (4.69.138.165)  21.644 ms  21.404 ms  21.145 ms
+ 9  4.71.251.147 (4.71.251.147)  20.754 ms  20.773 ms  20.733 ms

@@ -1,0 +1,10 @@
+traceroute to 64.9.225.154 (64.9.225.154), 30 hops max, 60 byte packets
+ 1  planetlab-gateway.calpoly-netlab.net (208.94.63.198)  0.207 ms  0.177 ms  0.168 ms
+ 2  72.29.183.57 (72.29.183.57)  0.418 ms  0.415 ms  0.393 ms
+ 3  xe-0-0-1-5019.core02.dwni.pin.sjc1.digitalwest.net (72.29.160.203)  3.917 ms  4.002 ms  3.989 ms
+ 4  ge-7-47.car4.SanJose1.Level3.net (4.71.114.53)  4.166 ms  4.223 ms  4.250 ms
+ 5  ae-32-80.car2.SanJose1.Level3.net (4.69.152.132)  4.692 ms  4.810 ms  4.798 ms
+ 6  GOOGLE-INC.car2.SanJose1.Level3.net (4.79.42.174)  4.427 ms  4.462 ms  4.430 ms
+ 7  64.9.224.142 (64.9.224.142)  5.039 ms  5.015 ms  5.080 ms
+ 8  64.9.224.230 (64.9.224.230)  5.331 ms  10.151 ms  9.973 ms
+ 9  64.9.225.154 (64.9.225.154)  4.916 ms  4.909 ms  4.897 ms

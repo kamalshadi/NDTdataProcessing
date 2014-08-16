@@ -1,0 +1,11 @@
+traceroute to 4.71.254.147 (4.71.254.147), 30 hops max, 60 byte packets
+ 1  204.123.28.253 (204.123.28.253)  0.967 ms  1.245 ms  1.613 ms
+ 2  ge-7-46.car1.SanJose2.Level3.net (4.59.0.221)  16.817 ms  16.903 ms  16.894 ms
+ 3  vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  62.100 ms  62.089 ms  62.172 ms
+ 4  ae-61-61.ebr1.SanJose1.Level3.net (4.69.153.1)  61.881 ms ae-62-62.ebr2.SanJose1.Level3.net (4.69.153.17)  62.744 ms ae-61-61.ebr1.SanJose1.Level3.net (4.69.153.1)  61.950 ms
+ 5  ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  61.941 ms  62.030 ms  62.078 ms
+ 6  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  62.163 ms ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  61.918 ms  61.881 ms
+ 7  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  62.166 ms  62.256 ms  63.220 ms
+ 8  * * *
+ 9  4.69.150.157 (4.69.150.157)  61.838 ms  62.500 ms *
+10  4.71.254.147 (4.71.254.147)  62.645 ms 4.69.150.157 (4.69.150.157)  62.196 ms 4.71.254.147 (4.71.254.147)  62.627 ms

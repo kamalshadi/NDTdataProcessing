@@ -1,0 +1,21 @@
+traceroute to 64.9.225.154 (64.9.225.154), 30 hops max, 60 byte packets
+ 1  csgate.CS.Princeton.EDU (128.112.139.1)  1.832 ms  1.788 ms  1.769 ms
+ 2  core-87-router.Princeton.EDU (128.112.12.57)  1.752 ms  1.736 ms  1.719 ms
+ 3  border-87-router.Princeton.EDU (128.112.12.142)  1.650 ms  1.645 ms  1.630 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  3.835 ms  3.822 ms  3.808 ms
+ 5  te4-3.ccr01.phl01.atlas.cogentco.com (66.28.4.233)  3.802 ms te2-8.ccr01.phl01.atlas.cogentco.com (154.54.27.117)  3.776 ms  3.765 ms
+ 6  te0-7-0-10.mpd22.dca01.atlas.cogentco.com (154.54.42.101)  7.092 ms te0-7-0-10.ccr21.dca01.atlas.cogentco.com (154.54.42.89)  9.709 ms te0-7-0-10.mpd22.dca01.atlas.cogentco.com (154.54.42.101)  9.641 ms
+ 7  be2176.ccr41.iad02.atlas.cogentco.com (154.54.41.53)  9.668 ms be2112.ccr41.iad02.atlas.cogentco.com (154.54.5.233)  9.655 ms be2176.ccr41.iad02.atlas.cogentco.com (154.54.41.53)  9.642 ms
+ 8  xe-11-2-1.edge3.Washington4.Level3.net (4.68.63.173)  11.486 ms  9.775 ms  8.451 ms
+ 9  vlan60.csw1.Washington1.Level3.net (4.69.149.62)  86.329 ms vlan90.csw4.Washington1.Level3.net (4.69.149.254)  78.410 ms vlan70.csw2.Washington1.Level3.net (4.69.149.126)  78.382 ms
+10  ae-92-92.ebr2.Washington1.Level3.net (4.69.134.157)  78.358 ms ae-72-72.ebr2.Washington1.Level3.net (4.69.134.149)  78.351 ms ae-82-82.ebr2.Washington1.Level3.net (4.69.134.153)  76.593 ms
+11  ae-38-38.ebr1.NewYork2.Level3.net (4.69.201.86)  76.561 ms  76.647 ms ae-3-3.ebr1.NewYork2.Level3.net (4.69.132.90)  75.920 ms
+12  ae-1-100.ebr2.NewYork2.Level3.net (4.69.135.254)  76.383 ms  78.662 ms  76.434 ms
+13  ae-45-45.ebr2.NewYork1.Level3.net (4.69.141.21)  76.493 ms ae-46-46.ebr2.NewYork1.Level3.net (4.69.201.29)  77.922 ms ae-47-47.ebr2.NewYork1.Level3.net (4.69.201.33)  76.672 ms
+14  ae-2-2.ebr1.SanJose1.Level3.net (4.69.135.185)  76.795 ms  78.627 ms  76.440 ms
+15  ae-81-81.csw3.SanJose1.Level3.net (4.69.153.10)  76.432 ms  76.555 ms ae-71-71.csw2.SanJose1.Level3.net (4.69.153.6)  76.467 ms
+16  ae-32-80.car2.SanJose1.Level3.net (4.69.152.132)  76.685 ms ae-22-70.car2.SanJose1.Level3.net (4.69.152.68)  75.851 ms ae-42-90.car2.SanJose1.Level3.net (4.69.152.196)  76.492 ms
+17  GOOGLE-INC.car2.SanJose1.Level3.net (4.79.42.174)  77.270 ms  76.767 ms  76.256 ms
+18  64.9.224.142 (64.9.224.142)  77.078 ms  77.135 ms  77.314 ms
+19  64.9.224.230 (64.9.224.230)  77.282 ms  77.855 ms  83.200 ms
+20  64.9.225.154 (64.9.225.154)  78.928 ms  76.838 ms  76.964 ms

@@ -1,0 +1,11 @@
+traceroute to 216.156.197.165 (216.156.197.165), 30 hops max, 60 byte packets
+ 1  rt11bo02-465.parc.xerox.com (13.7.64.237)  2.515 ms  3.048 ms  3.031 ms
+ 2  ae7-2458.edge6.LosAngeles1.Level3.net (205.129.7.121)  11.685 ms  11.678 ms  11.663 ms
+ 3  ae-1-60.edge1.LosAngeles9.Level3.net (4.69.144.10)  10.487 ms ae-2-70.edge1.LosAngeles9.Level3.net (4.69.144.74)  10.688 ms ae-3-80.edge1.LosAngeles9.Level3.net (4.69.144.138)  10.665 ms
+ 4  xo-level3.Losangeles9.Level3.net (4.68.110.206)  10.656 ms  10.645 ms  10.628 ms
+ 5  207.88.14.214.ptr.us.xo.net (207.88.14.214)  74.417 ms  74.924 ms  74.908 ms
+ 6  207.88.12.131.ptr.us.xo.net (207.88.12.131)  82.281 ms  77.244 ms  77.223 ms
+ 7  te-4-1-0.rar3.atlanta-ga.us.xo.net (207.88.12.129)  73.975 ms  73.767 ms  73.742 ms
+ 8  207.88.12.132.ptr.us.xo.net (207.88.12.132)  73.706 ms  73.697 ms  73.683 ms
+ 9  207.88.14.191.ptr.us.xo.net (207.88.14.191)  73.675 ms  72.690 ms  72.795 ms
+10  216.156.197.165.ptr.us.xo.net (216.156.197.165)  72.782 ms  73.204 ms  73.601 ms

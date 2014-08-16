@@ -1,0 +1,17 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  planetlab-gw.Millennium.Berkeley.EDU (169.229.50.1)  0.464 ms  0.428 ms  0.405 ms
+ 2  * * *
+ 3  t1-2.inr-202-reccev.Berkeley.EDU (128.32.255.57)  8.518 ms t1-2.inr-201-sut.Berkeley.EDU (128.32.255.53)  3.484 ms  3.470 ms
+ 4  xe-4-1-0.inr-001-sut.Berkeley.EDU (128.32.0.64)  2.686 ms xe-5-1-0.inr-001-sut.Berkeley.EDU (128.32.0.66)  22.438 ms xe-4-1-0.inr-001-sut.Berkeley.EDU (128.32.0.64)  2.159 ms
+ 5  dc-sfo-agg-1--ucb-10ge.cenic.net (137.164.50.16)  0.879 ms  0.889 ms  0.871 ms
+ 6  svl-agg2--sfo-agg1-10g.cenic.net (137.164.22.27)  7.045 ms  8.340 ms  8.552 ms
+ 7  dc-svl-isp1--svl-core1-10ge.cenic.net (137.164.47.132)  2.275 ms  2.178 ms  2.156 ms
+ 8  xe-4-1-2.edge1.SanJose1.Level3.net (4.53.16.185)  40.447 ms  40.427 ms  40.409 ms
+ 9  ae-3-80.edge1.SanJose3.Level3.net (4.69.152.144)  2.906 ms ae-2-70.edge1.SanJose3.Level3.net (4.69.152.80)  2.854 ms ae-1-60.edge1.SanJose3.Level3.net (4.69.152.16)  2.866 ms
+10  Cogent-level3-4x10G.SanJose.Level3.net (4.68.110.138)  13.798 ms  13.531 ms  13.897 ms
+11  be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  13.567 ms be2000.ccr21.sjc01.atlas.cogentco.com (154.54.6.105)  13.786 ms be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  13.664 ms
+12  be2162.mpd21.lax01.atlas.cogentco.com (154.54.27.173)  13.610 ms be2160.ccr21.lax01.atlas.cogentco.com (154.54.27.161)  13.543 ms be2161.ccr22.lax01.atlas.cogentco.com (154.54.27.169)  13.614 ms
+13  te7-1.mag02.lax01.atlas.cogentco.com (154.54.47.166)  13.176 ms  13.287 ms te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  98.166 ms
+14  154.24.24.162 (154.24.24.162)  14.094 ms  13.952 ms  13.923 ms
+15  154.24.24.170 (154.24.24.170)  14.032 ms  13.995 ms  13.973 ms
+16  38.98.51.20 (38.98.51.20)  13.615 ms  13.487 ms  13.351 ms

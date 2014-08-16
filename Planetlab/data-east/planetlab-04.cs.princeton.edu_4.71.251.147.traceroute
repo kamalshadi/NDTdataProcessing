@@ -1,0 +1,16 @@
+traceroute to 4.71.251.147 (4.71.251.147), 30 hops max, 60 byte packets
+ 1  csgate.CS.Princeton.EDU (128.112.139.1)  0.420 ms  0.415 ms  0.427 ms
+ 2  core-87-router.Princeton.EDU (128.112.12.57)  0.537 ms  0.668 ms  0.817 ms
+ 3  border-87-router.Princeton.EDU (128.112.12.142)  1.164 ms  1.258 ms  1.343 ms
+ 4  te0-0-1-1.204.rcr12.phl03.atlas.cogentco.com (38.122.150.1)  3.413 ms  3.315 ms  4.043 ms
+ 5  te4-3.ccr01.phl01.atlas.cogentco.com (66.28.4.233)  5.952 ms te2-8.ccr01.phl01.atlas.cogentco.com (154.54.27.117)  2.662 ms  2.702 ms
+ 6  te0-0-0-7.mpd22.jfk02.atlas.cogentco.com (154.54.1.77)  5.590 ms  5.573 ms  6.114 ms
+ 7  be2062.ccr21.jfk05.atlas.cogentco.com (154.54.7.14)  6.357 ms be2061.ccr21.jfk05.atlas.cogentco.com (154.54.3.70)  6.078 ms be2062.ccr21.jfk05.atlas.cogentco.com (154.54.7.14)  5.971 ms
+ 8  4.68.62.25 (4.68.62.25)  15.321 ms  14.889 ms  4.307 ms
+ 9  vlan70.csw2.NewYork1.Level3.net (4.69.155.126)  25.138 ms  25.955 ms  25.746 ms
+10  ae-92-92.ebr2.NewYork1.Level3.net (4.69.148.45)  25.733 ms ae-72-72.ebr2.NewYork1.Level3.net (4.69.148.37)  25.696 ms ae-62-62.ebr2.NewYork1.Level3.net (4.69.148.33)  24.589 ms
+11  ae-46-46.ebr2.NewYork2.Level3.net (4.69.201.30)  25.510 ms ae-47-47.ebr2.NewYork2.Level3.net (4.69.201.34)  25.227 ms ae-48-48.ebr2.NewYork2.Level3.net (4.69.201.38)  25.288 ms
+12  ae-2-2.ebr1.Chicago1.Level3.net (4.69.132.65)  24.763 ms  26.236 ms  25.351 ms
+13  ae-6-6.ebr1.Chicago2.Level3.net (4.69.140.190)  25.618 ms  25.426 ms  26.077 ms
+14  ae-12-51.car2.Chicago2.Level3.net (4.69.138.133)  25.582 ms  25.774 ms  28.412 ms
+15  4.71.251.147 (4.71.251.147)  26.015 ms  25.435 ms  25.741 ms

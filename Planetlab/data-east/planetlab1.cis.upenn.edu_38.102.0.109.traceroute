@@ -1,0 +1,15 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  SUBNET-6-ROUTER.CIS.UPENN.EDU (158.130.6.1)  0.290 ms  0.256 ms  0.480 ms
+ 2  isc-uplink-2.seas.upenn.edu (158.130.128.2)  0.204 ms  0.201 ms  0.422 ms
+ 3  vagelos.vag-brdr.router.upenn.edu (128.91.238.193)  0.416 ms  0.403 ms  0.389 ms
+ 4  1.vag-brdr.hnt-brdr.router.upenn.edu (128.91.238.201)  0.376 ms  0.364 ms  0.579 ms
+ 5  te0-0-1-1.212.rcr12.phl03.atlas.cogentco.com (38.104.114.249)  1.783 ms  2.055 ms  2.041 ms
+ 6  te4-3.ccr01.phl01.atlas.cogentco.com (66.28.4.233)  1.162 ms  1.172 ms  1.159 ms
+ 7  te0-7-0-10.ccr21.dca01.atlas.cogentco.com (154.54.42.89)  5.498 ms te0-0-0-7.ccr21.jfk02.atlas.cogentco.com (154.54.1.41)  4.144 ms te0-7-0-10.ccr21.dca01.atlas.cogentco.com (154.54.42.89)  5.694 ms
+ 8  be2152.ccr41.ord01.atlas.cogentco.com (154.54.30.122)  24.060 ms be2155.ccr42.ord01.atlas.cogentco.com (154.54.31.78)  24.181 ms be2152.ccr41.ord01.atlas.cogentco.com (154.54.30.122)  24.157 ms
+ 9  be2157.ccr22.mci01.atlas.cogentco.com (154.54.6.117)  36.238 ms be2159.mpd22.mci01.atlas.cogentco.com (154.54.24.81)  35.919 ms be2158.mpd21.mci01.atlas.cogentco.com (154.54.7.129)  36.221 ms
+10  be2130.ccr22.den01.atlas.cogentco.com (154.54.26.121)  49.374 ms  47.458 ms  49.354 ms
+11  be2127.ccr21.slc01.atlas.cogentco.com (154.54.25.70)  58.112 ms  58.070 ms be2126.ccr21.slc01.atlas.cogentco.com (154.54.25.66)  57.754 ms
+12  be2085.ccr21.sea02.atlas.cogentco.com (154.54.2.197)  79.302 ms  78.639 ms  79.263 ms
+13  te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  78.268 ms  78.300 ms  78.253 ms
+14  38.102.0.109 (38.102.0.109)  78.959 ms  79.012 ms  78.978 ms

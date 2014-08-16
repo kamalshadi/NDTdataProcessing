@@ -1,0 +1,16 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  10.240.166.245 (10.240.166.245)  6.289 ms  6.544 ms  6.536 ms
+ 2  67.59.226.89 (67.59.226.89)  6.970 ms  6.980 ms  7.092 ms
+ 3  rtr4-ge1-7.mhe.hcvlny.cv.net (167.206.34.5)  9.069 ms  9.383 ms  10.048 ms
+ 4  451be06d.cst.lightpath.net (65.19.107.109)  11.148 ms 451be075.cst.lightpath.net (65.19.99.117)  11.631 ms 451be0c5.cst.lightpath.net (65.19.99.197)  11.502 ms
+ 5  451be0c2.cst.lightpath.net (65.19.120.194)  11.118 ms  11.487 ms 451be0ce.cst.lightpath.net (65.19.120.206)  11.478 ms
+ 6  be3030.ccr21.jfk04.atlas.cogentco.com (154.54.11.249)  11.868 ms  9.130 ms  10.791 ms
+ 7  be2325.ccr22.jfk02.atlas.cogentco.com (154.54.47.29)  10.915 ms be2326.mpd21.jfk02.atlas.cogentco.com (154.54.44.69)  11.030 ms be2327.mpd22.jfk02.atlas.cogentco.com (154.54.1.161)  10.700 ms
+ 8  be2150.mpd21.dca01.atlas.cogentco.com (154.54.31.129)  17.564 ms be2148.ccr21.dca01.atlas.cogentco.com (154.54.31.117)  21.568 ms be2151.mpd22.dca01.atlas.cogentco.com (154.54.40.73)  21.101 ms
+ 9  be2168.ccr21.atl01.atlas.cogentco.com (154.54.31.93)  32.244 ms be2169.ccr42.atl01.atlas.cogentco.com (154.54.31.97)  32.511 ms be2171.ccr42.atl01.atlas.cogentco.com (154.54.31.109)  32.591 ms
+10  be2173.ccr22.iah01.atlas.cogentco.com (154.54.29.118)  46.798 ms be2174.mpd21.iah01.atlas.cogentco.com (154.54.29.202)  46.879 ms be2173.ccr22.iah01.atlas.cogentco.com (154.54.29.118)  47.489 ms
+11  be2068.mpd22.lax01.atlas.cogentco.com (154.54.7.158)  82.933 ms be2066.ccr22.lax01.atlas.cogentco.com (154.54.7.54)  83.356 ms  82.887 ms
+12  te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  77.253 ms  77.246 ms te7-1.mag01.lax01.atlas.cogentco.com (154.54.28.142)  75.940 ms
+13  154.24.24.158 (154.24.24.158)  82.264 ms 154.24.24.150 (154.24.24.150)  79.883 ms 154.24.24.162 (154.24.24.162)  81.962 ms
+14  154.24.24.166 (154.24.24.166)  79.870 ms 154.24.24.170 (154.24.24.170)  76.811 ms  76.800 ms
+15  38.98.51.20 (38.98.51.20)  77.035 ms  77.031 ms  77.093 ms

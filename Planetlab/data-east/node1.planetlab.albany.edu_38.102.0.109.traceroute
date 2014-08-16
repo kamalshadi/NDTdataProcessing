@@ -1,0 +1,16 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  net-planetlab.gw.albany.edu (169.226.40.1)  0.281 ms  0.281 ms  0.300 ms
+ 2  gig0-0-0.edge-1.gw.albany.edu (169.226.13.67)  0.176 ms  0.206 ms  0.208 ms
+ 3  gig0-0-0.edge-2.gw.albany.edu (169.226.13.75)  0.241 ms  0.228 ms  0.234 ms
+ 4  72-0-147-49.tvc-ip.com (72.0.147.49)  3.973 ms  3.997 ms  4.022 ms
+ 5  66-109-52-141.tvc-ip.com (66.109.52.141)  2.553 ms  2.575 ms  2.560 ms
+ 6  66-109-52-34.tvc-ip.com (66.109.52.34)  3.819 ms  2.670 ms  2.655 ms
+ 7  te0-3-0-3.ccr21.alb02.atlas.cogentco.com (38.104.52.9)  2.714 ms  2.853 ms  3.089 ms
+ 8  be2437.ccr22.yyz02.atlas.cogentco.com (66.28.4.198)  10.023 ms be2436.ccr21.yyz02.atlas.cogentco.com (66.28.4.30)  9.899 ms be2437.ccr22.yyz02.atlas.cogentco.com (66.28.4.198)  10.029 ms
+ 9  be2080.ccr42.ord01.atlas.cogentco.com (154.54.42.5)  24.659 ms be2079.ccr41.ord01.atlas.cogentco.com (154.54.27.181)  24.194 ms  24.002 ms
+10  be2158.mpd21.mci01.atlas.cogentco.com (154.54.7.129)  35.724 ms  36.071 ms be2157.ccr22.mci01.atlas.cogentco.com (154.54.6.117)  36.759 ms
+11  be2128.ccr21.den01.atlas.cogentco.com (154.54.25.173)  47.682 ms be2130.ccr22.den01.atlas.cogentco.com (154.54.26.121)  49.419 ms  49.222 ms
+12  be2126.ccr21.slc01.atlas.cogentco.com (154.54.25.66)  59.185 ms be2127.ccr21.slc01.atlas.cogentco.com (154.54.25.70)  59.177 ms be2126.ccr21.slc01.atlas.cogentco.com (154.54.25.66)  59.155 ms
+13  be2085.ccr21.sea02.atlas.cogentco.com (154.54.2.197)  79.889 ms  81.609 ms  80.849 ms
+14  te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  105.537 ms  105.607 ms  105.546 ms
+15  38.102.0.109 (38.102.0.109)  78.454 ms  78.384 ms  78.427 ms

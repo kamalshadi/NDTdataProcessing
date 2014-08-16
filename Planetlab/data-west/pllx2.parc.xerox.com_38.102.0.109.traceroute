@@ -1,0 +1,12 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  rt11bo02-465.parc.xerox.com (13.7.64.237)  1.297 ms  2.008 ms  1.988 ms
+ 2  ae7-2458.edge6.LosAngeles1.Level3.net (205.129.7.121)  11.026 ms  10.998 ms  10.978 ms
+ 3  ae-1-60.edge1.LosAngeles6.Level3.net (4.69.144.16)  10.913 ms ae-2-70.edge1.LosAngeles6.Level3.net (4.69.144.80)  10.815 ms ae-3-80.edge1.LosAngeles6.Level3.net (4.69.144.144)  10.889 ms
+ 4  be3036.ccr21.lax04.atlas.cogentco.com (154.54.14.129)  10.857 ms  10.848 ms  10.834 ms
+ 5  be2017.ccr22.lax01.atlas.cogentco.com (154.54.0.238)  10.809 ms be2021.mpd21.lax01.atlas.cogentco.com (154.54.87.249)  10.808 ms  10.792 ms
+ 6  be2160.ccr21.sjc01.atlas.cogentco.com (154.54.27.162)  22.625 ms  23.207 ms be2163.ccr22.sjc01.atlas.cogentco.com (154.54.27.238)  21.511 ms
+ 7  be2164.ccr21.sfo01.atlas.cogentco.com (154.54.28.33)  23.254 ms be2165.ccr22.sfo01.atlas.cogentco.com (154.54.28.65)  22.829 ms be2164.ccr21.sfo01.atlas.cogentco.com (154.54.28.33)  22.634 ms
+ 8  be2077.ccr22.sea01.atlas.cogentco.com (154.54.0.242)  39.352 ms be2075.ccr21.sea01.atlas.cogentco.com (154.54.0.234)  39.296 ms be2077.ccr22.sea01.atlas.cogentco.com (154.54.0.242)  39.314 ms
+ 9  be2084.ccr21.sea02.atlas.cogentco.com (154.54.0.254)  39.268 ms  39.274 ms be2083.ccr21.sea02.atlas.cogentco.com (154.54.0.250)  39.220 ms
+10  te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  38.608 ms te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  38.582 ms te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  38.650 ms
+11  38.102.0.109 (38.102.0.109)  38.528 ms  39.144 ms  38.301 ms

@@ -1,0 +1,19 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  planetlab-gw.Millennium.Berkeley.EDU (169.229.50.1)  0.323 ms  0.279 ms  0.415 ms
+ 2  * * *
+ 3  t1-2.inr-201-sut.Berkeley.EDU (128.32.255.53)  0.543 ms  0.541 ms  0.510 ms
+ 4  xe-5-1-0.inr-001-sut.Berkeley.EDU (128.32.0.66)  0.217 ms xe-4-1-0.inr-001-sut.Berkeley.EDU (128.32.0.64)  0.441 ms  0.423 ms
+ 5  dc-sfo-agg-1--ucb-10ge.cenic.net (137.164.50.16)  0.879 ms  0.886 ms  0.865 ms
+ 6  svl-agg2--sfo-agg1-10g.cenic.net (137.164.22.27)  5.793 ms  6.355 ms  6.338 ms
+ 7  dc-svl-isp1--svl-core1-10ge.cenic.net (137.164.47.132)  2.099 ms  2.089 ms  2.068 ms
+ 8  xe-4-1-2.edge1.SanJose1.Level3.net (4.53.16.185)  2.262 ms  2.241 ms  2.228 ms
+ 9  vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  70.902 ms vlan70.csw2.SanJose1.Level3.net (4.69.152.126)  70.620 ms  70.617 ms
+10  ae-91-91.ebr1.SanJose1.Level3.net (4.69.153.13)  71.329 ms ae-82-82.ebr2.SanJose1.Level3.net (4.69.153.25)  71.317 ms ae-71-71.ebr1.SanJose1.Level3.net (4.69.153.5)  71.835 ms
+11  ae-2-2.ebr2.SanJose5.Level3.net (4.69.148.141)  70.606 ms ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  71.290 ms ae-2-2.ebr2.SanJose5.Level3.net (4.69.148.141)  70.648 ms
+12  ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  71.107 ms ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  71.355 ms ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  70.979 ms
+13  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  71.165 ms  71.063 ms ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  70.762 ms
+14  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  70.689 ms  70.576 ms  70.780 ms
+15  ae-63-63.csw1.Dallas1.Level3.net (4.69.151.133)  70.766 ms ae-81-81.ebr1.Dallas1.Level3.net (4.69.151.150)  71.399 ms ae-71-71.ebr1.Dallas1.Level3.net (4.69.151.138)  71.111 ms
+16  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  70.737 ms ae-81-81.ebr1.Dallas1.Level3.net (4.69.151.150)  71.136 ms ae-71-71.ebr1.Dallas1.Level3.net (4.69.151.138)  71.013 ms
+17  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  69.977 ms ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  71.928 ms ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  70.027 ms
+18  4.71.210.237 (4.71.210.237)  71.233 ms ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  71.421 ms  71.094 ms

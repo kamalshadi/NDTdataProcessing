@@ -1,0 +1,16 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  10.240.166.245 (10.240.166.245)  7.699 ms  7.719 ms  7.710 ms
+ 2  67.59.226.81 (67.59.226.81)  7.981 ms  7.992 ms  8.109 ms
+ 3  rtr3-ge1-7.mhe.hcvlny.cv.net (167.206.34.1)  9.253 ms  9.247 ms dstswr2-ge3-7.rh.rslyny.cv.net (167.206.34.13)  11.021 ms
+ 4  451be075.cst.lightpath.net (65.19.99.117)  10.497 ms 451be065.cst.lightpath.net (65.19.107.101)  10.413 ms 451be075.cst.lightpath.net (65.19.99.117)  10.487 ms
+ 5  451be0c2.cst.lightpath.net (65.19.120.194)  12.186 ms  11.779 ms  11.773 ms
+ 6  xe-10-0-1.edge3.NewYork1.Level3.net (4.31.16.153)  10.443 ms  17.333 ms xe-10-2-1.edge3.NewYork1.Level3.net (4.26.35.173)  17.333 ms
+ 7  vlan90.csw4.NewYork1.Level3.net (4.69.155.254)  38.977 ms vlan70.csw2.NewYork1.Level3.net (4.69.155.126)  39.318 ms vlan60.csw1.NewYork1.Level3.net (4.69.155.62)  39.174 ms
+ 8  ae-71-71.ebr1.NewYork1.Level3.net (4.69.134.69)  39.649 ms ae-61-61.ebr1.NewYork1.Level3.net (4.69.134.65)  40.923 ms ae-71-71.ebr1.NewYork1.Level3.net (4.69.134.69)  41.107 ms
+ 9  ae-55-55.ebr2.Washington12.Level3.net (4.69.148.50)  49.632 ms ae-58-58.ebr2.Washington12.Level3.net (4.69.201.70)  41.077 ms ae-55-55.ebr2.Washington12.Level3.net (4.69.148.50)  47.865 ms
+10  ae-1-100.ebr1.Washington12.Level3.net (4.69.143.213)  40.981 ms  41.432 ms  41.301 ms
+11  ae-6-6.ebr1.Atlanta2.Level3.net (4.69.148.105)  41.304 ms  41.084 ms  35.716 ms
+12  * * *
+13  ae-2-2.ebr2.Miami1.Level3.net (4.69.140.141)  39.588 ms  39.146 ms  39.183 ms
+14  ae-23-52.car3.Miami1.Level3.net (4.69.138.100)  39.900 ms  39.805 ms  39.928 ms
+15  4.71.210.237 (4.71.210.237)  39.674 ms  39.497 ms  40.847 ms

@@ -1,0 +1,15 @@
+traceroute to 4.71.254.147 (4.71.254.147), 30 hops max, 60 byte packets
+ 1  130.65.6.238 (130.65.6.238)  0.385 ms  0.497 ms  0.645 ms
+ 2  dc-oak-agg2--sjsu-vl-160-10ge.cenic.net (137.164.3.146)  1.660 ms  1.653 ms  1.641 ms
+ 3  dc-oak-core1--oak-agg2-10ge.cenic.net (137.164.47.117)  4.869 ms  5.041 ms  5.028 ms
+ 4  dc-svl-isp1--oak-core1-10ge.cenic.net (137.164.47.134)  1.791 ms  1.782 ms  1.768 ms
+ 5  xe-4-1-2.edge1.SanJose1.Level3.net (4.53.16.185)  1.932 ms  1.922 ms  1.902 ms
+ 6  vlan80.csw3.SanJose1.Level3.net (4.69.152.190)  62.060 ms  61.980 ms vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  62.011 ms
+ 7  ae-91-91.ebr1.SanJose1.Level3.net (4.69.153.13)  62.412 ms  62.426 ms ae-82-82.ebr2.SanJose1.Level3.net (4.69.153.25)  63.562 ms
+ 8  ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  61.537 ms ae-2-2.ebr2.SanJose5.Level3.net (4.69.148.141)  62.344 ms  62.381 ms
+ 9  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  61.978 ms  62.864 ms ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  62.043 ms
+10  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  62.839 ms  61.841 ms ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  62.175 ms
+11  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  63.619 ms  61.864 ms *
+12  4.69.150.157 (4.69.150.157)  63.046 ms  87.622 ms  116.659 ms
+13  * 4.69.150.157 (4.69.150.157)  116.339 ms *
+14  4.71.254.147 (4.71.254.147)  115.561 ms  116.014 ms  115.497 ms

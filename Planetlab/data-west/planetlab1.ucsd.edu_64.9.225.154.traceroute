@@ -1,0 +1,18 @@
+traceroute to 64.9.225.154 (64.9.225.154), 30 hops max, 60 byte packets
+ 1  cse-hazard-gateway.ucsd.edu (132.239.17.1)  0.344 ms  0.371 ms  0.450 ms
+ 2  ebu3b-6509-nodem-core-interconnect-vl910-gw-255-130.ucsd.edu (132.239.255.130)  0.402 ms  0.410 ms  0.442 ms
+ 3  mx0--nodem-core-30ge.ucsd.edu (132.239.254.162)  0.232 ms  0.280 ms  0.266 ms
+ 4  mx1--mx0-p2p.ucsd.edu (132.239.254.149)  59.897 ms  59.840 ms  59.767 ms
+ 5  riv-agg1--ucsd-2.cenic.net (137.164.23.57)  5.418 ms  5.390 ms  5.366 ms
+ 6  dc-lax-core2--riv-agg1-10ge.cenic.net (137.164.46.8)  9.297 ms  11.382 ms  11.349 ms
+ 7  dc-lax-isp2--lax-core2-10ge.cenic.net (137.164.47.138)  7.040 ms  7.087 ms  7.067 ms
+ 8  xe-9-3-0.edge5.LosAngeles1.Level3.net (4.59.48.177)  7.126 ms  7.160 ms  7.151 ms
+ 9  vlan90.csw4.LosAngeles1.Level3.net (4.69.144.254)  16.179 ms  16.167 ms vlan70.csw2.LosAngeles1.Level3.net (4.69.144.126)  16.235 ms
+10  ae-73-73.ebr3.LosAngeles1.Level3.net (4.69.137.37)  16.306 ms ae-83-83.ebr3.LosAngeles1.Level3.net (4.69.137.41)  16.303 ms ae-93-93.ebr3.LosAngeles1.Level3.net (4.69.137.45)  16.303 ms
+11  ae-3-3.ebr1.SanJose1.Level3.net (4.69.132.9)  16.282 ms  16.221 ms  16.344 ms
+12  ae-61-61.csw1.SanJose1.Level3.net (4.69.153.2)  16.175 ms  16.339 ms ae-91-91.csw4.SanJose1.Level3.net (4.69.153.14)  16.173 ms
+13  ae-42-90.car2.SanJose1.Level3.net (4.69.152.196)  16.444 ms ae-12-60.car2.SanJose1.Level3.net (4.69.152.4)  16.618 ms ae-32-80.car2.SanJose1.Level3.net (4.69.152.132)  16.481 ms
+14  GOOGLE-INC.car2.SanJose1.Level3.net (4.79.42.174)  30.819 ms  30.799 ms  16.391 ms
+15  64.9.224.142 (64.9.224.142)  16.967 ms  17.133 ms  16.968 ms
+16  64.9.224.230 (64.9.224.230)  17.815 ms  17.143 ms  18.192 ms
+17  64.9.225.154 (64.9.225.154)  16.766 ms  16.872 ms  16.751 ms

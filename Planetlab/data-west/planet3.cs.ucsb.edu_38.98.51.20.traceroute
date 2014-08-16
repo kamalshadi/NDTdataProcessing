@@ -1,0 +1,16 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  csworld52.cs.ucsb.edu (128.111.52.1)  0.960 ms  0.938 ms  0.923 ms
+ 2  574-c-v1071.noc.ucsb.edu (128.111.4.52)  3.940 ms  3.935 ms  3.338 ms
+ 3  r2--574-c--2.commserv.ucsb.edu (128.111.252.148)  0.857 ms  0.849 ms  0.836 ms
+ 4  r1--r2--1.commserv.ucsb.edu (128.111.252.168)  0.824 ms  0.812 ms  0.799 ms
+ 5  lax-agg5--ucsb-10g.cenic.net (137.164.23.90)  3.861 ms  4.004 ms  3.995 ms
+ 6  dc-lax-core1--lax-agg6-10ge-4.cenic.net (137.164.46.250)  6.955 ms dc-lax-core1--lax-agg6-10ge-1.cenic.net (137.164.46.218)  4.219 ms  4.208 ms
+ 7  dc-lax-isp2--lax-core1-10ge.cenic.net (137.164.47.136)  3.363 ms  3.355 ms  3.343 ms
+ 8  xe-9-3-0.edge5.LosAngeles1.Level3.net (4.59.48.177)  3.331 ms  3.321 ms  3.307 ms
+ 9  ae-4-90.edge1.LosAngeles6.Level3.net (4.69.144.208)  3.594 ms  3.236 ms ae-1-60.edge1.LosAngeles6.Level3.net (4.69.144.16)  3.687 ms
+10  be3036.ccr21.lax04.atlas.cogentco.com (154.54.14.129)  4.073 ms  3.978 ms  4.195 ms
+11  be2076.mpd22.lax01.atlas.cogentco.com (154.54.2.166)  3.933 ms  4.182 ms be2021.mpd21.lax01.atlas.cogentco.com (154.54.87.249)  4.158 ms
+12  te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  3.855 ms  3.848 ms te8-1.mag02.lax01.atlas.cogentco.com (154.54.47.170)  3.836 ms
+13  154.24.24.158 (154.24.24.158)  4.511 ms 154.24.24.162 (154.24.24.162)  4.238 ms 154.24.24.150 (154.24.24.150)  4.456 ms
+14  154.24.24.166 (154.24.24.166)  4.462 ms 154.24.24.170 (154.24.24.170)  4.451 ms  4.428 ms
+15  38.98.51.20 (38.98.51.20)  3.831 ms  3.831 ms  3.819 ms

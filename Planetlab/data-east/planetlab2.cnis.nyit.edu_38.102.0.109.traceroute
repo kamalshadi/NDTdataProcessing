@@ -1,0 +1,15 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  10.240.166.245 (10.240.166.245)  7.416 ms  7.442 ms  7.432 ms
+ 2  67.59.226.81 (67.59.226.81)  7.538 ms  7.657 ms  7.651 ms
+ 3  rtr3-ge1-7.mhe.hcvlny.cv.net (167.206.34.1)  9.008 ms dstswr2-ge3-7.rh.rslyny.cv.net (167.206.34.13)  9.665 ms rtr3-ge1-7.mhe.hcvlny.cv.net (167.206.34.1)  9.027 ms
+ 4  451be075.cst.lightpath.net (65.19.99.117)  10.135 ms  10.237 ms 451be0c5.cst.lightpath.net (65.19.99.197)  10.342 ms
+ 5  451be0ce.cst.lightpath.net (65.19.120.206)  11.597 ms 451be0c2.cst.lightpath.net (65.19.120.194)  11.392 ms 451be0ce.cst.lightpath.net (65.19.120.206)  11.838 ms
+ 6  be3030.ccr21.jfk04.atlas.cogentco.com (154.54.11.249)  11.750 ms  11.597 ms  11.662 ms
+ 7  be2324.ccr21.jfk02.atlas.cogentco.com (154.54.47.17)  11.656 ms be2326.mpd21.jfk02.atlas.cogentco.com (154.54.44.69)  10.554 ms be2324.ccr21.jfk02.atlas.cogentco.com (154.54.47.17)  10.542 ms
+ 8  be2117.ccr42.ord01.atlas.cogentco.com (154.54.7.58)  30.022 ms be2116.ccr41.ord01.atlas.cogentco.com (154.54.7.26)  30.698 ms  30.604 ms
+ 9  be2157.ccr22.mci01.atlas.cogentco.com (154.54.6.117)  42.341 ms  43.018 ms be2159.mpd22.mci01.atlas.cogentco.com (154.54.24.81)  43.001 ms
+10  be2128.ccr21.den01.atlas.cogentco.com (154.54.25.173)  54.327 ms be2130.ccr22.den01.atlas.cogentco.com (154.54.26.121)  54.505 ms be2128.ccr21.den01.atlas.cogentco.com (154.54.25.173)  55.068 ms
+11  be2127.ccr21.slc01.atlas.cogentco.com (154.54.25.70)  65.758 ms be2126.ccr21.slc01.atlas.cogentco.com (154.54.25.66)  65.645 ms  63.174 ms
+12  be2085.ccr21.sea02.atlas.cogentco.com (154.54.2.197)  84.202 ms  84.182 ms  84.833 ms
+13  te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  84.135 ms te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  85.578 ms  85.026 ms
+14  38.102.0.109 (38.102.0.109)  85.010 ms  84.942 ms  84.990 ms

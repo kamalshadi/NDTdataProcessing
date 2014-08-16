@@ -1,0 +1,12 @@
+traceroute to 38.107.216.32 (38.107.216.32), 30 hops max, 60 byte packets
+ 1  204.123.28.253 (204.123.28.253)  0.806 ms  1.083 ms  1.555 ms
+ 2  ge-7-46.car1.SanJose2.Level3.net (4.59.0.221)  0.709 ms  0.781 ms  0.796 ms
+ 3  ae-2-70.edge1.SanJose3.Level3.net (4.69.152.80)  1.486 ms  1.450 ms  1.465 ms
+ 4  Cogent-level3-4x10G.SanJose.Level3.net (4.68.110.138)  12.015 ms  11.902 ms  12.113 ms
+ 5  be2000.ccr21.sjc01.atlas.cogentco.com (154.54.6.105)  11.678 ms be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  11.657 ms  11.490 ms
+ 6  be2164.ccr21.sfo01.atlas.cogentco.com (154.54.28.33)  12.994 ms be2165.ccr22.sfo01.atlas.cogentco.com (154.54.28.65)  12.988 ms  13.265 ms
+ 7  be2132.ccr21.mci01.atlas.cogentco.com (154.54.30.54)  47.557 ms  47.932 ms be2135.mpd22.mci01.atlas.cogentco.com (154.54.0.70)  47.710 ms
+ 8  be2010.ccr22.dfw01.atlas.cogentco.com (154.54.46.218)  47.316 ms be2064.ccr21.dfw01.atlas.cogentco.com (154.54.5.218)  47.464 ms  47.672 ms
+ 9  be2032.ccr21.dfw03.atlas.cogentco.com (154.54.6.54)  47.451 ms be2031.ccr21.dfw03.atlas.cogentco.com (154.54.7.46)  47.251 ms  47.484 ms
+10  te2-1.mag01.dfw03.atlas.cogentco.com (154.54.83.178)  47.440 ms  47.322 ms  47.396 ms
+11  38.107.216.32 (38.107.216.32)  46.931 ms  47.035 ms  47.036 ms

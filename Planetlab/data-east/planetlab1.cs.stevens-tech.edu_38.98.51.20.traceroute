@@ -1,0 +1,17 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  gw.cc.stevens-tech.edu (155.246.151.13)  0.260 ms  0.262 ms  0.303 ms
+ 2  ge-8-37.car1.Newark1.Level3.net (4.28.0.173)  1.107 ms  1.520 ms  1.511 ms
+ 3  ae-31-51.ebr1.Newark1.Level3.net (4.69.156.30)  2.830 ms  2.872 ms  2.859 ms
+ 4  ae-10-10.ebr2.NewYork1.Level3.net (4.69.132.97)  1.440 ms  1.722 ms  1.631 ms
+ 5  ae-62-62.csw1.NewYork1.Level3.net (4.69.148.34)  1.688 ms ae-92-92.csw4.NewYork1.Level3.net (4.69.148.46)  1.663 ms ae-62-62.csw1.NewYork1.Level3.net (4.69.148.34)  2.637 ms
+ 6  ae-1-60.edge1.NewYork1.Level3.net (4.69.155.14)  1.951 ms  1.618 ms  1.567 ms
+ 7  4.68.62.26 (4.68.62.26)  2.454 ms  2.941 ms  2.790 ms
+ 8  be2062.mpd21.jfk02.atlas.cogentco.com (154.54.7.13)  2.899 ms be2060.ccr21.jfk02.atlas.cogentco.com (154.54.31.9)  2.896 ms be2062.mpd21.jfk02.atlas.cogentco.com (154.54.7.13)  2.870 ms
+ 9  be2148.ccr21.dca01.atlas.cogentco.com (154.54.31.117)  9.325 ms be2151.mpd22.dca01.atlas.cogentco.com (154.54.40.73)  8.946 ms  9.261 ms
+10  be2168.ccr21.atl01.atlas.cogentco.com (154.54.31.93)  20.057 ms be2171.ccr42.atl01.atlas.cogentco.com (154.54.31.109)  20.298 ms be2169.ccr42.atl01.atlas.cogentco.com (154.54.31.97)  20.266 ms
+11  be2173.ccr22.iah01.atlas.cogentco.com (154.54.29.118)  34.942 ms be2172.ccr21.iah01.atlas.cogentco.com (154.54.29.18)  34.266 ms  34.540 ms
+12  be2065.ccr21.lax01.atlas.cogentco.com (154.54.5.66)  70.217 ms  70.220 ms be2066.ccr22.lax01.atlas.cogentco.com (154.54.7.54)  70.257 ms
+13  te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  69.960 ms te7-1.mag02.lax01.atlas.cogentco.com (154.54.47.166)  69.889 ms te8-1.mag01.lax01.atlas.cogentco.com (154.54.28.146)  69.929 ms
+14  154.24.24.162 (154.24.24.162)  70.177 ms 154.24.24.158 (154.24.24.158)  70.206 ms 154.24.24.154 (154.24.24.154)  70.193 ms
+15  154.24.24.166 (154.24.24.166)  70.180 ms 154.24.24.170 (154.24.24.170)  70.213 ms  70.005 ms
+16  38.98.51.20 (38.98.51.20)  69.909 ms  70.055 ms  69.594 ms

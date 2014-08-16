@@ -1,0 +1,14 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  130.65.6.238 (130.65.6.238)  0.373 ms  0.486 ms  0.646 ms
+ 2  dc-oak-agg2--sjsu-vl-160-10ge.cenic.net (137.164.3.146)  1.933 ms  1.925 ms  1.931 ms
+ 3  dc-oak-core1--oak-agg2-10ge.cenic.net (137.164.47.117)  4.655 ms  4.648 ms  4.688 ms
+ 4  dc-svl-isp1--oak-core1-10ge.cenic.net (137.164.47.134)  1.871 ms  1.859 ms  1.943 ms
+ 5  xe-4-1-2.edge1.SanJose1.Level3.net (4.53.16.185)  7.445 ms  7.425 ms  7.402 ms
+ 6  ae-2-70.edge1.SanJose3.Level3.net (4.69.152.80)  2.499 ms ae-3-80.edge1.SanJose3.Level3.net (4.69.152.144)  2.478 ms ae-4-90.edge1.SanJose3.Level3.net (4.69.152.208)  2.577 ms
+ 7  Cogent-level3-4x10G.SanJose.Level3.net (4.68.110.138)  13.659 ms  13.862 ms  13.550 ms
+ 8  be2000.ccr21.sjc01.atlas.cogentco.com (154.54.6.105)  13.979 ms  13.970 ms be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  13.527 ms
+ 9  be2163.mpd22.lax01.atlas.cogentco.com (154.54.27.237)  13.452 ms be2161.ccr22.lax01.atlas.cogentco.com (154.54.27.169)  13.481 ms be2163.mpd22.lax01.atlas.cogentco.com (154.54.27.237)  13.460 ms
+10  te8-1.mag02.lax01.atlas.cogentco.com (154.54.47.170)  13.396 ms  13.331 ms  13.234 ms
+11  154.24.24.150 (154.24.24.150)  13.908 ms  13.565 ms 154.24.24.154 (154.24.24.154)  13.462 ms
+12  154.24.24.170 (154.24.24.170)  13.787 ms 154.24.24.166 (154.24.24.166)  13.654 ms  13.507 ms
+13  38.98.51.20 (38.98.51.20)  12.879 ms  13.010 ms  13.118 ms

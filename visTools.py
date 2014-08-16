@@ -5,7 +5,7 @@ import os
 from myBasic import pickColor
 
 
-def communityGraph(fName,w,pos=None):
+def communityGraph(fName,w,pos=None,s=1):
 	#for the name of the graph add .G
 	# for the name of communities add .C
 	tit=w.replace('.G','').replace('s','/')
@@ -48,9 +48,9 @@ def communityGraph(fName,w,pos=None):
 	else:
 		lab=str(C)+' communities'
 	if pos is None:
-		myDraw(G,pDir+"/"+w+".png",s=1)
+		myDraw(G,pDir+"/"+w+".png",s)
 	else:
-		myDraw(G,pDir+"/"+w+".png",s=1,pos=pos,tit=tit+'\n'+lab)
+		myDraw(G,pDir+"/"+w+".png",s,pos=pos,tit=tit+'\n'+lab)
 	print '---------------------'
 	f.close()
 	#~ raw_input('=============>')

@@ -1,0 +1,15 @@
+traceroute to 4.71.254.147 (4.71.254.147), 30 hops max, 60 byte packets
+ 1  cse-hazard-gateway.ucsd.edu (132.239.17.1)  0.676 ms  0.682 ms  0.733 ms
+ 2  ebu3b-6509-nodem-core-interconnect-vl910-gw-255-130.ucsd.edu (132.239.255.130)  0.344 ms  0.433 ms  0.270 ms
+ 3  mx0--nodem-core-30ge.ucsd.edu (132.239.254.162)  0.279 ms  0.257 ms  0.259 ms
+ 4  mx1--mx0-p2p.ucsd.edu (132.239.254.149)  0.348 ms  0.326 ms  0.305 ms
+ 5  riv-agg1--ucsd-2.cenic.net (137.164.23.57)  5.407 ms  5.410 ms  5.386 ms
+ 6  dc-lax-core2--riv-agg1-10ge.cenic.net (137.164.46.8)  9.425 ms  10.550 ms  10.514 ms
+ 7  dc-lax-isp2--lax-core2-10ge.cenic.net (137.164.47.138)  7.107 ms  7.089 ms  7.069 ms
+ 8  xe-9-3-0.edge5.LosAngeles1.Level3.net (4.59.48.177)  7.191 ms  7.144 ms  7.203 ms
+ 9  vlan80.csw3.LosAngeles1.Level3.net (4.69.144.190)  58.708 ms vlan70.csw2.LosAngeles1.Level3.net (4.69.144.126)  58.120 ms  58.158 ms
+10  ae-72-72.ebr2.LosAngeles1.Level3.net (4.69.137.21)  58.303 ms ae-92-92.ebr2.LosAngeles1.Level3.net (4.69.137.29)  58.106 ms ae-62-62.ebr2.LosAngeles1.Level3.net (4.69.137.17)  58.414 ms
+11  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  58.469 ms  58.705 ms  58.499 ms
+12  * * *
+13  4.69.150.157 (4.69.150.157)  71.847 ms  71.906 ms  209.539 ms
+14  4.71.254.147 (4.71.254.147)  58.649 ms  58.178 ms  58.448 ms

@@ -128,7 +128,7 @@ def randColor():
 
 def pickColor(m):
 	n=int(m)
-	c=[	"#f00f00","#b00200","#000f10","#100100",
+	c=[	"#f00f00","#a00f44","#b00200","#000f10","#100100",
 	"#ffffcc","#ff5400","#a7bf42","#ffff00",
 	"#9937d2","#feb8c6","#780909","#cde312",
 	"#19bac1","#fbfbfb","#195839","#514fad",
@@ -136,7 +136,7 @@ def pickColor(m):
 	"#0f1e11","#0e103f","#00001c","#779fff",
 	"#f44f00","#b2b200","#0f0f10","#1b2100",
 	"#044f0f","#02b20f","#0f0f1f","#0b210f",
-	"#f00fc4","#f00404","#a00f44","#f00f04"]
+	"#f00fc4","#f00404","#f00f04"]
 	if n >= len(c):
 		print "Color index exceeded. 'blue' was returned as default"
 		return '#0000ff'

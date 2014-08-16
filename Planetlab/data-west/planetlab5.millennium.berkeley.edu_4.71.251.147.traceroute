@@ -1,0 +1,16 @@
+traceroute to 4.71.251.147 (4.71.251.147), 30 hops max, 60 byte packets
+ 1  planetlab-gw.Millennium.Berkeley.EDU (169.229.50.1)  0.482 ms  0.449 ms  0.427 ms
+ 2  edge-10g-mill.EECS.Berkeley.EDU (169.229.59.225)  1.373 ms * *
+ 3  t1-2.inr-201-sut.Berkeley.EDU (128.32.255.53)  19.033 ms t1-2.inr-202-reccev.Berkeley.EDU (128.32.255.57)  0.518 ms t1-2.inr-201-sut.Berkeley.EDU (128.32.255.53)  18.999 ms
+ 4  xe-4-1-0.inr-001-sut.Berkeley.EDU (128.32.0.64)  4.682 ms  4.078 ms xe-5-1-0.inr-001-sut.Berkeley.EDU (128.32.0.66)  0.374 ms
+ 5  dc-sfo-agg-1--ucb-10ge.cenic.net (137.164.50.16)  0.849 ms  0.840 ms  0.842 ms
+ 6  svl-agg2--sfo-agg1-10g.cenic.net (137.164.22.27)  6.522 ms  4.878 ms  4.865 ms
+ 7  dc-svl-isp1--svl-core1-10ge.cenic.net (137.164.47.132)  2.051 ms  2.046 ms  2.019 ms
+ 8  xe-4-1-2.edge1.SanJose1.Level3.net (4.53.16.185)  2.145 ms  2.329 ms  2.312 ms
+ 9  vlan70.csw2.SanJose1.Level3.net (4.69.152.126)  52.034 ms vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  51.994 ms vlan70.csw2.SanJose1.Level3.net (4.69.152.126)  51.985 ms
+10  ae-62-62.ebr2.SanJose1.Level3.net (4.69.153.17)  51.920 ms ae-82-82.ebr2.SanJose1.Level3.net (4.69.153.25)  52.145 ms  52.128 ms
+11  ae-3-3.ebr1.Denver1.Level3.net (4.69.132.58)  52.064 ms  52.027 ms  52.008 ms
+12  ae-1-100.ebr2.Denver1.Level3.net (4.69.151.182)  51.935 ms  51.934 ms  51.926 ms
+13  ae-3-3.ebr1.Chicago2.Level3.net (4.69.132.62)  52.023 ms  51.254 ms  52.039 ms
+14  * * *
+15  4.71.251.147 (4.71.251.147)  52.126 ms  52.123 ms  52.231 ms

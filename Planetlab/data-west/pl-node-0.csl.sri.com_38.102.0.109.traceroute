@@ -1,0 +1,14 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  cesd-gw.csl.sri.com (192.12.33.1)  0.413 ms  0.566 ms  0.644 ms
+ 2   (130.107.32.11)  0.862 ms  1.002 ms  1.103 ms
+ 3  12.249.226.125 (12.249.226.125)  1.668 ms  1.686 ms  1.676 ms
+ 4  cr83.sffca.ip.att.net (12.122.110.38)  18.721 ms  18.735 ms  18.726 ms
+ 5  cr1.sffca.ip.att.net (12.123.15.109)  8.420 ms  8.363 ms  8.352 ms
+ 6  ggr4.sffca.ip.att.net (12.122.86.197)  102.057 ms  78.361 ms  78.346 ms
+ 7  be3000.ccr21.sjc03.atlas.cogentco.com (154.54.11.45)  3.409 ms  3.375 ms  3.419 ms
+ 8  be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  4.090 ms  3.696 ms  3.666 ms
+ 9  be2164.ccr21.sfo01.atlas.cogentco.com (154.54.28.33)  4.907 ms  5.070 ms be2165.ccr22.sfo01.atlas.cogentco.com (154.54.28.65)  4.851 ms
+10  be2075.ccr21.sea01.atlas.cogentco.com (154.54.0.234)  24.175 ms  24.095 ms  24.087 ms
+11  be2083.ccr21.sea02.atlas.cogentco.com (154.54.0.250)  23.914 ms  24.051 ms be2084.ccr21.sea02.atlas.cogentco.com (154.54.0.254)  23.917 ms
+12  te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  23.743 ms  23.644 ms te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  23.758 ms
+13  38.102.0.109 (38.102.0.109)  23.491 ms  23.576 ms  23.584 ms

@@ -1,0 +1,10 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  SUBNET-6-ROUTER.CIS.UPENN.EDU (158.130.6.1)  0.539 ms  0.545 ms  0.529 ms
+ 2  isc-uplink-2.seas.upenn.edu (158.130.128.2)  0.209 ms  0.205 ms  0.193 ms
+ 3  vagelos.vag-brdr.router.upenn.edu (128.91.238.193)  0.463 ms  0.453 ms  0.438 ms
+ 4  xe-7-2-1.bar1.Philadelphia1.Level3.net (4.30.44.1)  0.426 ms  0.412 ms  0.398 ms
+ 5  ae-3-3.ebr1.Washington1.Level3.net (4.69.133.162)  30.023 ms  30.010 ms  29.970 ms
+ 6  * * *
+ 7  ae-2-2.ebr2.Miami1.Level3.net (4.69.140.141)  29.797 ms  29.508 ms  29.620 ms
+ 8  ae-23-52.car3.Miami1.Level3.net (4.69.138.100)  29.612 ms  29.588 ms  29.580 ms
+ 9  4.71.210.237 (4.71.210.237)  29.559 ms  29.519 ms  29.520 ms

@@ -1,0 +1,13 @@
+traceroute to 74.63.50.19 (74.63.50.19), 30 hops max, 60 byte packets
+ 1  rt11bo02-465.parc.xerox.com (13.7.64.237)  0.467 ms  0.440 ms  0.427 ms
+ 2  ae7-2458.edge6.LosAngeles1.Level3.net (205.129.7.121)  8.797 ms  8.642 ms  8.757 ms
+ 3  * * *
+ 4  4.68.111.22 (4.68.111.22)  9.186 ms  9.159 ms  43.373 ms
+ 5  ae1-0-40G.ar2.NYC1.gblx.net (67.16.156.10)  75.602 ms  75.901 ms  75.874 ms
+ 6  67.17.192.54 (67.17.192.54)  76.388 ms  77.007 ms  76.989 ms
+ 7  border3.po1-20g-bbnet1.nym008.pnap.net (216.52.95.4)  77.245 ms  77.386 ms  77.358 ms
+ 8  inapvoxcust-8.border3.nym008.pnap.net (63.251.26.2)  76.715 ms  77.295 ms  77.283 ms
+ 9  * 0.ae59.tsr1.lga3.us.voxel.net (208.122.44.201)  78.100 ms  78.110 ms
+10  0.te6-1.tsr1.ewr1.us.voxel.net (208.122.20.129)  78.096 ms  77.348 ms  77.324 ms
+11  * * *
+12  74.63.50.19 (74.63.50.19)  77.466 ms  78.071 ms  78.049 ms

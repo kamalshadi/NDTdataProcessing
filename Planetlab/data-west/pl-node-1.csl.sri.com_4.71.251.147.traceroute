@@ -1,0 +1,15 @@
+traceroute to 4.71.251.147 (4.71.251.147), 30 hops max, 60 byte packets
+ 1  cesd-gw.csl.sri.com (192.12.33.1)  0.482 ms  0.547 ms  0.839 ms
+ 2   (130.107.32.11)  0.592 ms  0.638 ms  0.665 ms
+ 3  12.249.226.125 (12.249.226.125)  1.841 ms  1.862 ms  1.848 ms
+ 4  cr83.sffca.ip.att.net (12.122.110.38)  6.156 ms  6.194 ms  6.184 ms
+ 5  cr1.sffca.ip.att.net (12.123.15.109)  7.137 ms  7.173 ms  7.161 ms
+ 6  gar23.sffca.ip.att.net (12.122.114.5)  4.015 ms  2.975 ms  3.647 ms
+ 7  192.205.32.210 (192.205.32.210)  23.463 ms  23.520 ms  23.508 ms
+ 8  vlan60.csw1.SanJose1.Level3.net (4.69.152.62)  55.125 ms vlan80.csw3.SanJose1.Level3.net (4.69.152.190)  53.863 ms  53.863 ms
+ 9  ae-72-72.ebr2.SanJose1.Level3.net (4.69.153.21)  54.993 ms ae-62-62.ebr2.SanJose1.Level3.net (4.69.153.17)  55.039 ms ae-82-82.ebr2.SanJose1.Level3.net (4.69.153.25)  55.005 ms
+10  ae-3-3.ebr1.Denver1.Level3.net (4.69.132.58)  55.000 ms  54.966 ms  54.977 ms
+11  ae-1-100.ebr2.Denver1.Level3.net (4.69.151.182)  55.028 ms  55.003 ms  54.977 ms
+12  ae-3-3.ebr1.Chicago2.Level3.net (4.69.132.62)  56.137 ms  57.959 ms  57.933 ms
+13  * ae-12-51.car2.Chicago2.Level3.net (4.69.138.133)  53.822 ms *
+14  4.71.251.147 (4.71.251.147)  54.813 ms  53.678 ms  53.843 ms

@@ -1,0 +1,11 @@
+traceroute to 38.102.0.109 (38.102.0.109), 30 hops max, 60 byte packets
+ 1  204.123.28.253 (204.123.28.253)  0.780 ms  1.038 ms  1.315 ms
+ 2  ge-7-46.car1.SanJose2.Level3.net (4.59.0.221)  0.897 ms  0.959 ms  1.007 ms
+ 3  ae-1-60.edge1.SanJose3.Level3.net (4.69.152.16)  1.361 ms  1.358 ms  1.358 ms
+ 4  Cogent-level3-4x10G.SanJose.Level3.net (4.68.110.138)  11.950 ms  12.436 ms  11.887 ms
+ 5  be2000.ccr21.sjc01.atlas.cogentco.com (154.54.6.105)  12.135 ms be2047.ccr22.sjc01.atlas.cogentco.com (154.54.5.113)  11.970 ms  11.659 ms
+ 6  be2165.ccr22.sfo01.atlas.cogentco.com (154.54.28.65)  18.867 ms  16.585 ms  34.735 ms
+ 7  be2075.ccr21.sea01.atlas.cogentco.com (154.54.0.234)  20.783 ms  20.820 ms  20.542 ms
+ 8  be2084.ccr21.sea02.atlas.cogentco.com (154.54.0.254)  21.342 ms  21.016 ms be2083.ccr21.sea02.atlas.cogentco.com (154.54.0.250)  20.908 ms
+ 9  te4-8.mag01.sea02.atlas.cogentco.com (154.54.41.209)  20.095 ms te7-8.mag01.sea02.atlas.cogentco.com (154.54.41.213)  20.175 ms  19.913 ms
+10  38.102.0.109 (38.102.0.109)  19.868 ms  20.033 ms  19.911 ms

@@ -1,0 +1,9 @@
+traceroute to 4.71.254.147 (4.71.254.147), 30 hops max, 60 byte packets
+ 1  rt11bo02-465.parc.xerox.com (13.7.64.237)  0.270 ms  0.242 ms  0.369 ms
+ 2  ae7-2458.edge6.LosAngeles1.Level3.net (205.129.7.121)  10.372 ms  10.360 ms  10.128 ms
+ 3  vlan90.csw4.LosAngeles1.Level3.net (4.69.144.254)  60.800 ms  60.789 ms vlan60.csw1.LosAngeles1.Level3.net (4.69.144.62)  60.115 ms
+ 4  ae-92-92.ebr2.LosAngeles1.Level3.net (4.69.137.29)  60.738 ms ae-72-72.ebr2.LosAngeles1.Level3.net (4.69.137.21)  60.734 ms ae-82-82.ebr2.LosAngeles1.Level3.net (4.69.137.25)  60.686 ms
+ 5  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  60.679 ms  60.666 ms  60.641 ms
+ 6  * * *
+ 7  4.69.150.157 (4.69.150.157)  60.515 ms  60.192 ms  60.563 ms
+ 8  4.71.254.147 (4.71.254.147)  60.050 ms  60.540 ms  60.042 ms

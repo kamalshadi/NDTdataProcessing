@@ -9,11 +9,13 @@ def order(v,w):
 	w=list(l[1])
 	return [v,w]
 	
-def myDraw(G,fName=None,pos=None,s=0,labels=None,tit=None,legend=None):
+def myDraw(G,fName=None,pos=None,s=0,labels=None,tit=None,legend=None,ax=None):
 	#It will draw a graph considering following parameters
 	# weight for edge
 	# label/color/size for nodes
 	# Note all these parameters are optional
+	if ax is None:
+		ax=pl.gca()
 	dS=600
 	dC='blue'
 	Ew=3
@@ -32,12 +34,12 @@ def myDraw(G,fName=None,pos=None,s=0,labels=None,tit=None,legend=None):
 	nS=N.values()
 	z=N.keys()
 	z,nS=order(z,nS)
-	nx.draw_networkx_nodes(G, pos,nodelist=z,node_size=nS,node_color=nC)
+	nx.draw_networkx_nodes(G, pos,nodelist=z,node_size=nS,node_color=nC,ax=ax)
 	if labels:
 		t=G.nodes(True)
 		a1=[w[0] for w in t ]
 		a2=[w[1][labels] if labels in w[1].keys() else w[0] for w in t]
-		nx.draw_networkx_labels(G,pos, dict(zip(a1,a2)))
+		nx.draw_networkx_labels(G,pos, dict(zip(a1,a2)),ax=ax)
 	elist=[]
 	ew=[]
 	for w in G.edges_iter():
@@ -46,8 +48,9 @@ def myDraw(G,fName=None,pos=None,s=0,labels=None,tit=None,legend=None):
 			ew.append(Ew)
 		else:
 			ew.append(G[w[0]][w[1]]['weight'])
-	nx.draw_networkx_edges(G, pos, edgelist=elist, width=ew)
-	ax=pl.gca()
+	nx.draw_networkx_edges(G, pos, edgelist=elist, width=ew,ax=ax)
+	if ax is None:
+		ax=pl.gca()
 	ax.yaxis.set_visible(False)
 	ax.xaxis.set_visible(False)
 	if tit:

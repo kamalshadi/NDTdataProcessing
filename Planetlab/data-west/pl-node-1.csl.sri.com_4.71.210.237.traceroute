@@ -1,0 +1,18 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  cesd-gw.csl.sri.com (192.12.33.1)  0.457 ms  0.521 ms  0.614 ms
+ 2   (130.107.32.11)  18.751 ms  18.948 ms  18.981 ms
+ 3  12.249.226.125 (12.249.226.125)  1.952 ms  2.729 ms  2.718 ms
+ 4  cr84.sffca.ip.att.net (12.122.114.78)  5.143 ms  5.174 ms  5.163 ms
+ 5  cr2.sffca.ip.att.net (12.123.15.249)  9.227 ms  9.221 ms  9.204 ms
+ 6  12.122.149.133 (12.122.149.133)  4.087 ms  2.703 ms  6.543 ms
+ 7  * * *
+ 8  vlan80.csw3.SanJose1.Level3.net (4.69.152.190)  70.586 ms vlan90.csw4.SanJose1.Level3.net (4.69.152.254)  71.078 ms  70.697 ms
+ 9  ae-81-81.ebr1.SanJose1.Level3.net (4.69.153.9)  72.161 ms ae-71-71.ebr1.SanJose1.Level3.net (4.69.153.5)  70.246 ms ae-91-91.ebr1.SanJose1.Level3.net (4.69.153.13)  70.221 ms
+10  ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  70.618 ms ae-2-2.ebr2.SanJose5.Level3.net (4.69.148.141)  70.174 ms  70.073 ms
+11  ae-1-100.ebr2.SanJose5.Level3.net (4.69.148.110)  70.167 ms  70.108 ms ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  70.988 ms
+12  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  70.149 ms ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  70.411 ms ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  70.366 ms
+13  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  70.250 ms ae-93-93.csw4.Dallas1.Level3.net (4.69.151.169)  70.619 ms ae-63-63.csw1.Dallas1.Level3.net (4.69.151.133)  69.971 ms
+14  ae-63-63.csw1.Dallas1.Level3.net (4.69.151.133)  69.732 ms ae-91-91.ebr1.Dallas1.Level3.net (4.69.151.162)  70.537 ms  70.550 ms
+15  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  70.148 ms ae-91-91.ebr1.Dallas1.Level3.net (4.69.151.162)  70.358 ms ae-71-71.ebr1.Dallas1.Level3.net (4.69.151.138)  70.226 ms
+16  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  70.349 ms ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  70.189 ms  70.751 ms
+17  ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  70.707 ms 4.71.210.237 (4.71.210.237)  70.027 ms  70.811 ms

@@ -1,0 +1,15 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  planetlab-gateway.calpoly-netlab.net (208.94.63.198)  0.253 ms  0.213 ms  0.194 ms
+ 2  72.29.183.57 (72.29.183.57)  0.420 ms  0.411 ms  0.406 ms
+ 3  xe-0-0-1-5019.core02.dwni.pin.sjc1.digitalwest.net (72.29.160.203)  3.972 ms  4.051 ms  4.038 ms
+ 4  ge-7-47.car4.SanJose1.Level3.net (4.71.114.53)  4.203 ms  4.193 ms  4.140 ms
+ 5  vlan80.csw3.SanJose1.Level3.net (4.69.152.190)  69.408 ms  69.525 ms  69.516 ms
+ 6  ae-81-81.ebr1.SanJose1.Level3.net (4.69.153.9)  68.972 ms ae-82-82.ebr2.SanJose1.Level3.net (4.69.153.25)  71.843 ms  71.792 ms
+ 7  ae-5-5.ebr1.SanJose5.Level3.net (4.69.148.137)  69.558 ms  69.504 ms  69.524 ms
+ 8  ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  69.441 ms  69.445 ms  69.480 ms
+ 9  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  69.601 ms ae-6-6.ebr2.LosAngeles1.Level3.net (4.69.148.201)  69.282 ms ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  69.488 ms
+10  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  69.312 ms  69.337 ms  69.466 ms
+11  ae-81-81.ebr1.Dallas1.Level3.net (4.69.151.150)  69.084 ms ae-93-93.csw4.Dallas1.Level3.net (4.69.151.169)  69.181 ms ae-81-81.ebr1.Dallas1.Level3.net (4.69.151.150)  69.075 ms
+12  ae-91-91.ebr1.Dallas1.Level3.net (4.69.151.162)  69.493 ms ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  69.220 ms ae-91-91.ebr1.Dallas1.Level3.net (4.69.151.162)  69.342 ms
+13  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  69.145 ms ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  69.375 ms ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  68.651 ms
+14  4.71.210.237 (4.71.210.237)  68.924 ms ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  69.573 ms  69.245 ms

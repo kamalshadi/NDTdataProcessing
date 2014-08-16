@@ -1,0 +1,10 @@
+traceroute to 38.98.51.20 (38.98.51.20), 30 hops max, 60 byte packets
+ 1  rt11bo02-465.parc.xerox.com (13.7.64.237)  2.049 ms  2.024 ms  2.005 ms
+ 2  ae7-2458.edge6.LosAngeles1.Level3.net (205.129.7.121)  8.647 ms  8.894 ms  8.874 ms
+ 3  ae-1-60.edge1.LosAngeles6.Level3.net (4.69.144.16)  8.860 ms  8.845 ms ae-3-80.edge1.LosAngeles6.Level3.net (4.69.144.144)  8.832 ms
+ 4  be3036.ccr21.lax04.atlas.cogentco.com (154.54.14.129)  9.398 ms  9.196 ms  9.335 ms
+ 5  be2017.ccr22.lax01.atlas.cogentco.com (154.54.0.238)  9.488 ms be2019.ccr21.lax01.atlas.cogentco.com (154.54.88.9)  9.457 ms be2021.mpd21.lax01.atlas.cogentco.com (154.54.87.249)  9.276 ms
+ 6  te8-1.mag02.lax01.atlas.cogentco.com (154.54.47.170)  12.665 ms te7-1.mag01.lax01.atlas.cogentco.com (154.54.28.142)  11.064 ms te7-1.mag02.lax01.atlas.cogentco.com (154.54.47.166)  10.475 ms
+ 7  154.24.24.150 (154.24.24.150)  11.011 ms  9.613 ms 154.24.24.154 (154.24.24.154)  9.581 ms
+ 8  154.24.24.170 (154.24.24.170)  9.701 ms 154.24.24.166 (154.24.24.166)  9.531 ms 154.24.24.170 (154.24.24.170)  9.656 ms
+ 9  38.98.51.20 (38.98.51.20)  9.168 ms  9.089 ms  9.066 ms

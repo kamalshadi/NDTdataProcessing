@@ -1,0 +1,17 @@
+traceroute to 4.71.210.237 (4.71.210.237), 30 hops max, 60 byte packets
+ 1  csworld52.cs.ucsb.edu (128.111.52.1)  1.113 ms  1.079 ms  1.067 ms
+ 2  574-c-v1071.noc.ucsb.edu (128.111.4.52)  8.804 ms  8.792 ms  8.778 ms
+ 3  r2--574-c--2.commserv.ucsb.edu (128.111.252.148)  0.972 ms  0.970 ms  0.963 ms
+ 4  r1--r2--1.commserv.ucsb.edu (128.111.252.168)  0.899 ms  0.903 ms  0.905 ms
+ 5  lax-agg5--ucsb-10g.cenic.net (137.164.23.90)  3.868 ms  4.465 ms  4.482 ms
+ 6  dc-lax-core1--lax-agg6-10ge-3.cenic.net (137.164.46.222)  4.470 ms dc-lax-core1--lax-agg6-10ge-2.cenic.net (137.164.46.220)  6.446 ms dc-lax-core1--lax-agg6-10ge-3.cenic.net (137.164.46.222)  6.430 ms
+ 7  dc-lax-isp2--lax-core1-10ge.cenic.net (137.164.47.136)  3.479 ms  3.511 ms  3.498 ms
+ 8  xe-9-3-0.edge5.LosAngeles1.Level3.net (4.59.48.177)  3.485 ms  3.472 ms  3.459 ms
+ 9  vlan70.csw2.LosAngeles1.Level3.net (4.69.144.126)  63.649 ms vlan60.csw1.LosAngeles1.Level3.net (4.69.144.62)  62.621 ms vlan70.csw2.LosAngeles1.Level3.net (4.69.144.126)  63.196 ms
+10  ae-82-82.ebr2.LosAngeles1.Level3.net (4.69.137.25)  63.437 ms  63.427 ms ae-72-72.ebr2.LosAngeles1.Level3.net (4.69.137.21)  62.637 ms
+11  ae-3-3.ebr3.Dallas1.Level3.net (4.69.132.78)  62.876 ms  62.864 ms  62.527 ms
+12  ae-93-93.csw4.Dallas1.Level3.net (4.69.151.169)  62.814 ms ae-63-63.csw1.Dallas1.Level3.net (4.69.151.133)  63.058 ms ae-83-83.csw3.Dallas1.Level3.net (4.69.151.157)  62.796 ms
+13  ae-91-91.ebr1.Dallas1.Level3.net (4.69.151.162)  63.076 ms ae-61-61.ebr1.Dallas1.Level3.net (4.69.151.126)  63.541 ms ae-71-71.ebr1.Dallas1.Level3.net (4.69.151.138)  63.527 ms
+14  ae-2-2.ebr1.Miami1.Level3.net (4.69.140.134)  63.491 ms  62.655 ms  63.654 ms
+15  ae-13-51.car3.Miami1.Level3.net (4.69.138.68)  63.365 ms  63.295 ms  63.862 ms
+16  4.71.210.237 (4.71.210.237)  63.030 ms  62.454 ms  63.183 ms

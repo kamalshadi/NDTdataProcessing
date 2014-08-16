@@ -1,0 +1,15 @@
+traceroute to 216.156.197.165 (216.156.197.165), 30 hops max, 60 byte packets
+ 1  csworld52.cs.ucsb.edu (128.111.52.1)  1.036 ms  0.986 ms  0.984 ms
+ 2  574-c-v1071.noc.ucsb.edu (128.111.4.52)  1.229 ms  1.216 ms  1.204 ms
+ 3  r2--574-c--2.commserv.ucsb.edu (128.111.252.148)  0.804 ms  0.878 ms  0.865 ms
+ 4  r1--r2--1.commserv.ucsb.edu (128.111.252.168)  1.089 ms  1.084 ms  1.070 ms
+ 5  lax-agg5--ucsb-10g.cenic.net (137.164.23.90)  4.157 ms  4.362 ms  4.354 ms
+ 6  dc-lax-core1--lax-agg6-10ge-2.cenic.net (137.164.46.220)  7.463 ms dc-lax-core1--lax-agg6-10ge-4.cenic.net (137.164.46.250)  6.753 ms dc-lax-core1--lax-agg6-10ge-3.cenic.net (137.164.46.222)  6.783 ms
+ 7  dc-lax-peer1--lax-core1-ge.cenic.net (137.164.46.116)  3.354 ms  3.396 ms  3.387 ms
+ 8  206.111.14.81.ptr.us.xo.net (206.111.14.81)  3.374 ms  3.363 ms  3.581 ms
+ 9  207.88.14.212.ptr.us.xo.net (207.88.14.212)  74.918 ms  74.923 ms  74.913 ms
+10  207.88.12.131.ptr.us.xo.net (207.88.12.131)  74.900 ms  74.697 ms  74.690 ms
+11  te-4-1-0.rar3.atlanta-ga.us.xo.net (207.88.12.129)  79.417 ms  79.412 ms  77.673 ms
+12  207.88.12.132.ptr.us.xo.net (207.88.12.132)  74.656 ms  74.651 ms  74.652 ms
+13  207.88.14.191.ptr.us.xo.net (207.88.14.191)  74.620 ms  75.077 ms  74.696 ms
+14  216.156.197.165.ptr.us.xo.net (216.156.197.165)  74.691 ms  74.681 ms  74.672 ms
