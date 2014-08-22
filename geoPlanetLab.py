@@ -255,8 +255,12 @@ def disDelay(dF='dannyFull.db'):
 	pl.show()
 	
 
-def clusterCen(cluster=0,fg=False,ax=None):
-	gt,gs,D=queryData(cluster=cluster)
+def clusterCen(method='LSE',prune=0,cluster=0,fg=False,ax=None):
+	
+	#Methods 'LSE' 'LSE-GC' 'ACF' 'CEN'
+	#Prune 0 (To consider all data) 1 (To consider only minRTTs)
+	
+	gt,gs,D=queryData(cluster = cluster)
 	l=len(D)
 	cA=[]
 	for w in D.items():
@@ -268,13 +272,15 @@ def clusterCen(cluster=0,fg=False,ax=None):
 		dis=[(x/E.R)*(180/math.pi) for x in d]
 		lc=len(cen)
 		for i in range(lc):
+			if sL[i]=='?':
+				continue
 			cA.append(circle(cen[i],dis[i]))
 	if ax:
 		dataVis(gt,gs,ax)
 		drawC(cA,ax)
 	p1=myWay(cA,p=.1)
 	p2=myWay(cA,p=1)
-	p3=lse(cA,cons=False)
+	p3=lse(cA,cons=True)
 	return (p1,p2,p3)
 	
 def dataVis(gt,gs,ax):
@@ -282,19 +288,89 @@ def dataVis(gt,gs,ax):
 		ax.plot(w[0],w[1],'b*',ms=10)
 	for w in gs.values():
 		ax.plot(w[0],w[1],'rs',ms=5)
+		
+def clusterCen2(cluster=0,ax=None):
+	gt,gs,D=queryData(cluster=cluster)
+	S={}
+	for w in D.values():
+		for tup in w:
+			ser=tup[0]
+			if ser=='?':
+				continue
+			rtt=tup[1]
+			try:
+				if S[ser] > rtt:
+					S[ser]=rtt
+			except KeyError:
+				S[ser]=rtt
+	cA=[]
+	for w in S.items():
+		ser=w[0]
+		rtt=w[1]
+		cen=point(gs[ser])
+		d=rtt2dis(rtt/2)
+		dis=(d/E.R)*(180/math.pi)
+		cA.append(circle(cen,dis))
+	if ax:
+		dataVis(gt,gs,ax)
+		drawC(cA,ax)
+	p1=myWay(cA,p=.1)
+	p2=myWay(cA,p=1)
+	p3=lse(cA,cons=True)
+	return (p1,p2,p3)
+	
+def clusterCen3(cluster=0,ax=None):
+	gt,gs,D=queryData(cluster=cluster)
+	S={}
+	for w in D.values():
+		for tup in w:
+			ser=tup[0]
+			if ser=='?':
+				continue
+			rtt=tup[1]
+			try:
+				if S[ser] > rtt:
+					S[ser]=rtt
+			except KeyError:
+				S[ser]=rtt
+	cA=[]
+	for w in S.items():
+		ser=w[0]
+		rtt=w[1]
+		cen=point(gs[ser])
+		d=rtt2dis(rtt/2)
+		dis=(d/E.R)*(180/math.pi)
+		cA.append(circle(cen,dis))
+	if ax:
+		dataVis(gt,gs,ax)
+		drawC(cA,ax)
+	nd=ndisc(cA)
+	pp=nd.poly(math.pi/180)
+	for p in pp:
+		ax.plot(p.x,p.y,'ko')
+	P=Polygon(pp)
+	return P.centroid()
+
+		
+		
 	
 	
-if __name__=='__main__':
+#~ if __name__=='__main__':
+	#~ f,ax=pl.subplots(1)
+	#~ p1=clusterCen3(ax=ax,cluster=1)
+	#~ ax.plot(p1.x,p1.y,'cd',ms=20)
+	#~ pl.title('East Cluster, Utilizing minimum measurements, Centroid',fontsize=20)
+	#~ pl.show()
 	#~ disDelay()
 	#~ localizationDemo()
-	cluster=0
-	f,ax=pl.subplots()
-	visBg(ax)
-	p1,p2,p3=clusterCen(cluster=cluster,fg=False,ax=ax)
-	ax.plot(p1.x,p1.y,'ro',ms=20)
-	ax.plot(p2.x,p2.y,'bo',ms=20)
-	ax.plot(p3.x,p3.y,'ko',ms=20)
-	pl.show()
+	#~ cluster=0
+	#~ f,ax=pl.subplots()
+	#~ visBg(ax)
+	#~ p1,p2,p3=clusterCen(cluster=cluster,fg=False,ax=ax)
+	#~ ax.plot(p1.x,p1.y,'ro',ms=20)
+	#~ ax.plot(p2.x,p2.y,'bo',ms=20)
+	#~ ax.plot(p3.x,p3.y,'ko',ms=20)
+	#~ pl.show()
 	
 
 	

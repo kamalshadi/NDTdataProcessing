@@ -313,7 +313,7 @@ def lse(cA,cons=True):
 			res = fmin_cobyla(sum_error, x0,cL,args=(c,r),consargs=(),rhoend = 1e-5)
 			ans=res
 		else:
-			raise geoError, 'Disjoint'
+			raise cornerCases, 'Disjoint'
 	else:
 		print 'LSE'
 		res = minimize(sum_error, x0, args=(c,r), method='BFGS')
@@ -421,29 +421,10 @@ def lsLocalization(cA):
 	#~ return S[1,0]
 	return point(S[0,0]+sx[0],S[1,0]+sy[0])
 
-def drawC(cA,ax):
-	xmin=float('inf')
-	xmax=-xmin
-	ymin=float('inf')
-	ymax=-ymin
-	for q,w in enumerate(cA):
-		t1=w.c.x-w.r
-		t2=w.c.x+w.r
-		if t1<xmin:
-			xmin=t1
-		if t2>xmax:
-			xmax=t2
-		t1=w.c.y-w.r
-		t2=w.c.y+w.r
-		if t1<ymin:
-			ymin=t1
-		if t2>ymax: 
-			ymax=t2
-		circ=pl.Circle((w.c.x,w.c.y), radius=w.r,fc='none',lw=2,ec=pickColor(q))
-		ax.add_artist(circ)
-	ax.set_xlim([xmin,xmax])
-	ax.set_ylim([ymin,ymax])
+
 		
+
+	
 	
 #~ if __name__=='__main__':
 	#~ px=point(1,-2,0)
